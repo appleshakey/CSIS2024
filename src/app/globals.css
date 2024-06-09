@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -17,17 +20,28 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+ 
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+
+@layer components {
+  body{
+    @apply bg-black
+  }
+  .cell-holder{
+    @apply bg-gradient-to-t from-[#000000] to-[#ffffff] h-48 w-28 flex justify-center items-center rounded-lg
+  }
+
+  .cell{
+    @apply bg-black h-[97%] w-[97%] text-9xl rounded-lg flex justify-center items-center 
+  }
+
+  .cell-divide{
+    @apply flex items-center text-9xl justify-center
   }
 }
