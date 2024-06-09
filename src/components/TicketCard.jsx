@@ -1,10 +1,11 @@
 "use client";
+import { motion } from "framer-motion";
 export default function TicketCard({title, eligibility, includes, price, availability, from_color, to_color}){
     const from_bg_color = `from-${from_color}`;
     const to_bg_color = `to-${to_color}`;
 
     return (
-        <div className={`bg-gradient-to-t ${from_bg_color} ${to_bg_color} p-5 text-center flex flex-col gap-9 rounded-lg`}>
+        <motion.div className={`bg-gradient-to-t ${from_bg_color} ${to_bg_color} p-5 text-center flex flex-col gap-9 rounded-lg`}>
             <div className="text-3xl">
                 <h1>{title}</h1>
             </div>
@@ -37,6 +38,6 @@ export default function TicketCard({title, eligibility, includes, price, availab
             <div>
                 <button className="w-full rounded-lg bg-cyan-600">Register now</button>
             </div>
-        </div>
+        </motion.div>
     )
 }

@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 
 export default function Home() {
 
-    // const {ref, inView} = useInView({triggerOnce: true, threshold: 0.5, initialInView: false})
+    const {ref: TicketRef, inView: TicketView} = useInView({triggerOnce: true, threshold: 0.5, initialInView: false})
 
 
   const intro = useParallax({
@@ -25,6 +25,25 @@ export default function Home() {
     
   })
 
+  const variants = {
+    visible: {
+        x: 0,
+        opacity: 1
+    }, 
+    hidden: {
+        x: -100,
+        opacity: 0
+    }
+}
+
+  const container = {
+    hidden: {opacity: 1, scale: 0},
+    visible: {opacity: 1, scale: 1, transition: {
+      delayChildren: 0.3,
+      staggerChildren: 0.2
+    }},
+
+  }
 
 
 
@@ -153,33 +172,33 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="bg-black text-white font-staat p-5 flex flex-col gap-5">
+      <motion.div className="bg-black text-white font-staat p-5 flex flex-col gap-5" ref={TicketRef}>
         <div className="text-center text-3xl">
           <h1>Buy Tickets</h1>
         </div>
-        <div className="grid grid-cols-5 gap-3">
-          <div className="bg-gradient-to-t from-spl_ticket_b to-spl_ticket_t rounded-lg" >
+        <motion.div className="grid grid-cols-5 gap-3" animate={TicketView ? "visible" : "hidden"} variants={container}>
+          <motion.div className="bg-gradient-to-t from-spl_ticket_b to-spl_ticket_t rounded-lg"  variants={variants}>
             <TicketCard title={details[0].title} eligibility={details[0].eligibility} includes={details[0].includes} 
                   price={details[0].price} availability={details[0].price} />
-          </div>
-          <div className="bg-gradient-to-t from-cwk_ticket_b to-cwk_ticket_t rounded-lg" >
+          </motion.div>
+          <motion.div className="bg-gradient-to-t from-cwk_ticket_b to-cwk_ticket_t rounded-lg" variants={variants}>
             <TicketCard title={details[0].title} eligibility={details[0].eligibility} includes={details[0].includes} 
                   price={details[0].price} availability={details[0].price} />
-          </div>
-          <div className="bg-gradient-to-t from-iec_ticket_b to-iec_ticket_t rounded-lg" >
+          </motion.div>
+          <motion.div className="bg-gradient-to-t from-iec_ticket_b to-iec_ticket_t rounded-lg" variants={variants}>
             <TicketCard title={details[0].title} eligibility={details[0].eligibility} includes={details[0].includes} 
                   price={details[0].price} availability={details[0].price} />
-          </div>
-          <div className="bg-gradient-to-t from-iem_ticket_b to-iem_ticket_t rounded-lg" >
+          </motion.div>
+          <motion.div className="bg-gradient-to-t from-iem_ticket_b to-iem_ticket_t rounded-lg" variants={variants}>
             <TicketCard title={details[0].title} eligibility={details[0].eligibility} includes={details[0].includes} 
                   price={details[0].price} availability={details[0].price} />
-          </div>
-          <div className="bg-gradient-to-t from-nim_ticket_b to-nim_ticket_t rounded-lg" >
+          </motion.div>
+          <motion.div className="bg-gradient-to-t from-nim_ticket_b to-nim_ticket_t rounded-lg" variants={variants}>
             <TicketCard title={details[0].title} eligibility={details[0].eligibility} includes={details[0].includes} 
                   price={details[0].price} availability={details[0].price} />
-          </div>
-        </div>
-      </div>
+          </motion.div>
+        </motion.div>
+      </motion.div>
       <div className="flex flex-col text-white font-staat items-center gap-7 p-8">
         <div className="text-3xl">
           <h1>APPLY FOR SELECTED EVENTS</h1>
@@ -219,22 +238,22 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="text-white font-staat flex flex-col items-center mt-10">
+      <motion.div className="text-white font-staat flex flex-col items-center mt-10">
         <div className="text-3xl">
           <h1>Event Partners</h1>
         </div>
         <div className="grid grid-cols-3 gap-28">
-          <div>
+          <motion.div animate={{x: [-100, 0, 0, 100], opacity: [0, 1, 1, 0]}} transition={{duration: 2, ease: "easeInOut", repeat: Infinity, repeatDelay: 2}}>
             <img src="./placeholdericon.svg"/>
-          </div>
-          <div className="relative scale-150">
+          </motion.div>
+          <motion.div className="relative" animate={{x: [-100, 0, 0, 100], opacity: [0, 1, 1, 0], scale: [1.5, 1.5, 1.5, 1.5]}} transition={{duration: 2, ease: "easeInOut", repeat: Infinity, repeatDelay: 2}}>
             <img src="./placeholdericon.svg" className="relative top-7"/>
-          </div>
-          <div>
+          </motion.div>
+          <motion.div animate={{x: [-100, 0, 0, 100], opacity: [0, 1, 1, 0]}} transition={{duration: 2, ease: "easeInOut", repeat: Infinity, repeatDelay: 2}}>
             <img src="./placeholdericon.svg"/>
-          </div>
+          </motion.div>
         </div>
-      </div>
+      </motion.div>
       <div className="flex flex-col items-center gap-7">
         <div className="text-3xl font-staat text-white">
           Our Sponsors
