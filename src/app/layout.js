@@ -14,7 +14,6 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Parallax_Provider>
-          <Navbar />
           {children}
         </Parallax_Provider>
       </body>

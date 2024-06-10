@@ -6,9 +6,10 @@ import { Parallax, useParallax, ParallaxBanner } from "react-scroll-parallax";
 import { details } from "@/components/TicketsInfo";
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
+import { usePathname } from "next/navigation";
 
 export default function Home() {
-
+  const path = usePathname();
     const {ref: TicketRef, inView: TicketView} = useInView({triggerOnce: true, threshold: 0.5, initialInView: false})
 
 
@@ -56,16 +57,25 @@ export default function Home() {
       let hours = Math.floor((difference%(1000*60*60*24))/(1000*60*60));
       let minutes = Math.floor((difference%(1000*60*60))/(1000*60));
       let seconds = Math.floor((difference % (1000*60))/1000);
-      document.getElementById("d1").innerHTML = String(Math.floor(days/10));
-      document.getElementById("d2").innerHTML = String(days%10);
-      document.getElementById("h1").innerHTML = String(Math.floor(hours/10));
-      document.getElementById("h2").innerHTML = String(hours%10);
-      document.getElementById("m1").innerHTML = String(Math.floor(minutes/10));
-      document.getElementById("m2").innerHTML = String(minutes%10);
-      document.getElementById("s1").innerHTML = String(Math.floor(seconds/10));
-      document.getElementById("s2").innerHTML = String(seconds%10);
+      let d1 = document.getElementById("d1");
+      let d2 = document.getElementById("d2");
+      let h1 = document.getElementById("h1");
+      let h2 = document.getElementById("h2");
+      let m1 = document.getElementById("m1");
+      let m2 = document.getElementById("m2");
+      let s1 = document.getElementById("s1");
+      let s2 = document.getElementById("s2");
+      d1 ? document.getElementById("d1").innerHTML = String(Math.floor(days/10)) : (null);
+      d2 ? document.getElementById("d2").innerHTML = String(days%10) : (null);
+      h1 ? document.getElementById("h1").innerHTML = String(Math.floor(hours/10)) : (null);
+      h2 ? document.getElementById("h2").innerHTML = String(hours%10) : (null);
+      m1 ? document.getElementById("m1").innerHTML = String(Math.floor(minutes/10)) : (null);
+      m2 ? document.getElementById("m2").innerHTML = String(minutes%10) : (null);
+      s1 ? document.getElementById("s1").innerHTML = String(Math.floor(seconds/10)) : (null);
+      s2 ? document.getElementById("s2").innerHTML = String(seconds%10) : (null);
     }, 1000);
-  }, [])
+  }
+, [])
 
   return (
     <motion.div className=" h-[700vh] flex flex-col gap-28 px-[82px]">
