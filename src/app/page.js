@@ -243,13 +243,13 @@ export default function Home() {
           <h1>Event Partners</h1>
         </div>
         <div className="grid grid-cols-3 gap-28">
-          <motion.div animate={{x: [-100, 0, 0, 100], opacity: [0, 1, 1, 0]}} transition={{duration: 2, ease: "easeInOut", repeat: Infinity, repeatDelay: 2}}>
+          <motion.div animate={{x: [-100, 0, 0, 100], opacity: [0, 1, 1, 0]}} transition={{duration: 2, ease: "easeInOut", repeat: Infinity, repeatDelay: 1}}>
             <img src="./placeholdericon.svg"/>
           </motion.div>
-          <motion.div className="relative" animate={{x: [-100, 0, 0, 100], opacity: [0, 1, 1, 0], scale: [1.5, 1.5, 1.5, 1.5]}} transition={{duration: 2, ease: "easeInOut", repeat: Infinity, repeatDelay: 2}}>
+          <motion.div className="relative" animate={{x: [-100, 0, 0, 100], opacity: [0, 1, 1, 0], scale: [1.5, 1.5, 1.5, 1.5]}} transition={{duration: 2, ease: "easeInOut", repeat: Infinity, repeatDelay: 1}}>
             <img src="./placeholdericon.svg" className="relative top-7"/>
           </motion.div>
-          <motion.div animate={{x: [-100, 0, 0, 100], opacity: [0, 1, 1, 0]}} transition={{duration: 2, ease: "easeInOut", repeat: Infinity, repeatDelay: 2}}>
+          <motion.div animate={{x: [-100, 0, 0, 100], opacity: [0, 1, 1, 0]}} transition={{duration: 2, ease: "easeInOut", repeat: Infinity, repeatDelay: 1}}>
             <img src="./placeholdericon.svg"/>
           </motion.div>
         </div>
@@ -298,9 +298,9 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="absolute left-72 flex items-end h-[30vh] -z-10">
+          {/* <div className="absolute left-72 flex items-end h-[30vh] -z-10">
             <img src="/whyCsis/Vector3.png" className="w-[23vw]" />
-          </div>
+          </div> */}
           <div className="flex flex-col gap-5 items-center text-center">
             <div>
               <img src="/whyCsis/middlebanner.png"/>
@@ -317,9 +317,9 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="absolute right-72 -z-10 flex items-center h-[25vh]">
+          {/* <div className="absolute right-72 -z-10 flex items-center h-[25vh]">
             <img src="/whyCsis/Vector4.png" className="w-[25vw]"/>
-          </div>
+          </div> */}
           <div className="flex flex-col gap-5 items-center text-center">
             <div>
               <img src="/whyCsis/rightbanner.png"/>
