@@ -1,5 +1,6 @@
 "use client";
 import TicketCard from "@/components/TicketCard";
+import TicketCardM from "@/components/TicketCardM";
 import Image from "next/image";
 import { useEffect, useRef } from "react";
 import { Parallax, useParallax, ParallaxBanner } from "react-scroll-parallax";
@@ -8,6 +9,8 @@ import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 import { usePathname } from "next/navigation";
 import { useMediaQuery } from "@mui/material";
+import Speakers from "@/components/Speakers";
+import QAComponent from "@/components/QAComponent";
 
 export default function Home() {
     const isMobileScreen = useMediaQuery('(min-width: 1000px)');
@@ -460,8 +463,153 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div>
-        
+      <div className="tickets flex flex-col items-center">
+        <div className="text-3xl text-white font-staat">
+          <h1>Buy Tickets</h1>
+        </div>
+        <div className="grid grid-cols-2 gap-5 p-5 text-white font-staat">
+          <div className="bg-gradient-to-t from-spl_ticket_b to-spl_ticket_t rounded-lg">
+            <TicketCardM title={details[0].title} eligibility={details[0].eligibility} includes={details[0].includes} price={details[0].price} availability={details[0].price} />
+          </div>
+          <div className="bg-gradient-to-t from-cwk_ticket_b to-cwk_ticket_t rounded-lg">
+            <TicketCardM title={details[0].title} eligibility={details[0].eligibility} includes={details[0].includes} price={details[0].price} availability={details[0].price} />
+          </div>
+        </div>
+        <div className="grid grid-cols-2 gap-5 p-5 text-white font-staat">
+          <div className="bg-gradient-to-t from-iec_ticket_b to-iec_ticket_t rounded-lg">
+            <TicketCardM title={details[0].title} eligibility={details[0].eligibility} includes={details[0].includes} price={details[0].price} availability={details[0].price} />
+          </div>
+          <div className="bg-gradient-to-t from-iem_ticket_b to-iem_ticket_t rounded-lg">
+            <TicketCardM title={details[0].title} eligibility={details[0].eligibility} includes={details[0].includes} price={details[0].price} availability={details[0].price} />
+          </div>
+        </div>
+        <div className="flex justify-center font-staat text-white ">
+            <div className="bg-gradient-to-t from-nim_ticket_b to-nim_ticket_t rounded-lg m-5">
+              <TicketCardM title={details[0].title} eligibility={details[0].eligibility} includes={details[0].includes} price={details[0].price} availability={details[0].price} />
+            </div>
+        </div>
+      </div>
+      <div className="ApplyForSelected Events flex flex-col items-center px-5 gap-3">
+        <div className="text-3xl text-white font-staat">
+          <h1>Apply For Selected Events</h1>
+        </div>
+       <div className="flex flex-cols items-center bg-gradient-to-t from-iem_ticket_b to-iem_ticket_t rounded-lg">
+          <div className="f lex flex-col text-white px-12 py-5 items-center text-center font-staat gap-3">
+              <div className="text-xl">
+                <h1>Paper Presentation Ticket</h1>
+              </div>
+              <div>
+                <p>Students who wish to apply only for Paper presentation event </p>
+                <p>Cash prize for winners and goodies for participants.</p>
+              </div>
+              <div className="text-2xl">
+                <h1>RS.249</h1>
+              </div>
+              <div className="rounded-lg bg-gradient-to-r from-iem_ticket_b to-iem_ticket_t px-5 py-2">
+                Register Now
+              </div>
+          </div>
+        </div>
+        <div className="flex flex-cols items-center bg-gradient-to-t from-iem_ticket_b to-iem_ticket_t rounded-lg">
+          <div className="f lex flex-col text-white px-12 py-5 items-center text-center font-staat gap-3">
+              <div className="text-xl">
+                <h1>e-waste extravaganza ticket</h1>
+              </div>
+              <div>
+                <p>Students who wish to apply only for Paper presentation event </p>
+                <p>Cash prize for winners and goodies for participants.</p>
+              </div>
+              <div className="text-2xl">
+                <h1>RS.249</h1>
+              </div>
+              <div className="rounded-lg bg-gradient-to-r from-iem_ticket_b to-iem_ticket_t px-5 py-2">
+                Register Now
+              </div>
+          </div>
+        </div>
+      </div>
+      <div className="ourEventPartners flex flex-col gap-3">
+        <div className="text-3xl text-white font-staat flex justify-center">
+          <h1>Our Event Partners</h1>
+        </div>
+        <div className="flex flex-col gap-5 items-center">
+          <img src="placeholdericon.svg" className="w-28 h-28"/>
+          <img src="placeholdericon.svg" className="w-28 h-28"/>
+          <img src="placeholdericon.svg" className="w-28 h-28"/>
+        </div>
+      </div>
+      <div className="OurEventSponsors flex flex-col gap-3">
+        <div className="text-3xl text-white font-staat flex justify-center">
+          <h1>Our Partners</h1>
+        </div>
+        <div className="flex flex-col gap-5 items-center">
+          <img src="placeholdericon.svg" className="w-28 h-28"/>
+          <img src="placeholdericon.svg" className="w-28 h-28"/>
+          <img src="placeholdericon.svg" className="w-28 h-28"/>
+        </div>
+      </div>
+      <div className="whyCSIS flex flex-col items-center gap-7 p-5">
+        <div className="text-center text-white font-staat text-3xl">
+          <h1>Why CSIS 2024?</h1>
+        </div>
+        <div className="flex flex-col items-center gap-3">
+          <div>
+            <img src="/whyCsis/leftbanner.jpg" className=" w-28 h-28"/>
+          </div>
+          <div className="text-white font-staat text-xl">
+            <h3>Expand Your Knowledge</h3>
+          </div>
+          <div className="text-white font-staat text-md text-center">
+            <p>CSIS 2024 offers a unique opportunity to expand your knowledge and stay updated on the latest advancements in the field of computer science. Engage with industry experts, attend insightful talks and workshops, and gain valuable insights that will enhance your understanding of cutting-edge technologies and trends.</p>
+          </div>
+        </div>
+        <div className="flex flex-col items-center gap-3">
+          <div>
+            <img src="/whyCsis/middlebanner.png" className=" w-28 h-28"/>
+          </div>
+          <div className="text-white font-staat text-xl">
+            <h3>Expand Your Knowledge</h3>
+          </div>
+          <div className="text-white font-staat text-md text-center">
+            <p>CSIS 2024 offers a unique opportunity to expand your knowledge and stay updated on the latest advancements in the field of computer science. Engage with industry experts, attend insightful talks and workshops, and gain valuable insights that will enhance your understanding of cutting-edge technologies and trends.</p>
+          </div>
+        </div>
+        <div className="flex flex-col items-center gap-3">
+          <div>
+            <img src="/whyCsis/rightbanner.png" className=" w-28 h-28"/>
+          </div>
+          <div className="text-white font-staat text-xl">
+            <h3>Expand Your Knowledge</h3>
+          </div>
+          <div className="text-white font-staat text-md text-center">
+            <p>CSIS 2024 offers a unique opportunity to expand your knowledge and stay updated on the latest advancements in the field of computer science. Engage with industry experts, attend insightful talks and workshops, and gain valuable insights that will enhance your understanding of cutting-edge technologies and trends.</p>
+          </div>
+        </div>
+      </div>
+      <div className="renownedSpeakers flex flex-col items-center p-5 gap-7">
+        <div className="text-white font-staat text-3xl">
+          <h1>Renowed Speakers</h1>
+        </div>
+        <div className="flex gap-5 overflow-y-auto w-[75%] h-[120%]">
+          <Speakers />
+          <Speakers />
+          <Speakers />
+          <Speakers />
+          <Speakers />
+        </div>
+      </div>
+      <div className="FAQ flex flex-col p-5 gap-7">
+        <div className="flex justify-center text-3xl font-staat text-white">
+          <h1>FAQs</h1>
+        </div>
+        <div className="flex flex-col gap-7">
+          <QAComponent />
+          <QAComponent />
+          <QAComponent />
+          <QAComponent />
+          <QAComponent />
+          <QAComponent />
+        </div>
       </div>
     </motion.div>
   )}
