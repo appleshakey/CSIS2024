@@ -7,9 +7,10 @@ import { details } from "@/components/TicketsInfo";
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 import { usePathname } from "next/navigation";
+import { useMediaQuery } from "@mui/material";
 
 export default function Home() {
-  const path = usePathname();
+    const isMobileScreen = useMediaQuery('(min-width: 1000px)');
     const {ref: TicketRef, inView: TicketView} = useInView({triggerOnce: true, threshold: 0.5, initialInView: false})
 
 
@@ -49,7 +50,7 @@ export default function Home() {
 
 
   useEffect(() => {
-    const EventDate = new Date("Jun 29, 2024 00:00:00").getTime();
+    const EventDate = new Date("Jul 29, 2024 00:00:00").getTime();
     let event_clock = setInterval(() => {
       let now = new Date().getTime();
       let difference = EventDate - now;
@@ -78,6 +79,8 @@ export default function Home() {
 , [])
 
   return (
+  <div>
+  {isMobileScreen ? (
     <motion.div className=" h-[700vh] flex flex-col gap-28 px-[82px]">
       <div>
         <div className="h-[100vh] flex justify-center items-center" ref={bg.ref}>
@@ -368,5 +371,101 @@ export default function Home() {
         </div>
       </div>
     </motion.div>
+  ) : (
+    <motion.div className="flex flex-col gap-16">
+      <div ref={intro.ref} className="hidden"></div>
+      <div ref={bg.ref} className="hidden"></div>
+      <div className="intro-m">
+        <motion.div className="h-[95vh] w-[100vw] flex flex-col justify-center items-center bg-ieee">
+          <motion.div className="w-[100vw] flex flex-col items-center gap-7 p-1">
+            <motion.div className="text-3xl font-staat text-center text-white">
+              PRESENTS
+            </motion.div>
+            <motion.div className="text-7xl font-staat text-center inline-block bg-gradient-to-br from-[#ffffff] to-[#42a5f5]  bg-clip-text text-transparent">
+              Computer 
+              Society
+            </motion.div>
+            <motion.div className="text-3xl font-staat text-center text-white">
+              Redefining endless posibilites
+            </motion.div>
+          </motion.div>
+        </motion.div>
+        <div className="flex justify-center p-3">
+          <button className="text-white font-staat bg-iem_ticket_b p-5 rounded-lg">REGISTER NOW</button>
+        </div>
+      </div>
+      <div className="p-3 description-m">
+        <div className="flex flex-col gap-8">
+          <div className="text-3xl inline-block font-staat text-transparent bg-clip-text text-center bg-gradient-to-br from-[#4a8ec5] via-[#1666ac] to-[#000000]">
+            <h1>The Most Awaited Event is Here!</h1>
+          </div>
+          <div className="flex flex-col gap-5 text-white font-staat text-center text-lg">
+              <h1>Redefining Endless Posibilites</h1>
+              <p>
+                Join us for the prestigious Computer Society India Symposium (CSIS) at SRM Institute of Science & Technology. Discover a captivating blend of technical expertise, engaging activities, and networking opportunities. CSIS 2024 promises a vibrant learning environment that fosters innovation, collaboration, and professional growth.
+              </p>
+          </div>
+          <div className="flex justify-center">
+            <div className="h-56 w-52 bg-gray-400 rounded-lg">
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="timer flex flex-col gap-5 items-center">
+        <div className="text-white font-staat text-3xl">
+          <h1>Event Timer</h1>
+        </div>
+        <div className="flex text-white font-staat gap-2 text-3xl">
+          <div className="grid grid-cols-2 gap-2">
+            <div className="bg-gray-400 rounded-lg w-5 flex justify-center items-center">
+              <h3 id="d1">1</h3>
+            </div>
+            <div className="bg-gray-400 rounded-lg w-5 flex justify-center items-center">
+              <h3 id="d2">2</h3>
+            </div>
+          </div>
+          <div className="text-white font-staat text-2xl">
+            <h1>:</h1>
+          </div>
+          <div className="grid grid-cols-2 gap-2">
+            <div className="bg-gray-400 rounded-lg w-5 flex justify-center items-center">
+              <h3 id="h1">1</h3>
+            </div>
+            <div className="bg-gray-400 rounded-lg w-5 flex justify-center items-center">
+              <h3 id="h2">2</h3>
+            </div>
+          </div>
+          <div className="text-white font-staat text-2xl">
+            <h1>:</h1>
+          </div>
+          <div className="grid grid-cols-2 gap-2">
+            <div className="bg-gray-400 rounded-lg w-5 flex justify-center items-center">
+              <h3 id="m1">1</h3>
+            </div>
+            <div className="bg-gray-400 rounded-lg w-5 flex justify-center items-center">
+              <h3 id="m2">2</h3>
+            </div>
+          </div>
+          <div className="text-white font-staat text-2xl">
+            <h1>:</h1>
+          </div>
+          <div className="grid grid-cols-2 gap-2">
+            <div className="bg-gray-400 rounded-lg w-5 flex justify-center items-center">
+              <h3 id="s1">1</h3>
+            </div>
+            <div className="bg-gray-400 rounded-lg w-5 flex justify-center items-center">
+              <h3 id="s2">2</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        
+      </div>
+    </motion.div>
+  )}
+    
+  </div>
   );
 }
