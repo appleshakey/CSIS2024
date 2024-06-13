@@ -91,11 +91,11 @@ export default function Home() {
             <div className={`px-[82px] text-white font-staat flex justify-center items-center`} ref={intro.ref}>
               <div className="  flex flex-col text-center">
                 <div className="flex flex-col">
-                    <h1 className="text-4xl inline-block ">SRM Institute of Science And Technology</h1>
+                    <h1 className="text-4xl inline-block ">SRM Institute of Science And Technology in association with IEEE Computer Society</h1>
                 </div>
                 <p className="text-3xl">PRESENTS</p>
                 <div className="flex flex-col">
-                  <h1 className="text-8xl inline-block bg-gradient-to-br from-[#ffffff] to-[#42a5f5]  bg-clip-text text-transparent">COMPUTER SOCIETY</h1>
+                  <h1 className="text-8xl inline-block bg-gradient-to-br from-[#ffffff] to-[#42a5f5]  bg-clip-text text-transparent">CSIS 2024</h1>
                   <h1 className="text-8xl inline-block bg-gradient-to-br from-[#ffffff] to-[#42a5f5]  bg-clip-text text-transparent">INDIA SYMPOSIUM 2024</h1>
                 </div>
                 <p className="text-3xl">REDEFINING ENDLESS POSSIBILITES</p>
@@ -368,13 +368,12 @@ export default function Home() {
           
             <motion.div className="text-3xl font-staat text-center text-white flex flex-col items-center">
             <motion.div className="text-5xl font-staat text-center inline-block text-white">
-              SRMIST
+              SRMIST x IEEECS
             </motion.div>
               PRESENTS
             </motion.div>
             <motion.div className="text-7xl font-staat text-center inline-block bg-gradient-to-br from-[#ffffff] to-[#42a5f5]  bg-clip-text text-transparent">
-              Computer 
-              Society
+              CSIS 2024
             </motion.div>
             <motion.div className="text-3xl font-staat text-center text-white">
               Redefining endless posibilites
