@@ -17,6 +17,7 @@ module.exports = {
       },
       backgroundImage: {
         ieee: "url('/ieeebg.png')",
+        about: "url('/about/aboutUsBg.png')",
       },
       colors:{
         spl_ticket_b: "#d9d9d9",

@@ -354,25 +354,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-2 px-8 gap-2">
-        <div className="flex flex-col gap-9 text-white font-staat justify-center border-r-4 border-white">
-          <div className="text-4xl font-extrabold">
-            <h1>Contact</h1>
-          </div>
-          <div>
-            <h4>contact number</h4>
-          </div>
-          <div>
-            <h4>gmail-ID</h4>
-          </div>
-          <div>
-            <input placeholder="Enter Your gmail ID" type="text" className="p-3 rounded-lg w-56 bg-gray-900"/>
-          </div>
-        </div>
-        <div className="flex justify-end px-5">
-          <iframe src="https://www.google.com/maps/d/u/1/embed?mid=1GQhhjWXiXDQlDoGPjX9DqLhk-lD2mrY&ehbc=2E312F" width="640" height="480"></iframe>
-        </div>
-      </div>
     </motion.div>
   ) : (
     <motion.div className="flex flex-col gap-16">

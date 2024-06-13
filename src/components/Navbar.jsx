@@ -44,7 +44,7 @@ export default function Navbar(){
                 <button onClick={() => router.push('/schedule/')}>Schedule</button>
                 <button onClick={() => router.push('/events/')}>Events</button>
                 <button onClick={() => router.push('/speakers/')}>Speakers</button>
-                <button>About</button>
+                <button onClick={() => router.push('/about/')}>About</button>
             </div>
             <button className="bg-[#5cb1f6] opacity-80 px-3 py-1 text-md rounded-md">register</button>
         </div>
@@ -58,8 +58,8 @@ export default function Navbar(){
                         <path fill="#ffffff" d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/>
                     </svg>
                 </button>
-                <motion.div className="fixed h-[100vh] w-[100vw] left-0 top-0 flex justify-center items-center z-50 bg-gray-900 bg-opacity-50" animate = { MNavbar ? "open" : "close"} variants={menuVariant}>
-                        <motion.div className="text-white text-3xl h-[50vh] w-[75vw] bg-gradient-to-t from-iem_ticket_b to-iem_ticket_t rounded-lg p-5 flex flex-col gap-5 z-50">
+                <motion.div className="fixed h-[100vh] w-[100vw] left-0 top-0 flex justify-center items-center z-50 bg-gray-900 bg-opacity-50" animate = { MNavbar ? "open" : "close"} variants={menuVariant} initial={"close"}>
+                        <motion.div className="text-white text-3xl h-[100vh] w-[100vw] bg-gradient-to-t from-iem_ticket_b to-iem_ticket_t rounded-lg p-5 flex flex-col gap-5 z-50">
                             <motion.div className="flex justify-end font-staat">
                                 <button onClick={() => setMNavbar(!MNavbar)}>X</button>
                             </motion.div>
@@ -79,6 +79,9 @@ export default function Navbar(){
                                 <motion.button onClick={() => {
                                     setMNavbar(!MNavbar);
                                     router.push('/speakers');}} variants={menuItemVariant}>Speakers</motion.button>
+                                <motion.button onClick={() => {
+                                    setMNavbar(!MNavbar);
+                                    router.push('/about');}} variants={menuItemVariant}>About</motion.button>
                                 <motion.button onClick={() => {
                                     setMNavbar(!MNavbar);
                                     router.push('/');}} variants={menuItemVariant}>Register Now</motion.button>
