@@ -90,6 +90,9 @@ export default function Home() {
           <div className="bg-ieee bg-fixed h-[75vh] w-[100vw] flex justify-center items-center" ref={bg.ref}>
             <div className={`px-[82px] text-white font-staat flex justify-center items-center`} ref={intro.ref}>
               <div className="  flex flex-col text-center">
+                <div className="flex flex-col">
+                    <h1 className="text-4xl inline-block ">SRM Institute of Science And Technology</h1>
+                </div>
                 <p className="text-3xl">PRESENTS</p>
                 <div className="flex flex-col">
                   <h1 className="text-8xl inline-block bg-gradient-to-br from-[#ffffff] to-[#42a5f5]  bg-clip-text text-transparent">COMPUTER SOCIETY</h1>
@@ -362,7 +365,11 @@ export default function Home() {
       <div className="intro-m">
         <motion.div className="h-[95vh] w-[100vw] flex flex-col justify-center items-center bg-ieee">
           <motion.div className="w-[100vw] flex flex-col items-center gap-7 p-1">
-            <motion.div className="text-3xl font-staat text-center text-white">
+          
+            <motion.div className="text-3xl font-staat text-center text-white flex flex-col items-center">
+            <motion.div className="text-5xl font-staat text-center inline-block text-white">
+              SRMIST
+            </motion.div>
               PRESENTS
             </motion.div>
             <motion.div className="text-7xl font-staat text-center inline-block bg-gradient-to-br from-[#ffffff] to-[#42a5f5]  bg-clip-text text-transparent">
