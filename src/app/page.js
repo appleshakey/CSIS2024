@@ -95,7 +95,7 @@ export default function Home() {
                 </div>
                 <p className="text-3xl">PRESENTS</p>
                 <div className="flex flex-col">
-                  <h1 className="text-8xl inline-block bg-gradient-to-br from-[#ffffff] to-[#42a5f5]  bg-clip-text text-transparent">CSIS 2024</h1>
+                  <h1 className="text-8xl inline-block bg-gradient-to-br from-[#ffffff] to-[#42a5f5]  bg-clip-text text-transparent">Computer Society</h1>
                   <h1 className="text-8xl inline-block bg-gradient-to-br from-[#ffffff] to-[#42a5f5]  bg-clip-text text-transparent">INDIA SYMPOSIUM 2024</h1>
                 </div>
                 <p className="text-3xl">REDEFINING ENDLESS POSSIBILITES</p>
