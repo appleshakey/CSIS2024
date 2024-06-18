@@ -19,7 +19,7 @@ export default function Footer() {
                 <h1>Contact CSIS 2024 Organising Committee</h1>
               </div>
               <div>
-                <h4 className="text-xl font-inter">+91 62990 5580</h4>
+                {/* <h4 className="text-xl font-inter">+91 62990 5580</h4> */}
               </div>
               <div className="flex items-center space-x-2">
                 <input
@@ -45,9 +45,11 @@ export default function Footer() {
         </div>
         <div className="text-xl font-inter mb-2 tracking-wider">
           <p>
-            Chandigarh University, NH-05, <br />
-            Ludhiana - Chandigarh State Hwy, Punjab <br />
-            140413
+       
+          SRM Nagar, 
+          Kattankulathur - 603203,
+          Chengalpattu District - Tamil Nadu.
+        
           </p>
           <p className="flex items-center py-16">
             <Email className="mr-2" />
@@ -113,11 +115,13 @@ export default function Footer() {
           <h1>CSIS 2024</h1>
         </div>
         <div className="md:text-xl font-inter mb-2 tracking-wider">
-          <p>
-            Chandigarh University, NH-05, <br />
-            Ludhiana - Chandigarh State Hwy, Punjab <br />
-            140413
-          </p>
+        <p>
+       
+       SRM Nagar, 
+       Kattankulathur - 603203,
+       Chengalpattu District - Tamil Nadu.
+     
+       </p>
           <p className="flex items-center py-16">
             <Email className="mr-2" />
             cs.ieeecusb@gmail.com

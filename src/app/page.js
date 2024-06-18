@@ -337,7 +337,7 @@ export default function Home() {
                 }}
                 className="flex justify-center items-center"
               >
-                <img src="./srm-logo.png" className="h-40" />
+                <img src="./srm-logo.png" className="" />
               </motion.div>
               <motion.div
                 animate={{ x: [-100, 0, 0, 100], opacity: [0, 1, 1, 0] }}
@@ -349,7 +349,7 @@ export default function Home() {
                 }}
                 className="flex justify-center items-center"
               >
-                <img src="./placeholdericon.svg" />
+                <img src="./event-patner.png" className="h-40"/>
               </motion.div>
             </div>
           </motion.div>
@@ -657,7 +657,7 @@ export default function Home() {
                 className="h-20"
               />
               <img src="./srm-logo.png" className="h-20" />
-              <img src="placeholdericon.svg" className="h-20" />
+              <img src="./event-patner.png" className="h-20" />
             </div>
           </div>
           {/* <div className="OurEventSponsors flex flex-col gap-3">
