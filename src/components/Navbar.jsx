@@ -35,7 +35,7 @@ export default function Navbar(){
     return(
     <motion.div>
         {isMobileScreen ? (
-        <div className="text-white font-staat text-2xl px-[82px] flex justify-between py-3 items-center fixed w-full z-50">
+        <div className="text-white font-staat text-2xl px-[82px] flex justify-between py-3 items-center fixed w-full z-50 bg-black">
             <div>
                 <img src="/csis_.png" className=" h-14 w-32"/>
             </div>
@@ -49,7 +49,7 @@ export default function Navbar(){
             <button className="bg-[#5cb1f6] opacity-80 px-3 py-1 text-md rounded-md">register</button>
         </div>
         ) : (
-            <motion.div className="flex justify-between p-3 items-center fixed w-[100vw] z-50">
+            <motion.div className="flex justify-between p-3 items-center fixed w-[100vw] z-50 bg-black">
                 <div>
                     <img src="/csis_.png" className="h-14 w-32"/>
                 </div>

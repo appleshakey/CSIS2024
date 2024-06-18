@@ -14,7 +14,7 @@ export default function Day1(){
             "Registration HelpDesk", "Registration HelpDesk", "Registration HelpDesk", "Registration HelpDesk", "Registration HelpDesk", "Registration HelpDesk", "Registration HelpDesk", "Registration HelpDesk"
         ];
         const venue = [
-            "auditorium", "auditorium", "auditorium", "auditorium", "auditorium", "auditorium", "auditorium", "auditorium",
+            "Auditorium", "Auditorium", "Auditorium", "Auditorium", "Auditorium", "Auditorium", "Auditorium", "Auditorium",
         ];
         const Time = [
             "Aug 26,2023 10:00AM", "Aug 26,2023 10:00AM", "Aug 26,2023 10:00AM", "Aug 26,2023 10:00AM", "Aug 26,2023 10:00AM", "Aug 26,2023 10:00AM", "Aug 26,2023 10:00AM", "Aug 26,2023 10:00AM",
@@ -23,7 +23,7 @@ export default function Day1(){
         //line width
         ctx.strokeStyle = "white";
         ctx.lineWidth = 3;
-        ctx.fillStyle = "#0a2f5a";
+        ctx.fillStyle = "#156693";
 
         //creating the track
         ctx.fillRect(vectors[0][0]['x']-7.5, vectors[0][0]['y']-7.5, 15, 15);
@@ -32,7 +32,7 @@ export default function Day1(){
 
         for(let i = 0; i < vectors.length; i++) {
             
-            ctx.fillStyle = "#0a2f5a";
+            ctx.fillStyle = "#156693";
             ctx.fillRect(vectors[i]['x'], vectors[i]['y'], 10, 10);
             
             for(let j = 0; j < vectors[i].length; j++){
@@ -40,27 +40,28 @@ export default function Day1(){
                 ctx.stroke();
             }
             //Event marker
-            ctx.fillStyle = "#0a2f5a";
+            ctx.fillStyle = "#156693";
             ctx.fillRect(vectors[i][vectors[i].length-1]['x']-7.5, vectors[i][vectors[i].length-1]['y']-7.5, 15, 15);
 
             //Event name
             ctx.fillStyle = "white";
             ctx.font = "30px Staatliches";
-            ctx.fillText(events[i], vectors[i][vectors[i].length-1]['x']+10, vectors[i][vectors[i].length-1]['y'] +5);
-            ctx.font = "20px Staatliches";
-            ctx.fillStyle = "#0a2f5a";
+            ctx.fillText(events[i], vectors[i][vectors[i].length-1]['x']+14, vectors[i][vectors[i].length-1]['y'] +8);
+            ctx.font = "20px Inter";
+            ctx.fillStyle = "#156693";
+            
 
             //Event venue
-            ctx.fillText(`venue: ${venue[i]}`, vectors[i][vectors[i].length-1]['x']+50, vectors[i][vectors[i].length-1]['y']-30);
+            ctx.fillText(`Venue: ${venue[i]}`, vectors[i][vectors[i].length-1]['x']+50, vectors[i][vectors[i].length-1]['y']-40);
 
             //Event time
-            ctx.fillText(`time: ${Time[i]}`, vectors[i][vectors[i].length-1]['x']+50, vectors[i][vectors[i].length-1]['y']+30);
+            ctx.fillText(`Time: ${Time[i]}`, vectors[i][vectors[i].length-1]['x']+50, vectors[i][vectors[i].length-1]['y']+33);
         }
 
         ctx.lineTo(700, 75);
         ctx.lineTo(925, 75);
         ctx.stroke();
-        ctx.fillStyle = "#0a2f5a";
+        ctx.fillStyle = "#156693";
         ctx.fillRect(925-7.5, 75-7.5, 15, 15);
 
 
@@ -74,7 +75,7 @@ export default function Day1(){
         //     ctx.stroke();
 
         //     //event marker
-        //     ctx.fillStyle = "#0a2f5a";
+        //     ctx.fillStyle = "#156693";
         //     ctx.fillRect(vectors[pointer][vectors[pointer].length-1]['x']-7.5, vectors[pointer][vectors[pointer].length-1]['y']-7.5, 15, 15);
 
         //     //event text
@@ -106,7 +107,7 @@ export default function Day1(){
     }, [])
     return(
         <div className="text-white flex h-[100vh] w-[100vw] justify-center items-center">
-            <div className="flex flex-col justify-between mt-10">
+            <div className="flex flex-col justify-between mt-10 ">
                 <div className="flex justify-between opacity-0">
                     <img src="/schedule/Day.svg" id="day"/>
                     <img src="/schedule/Night.svg" id="night"/>

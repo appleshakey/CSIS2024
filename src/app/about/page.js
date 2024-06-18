@@ -11,7 +11,7 @@ export default function AboutMe(){
                             <div className="text-4xl">
                                 <h1>CSIS</h1>
                             </div>
-                            <div className="text-white text-xl"> 
+                            <div className="text-white  text-md text-center font-inter"> 
                                 <p>
                                 Event Overview: The CSIS (Computer Society India Symposium) is an annual flagship gathering organized by the IEEE (Institute of Electrical and Electronics Engineers) Computer Society. It aims to foster collaboration, innovation, and knowledge sharing within the computer science and information technology community in India.<br /><br />
 
@@ -20,11 +20,12 @@ export default function AboutMe(){
                                 Event Features: The IEEE CSIS event features a diverse range of activities, including panel discussions, technical talks, paper presentations, workshops, and cultural events, covering a wide spectrum of topics in the field of computer science and information technology.</p>
                             </div>
                         </div>
+                        
                         <div className="text-white flex flex-col gap-8 font-staat text-center w-[50vw] border-4 border-white p-5 rounded-md bg-about bg-cover">
                             <div className="text-4xl">
                                 <h1>SRMIST</h1>
                             </div>
-                            <div className="text-white text-xl"> 
+                            <div className="text-white  text-md text-center font-inter"> 
                                 <p>
                                 Event Overview: The CSIS (Computer Society India Symposium) is an annual flagship gathering organized by the IEEE (Institute of Electrical and Electronics Engineers) Computer Society. It aims to foster collaboration, innovation, and knowledge sharing within the computer science and information technology community in India.<br /><br />
 
@@ -37,7 +38,7 @@ export default function AboutMe(){
                             <div className="text-4xl">
                                 <h1>CTECH</h1>
                             </div>
-                            <div className="text-white text-xl"> 
+                            <div className="text-white  text-md text-center font-inter"> 
                                 <p>
                                 Event Overview: The CSIS (Computer Society India Symposium) is an annual flagship gathering organized by the IEEE (Institute of Electrical and Electronics Engineers) Computer Society. It aims to foster collaboration, innovation, and knowledge sharing within the computer science and information technology community in India.<br /><br />
 
@@ -50,7 +51,7 @@ export default function AboutMe(){
                             <div className="text-4xl">
                                 <h1>IEEECS</h1>
                             </div>
-                            <div className="text-white text-xl"> 
+                            <div className="text-white  text-md text-center font-inter"> 
                                 <p>
                                 Event Overview: The CSIS (Computer Society India Symposium) is an annual flagship gathering organized by the IEEE (Institute of Electrical and Electronics Engineers) Computer Society. It aims to foster collaboration, innovation, and knowledge sharing within the computer science and information technology community in India.<br /><br />
 
@@ -68,7 +69,7 @@ export default function AboutMe(){
                             <div className="text-xl">
                                 <h1>CSIS</h1>
                             </div>
-                            <div className="text-white text-md"> 
+                            <div className="text-white  text-md text-center font-inter"> 
                                 <p>
                                 Event Overview: The CSIS (Computer Society India Symposium) is an annual flagship gathering organized by the IEEE (Institute of Electrical and Electronics Engineers) Computer Society. It aims to foster collaboration, innovation, and knowledge sharing within the computer science and information technology community in India.<br /><br />
 
@@ -81,7 +82,7 @@ export default function AboutMe(){
                             <div className="text-xl">
                                 <h1>SRMIST</h1>
                             </div>
-                            <div className="text-white text-md"> 
+                            <div className="text-white  text-md text-center font-inter"> 
                                 <p>
                                 Event Overview: The CSIS (Computer Society India Symposium) is an annual flagship gathering organized by the IEEE (Institute of Electrical and Electronics Engineers) Computer Society. It aims to foster collaboration, innovation, and knowledge sharing within the computer science and information technology community in India.<br /><br />
 
@@ -94,7 +95,7 @@ export default function AboutMe(){
                             <div className="text-xl">
                                 <h1>CTECH</h1>
                             </div>
-                            <div className="text-white text-md"> 
+                            <div className="text-white  text-md text-center font-inter"> 
                                 <p>
                                 Event Overview: The CSIS (Computer Society India Symposium) is an annual flagship gathering organized by the IEEE (Institute of Electrical and Electronics Engineers) Computer Society. It aims to foster collaboration, innovation, and knowledge sharing within the computer science and information technology community in India.<br /><br />
 
@@ -107,7 +108,7 @@ export default function AboutMe(){
                             <div className="text-xl">
                                 <h1>IEEE CS</h1>
                             </div>
-                            <div className="text-white text-md"> 
+                            <div className="text-white  text-md text-center font-inter"> 
                                 <p>
                                 Event Overview: The CSIS (Computer Society India Symposium) is an annual flagship gathering organized by the IEEE (Institute of Electrical and Electronics Engineers) Computer Society. It aims to foster collaboration, innovation, and knowledge sharing within the computer science and information technology community in India.<br /><br />
 

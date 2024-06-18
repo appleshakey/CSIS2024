@@ -14,6 +14,7 @@ module.exports = {
       },
       fontFamily: {
         staat: ["Staatliches", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
       },
       backgroundImage: {
         ieee: "url('/ieeebg.png')",
