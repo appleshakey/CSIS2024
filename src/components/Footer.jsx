@@ -51,10 +51,10 @@ export default function Footer() {
           Chengalpattu District - Tamil Nadu.
         
           </p>
-          <p className="flex items-center py-16">
+          {/* <p className="flex items-center py-16">
             <Email className="mr-2" />
             cs.ieeecusb@gmail.com
-          </p>
+          </p> */}
         </div>
         <div className="text-2xl tracking-wider mb-4">
           <h2>Follow Us</h2>
@@ -122,10 +122,10 @@ export default function Footer() {
        Chengalpattu District - Tamil Nadu.
      
        </p>
-          <p className="flex items-center py-16">
+          {/* <p className="flex items-center py-16">
             <Email className="mr-2" />
             cs.ieeecusb@gmail.com
-          </p>
+          </p> */}
         </div>
         <div className="text-2xl tracking-wider mb-4">
           <h2>Follow Us</h2>
