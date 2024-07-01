@@ -40,7 +40,7 @@ export default function Schedule() {
             </div>
           </div>
 
-          <div className="h-[16vh] flex flex-col relative top-5 font-style">
+          <div className="h-[16vh] flex flex-col relative top-5 font-style">                 
             <div className="w-[4vh] flex justify-center">
               <div className="border-l-2 border-white h-[16vh]"></div>
             </div>
@@ -66,13 +66,13 @@ export default function Schedule() {
             </div>
           </div>
 
-          <div className="h-[15vh] flex flex-col relative top-5 font-style">
+          <div className="h-[16vh] flex flex-col relative top-5 font-style">
             <div className="w-[4vh] flex justify-center">
-              <div className="border-l-2 border-t-2 border-white h-[15vh]"></div>
+              <div className="border-l-2 border-t-2 border-white h-[16vh] -z-10"></div>
             </div>
             <div>
               <div className="flex gap-2">
-                <div className="w-[4vh] flex justify-center">
+                <div className="w-[4vh] flex justify-center z-20">
                   <div className="rounded-full w-[2vh] h-[2vh] bg-gradient-to-t from-[#ea580b] to-[#ea580b] absolute"></div>
                 </div>
                 <div className="flex flex-col sm:flex-row border-r-4 justify-between w-[55vw] bg-[#ea580b] rounded-md p-3">
@@ -81,7 +81,7 @@ export default function Schedule() {
                       <h1>Tech Talk</h1>
                     </div>
                     <div className="text-lg">
-                    <p>Venue: Concert Hall</p>
+                      <p>Venue: Concert Hall</p>
                     </div>
                   </div>
                   <div className="flex items-center text-white p-3 font-semibold">
@@ -170,26 +170,26 @@ export default function Schedule() {
             </div>
           </div>
 
-          <div className="h-[16vh] flex flex-col relative top-5 font-style">
+          <div className="h-[15vh] flex flex-col relative top-5 font-style">
             <div className="w-[4vh] flex justify-center">
-              <div className="border-l-2 border-t-2 border-white h-[18vh] "></div>
+              <div className="border-l-2 border-t-2 border-white h-[15vh]"></div>
             </div>
             <div>
               <div className="flex gap-2">
-                <div className="w-[4vh] flex justify-center ">
-                  <div className="rounded-full w-[2vh] h-[2vh] bg-gradient-to-t from-[#ea580b] to-[#ea580b] absolute "></div>
+                <div className="w-[4vh] flex justify-center z-20">
+                  <div className="rounded-full w-[2vh] h-[2vh] bg-gradient-to-t from-[#ea580b] to-[#ea580b] absolute"></div>
                 </div>
                 <div className="flex flex-col sm:flex-row border-r-4 justify-between w-[55vw] bg-[#ea580b] rounded-md p-3">
                   <div className="flex flex-col justify-center">
                     <div className="text-2xl font-semibold">
-                      <h1>Tech Talk Mr.Sandeep Varma</h1>
+                      <h1>Tech Takh Mr.Sandeep Varma</h1>
                     </div>
                     <div className="text-lg">
                       <p>Venue: Auditorium</p>
                     </div>
                   </div>
                   <div className="flex items-center text-white p-3 font-semibold">
-                    July 29, 2024 03:00 to 04:00 PM
+                    July 29, 2024 01:00 to 02:00 PM
                   </div>
                 </div>
               </div>
@@ -258,11 +258,11 @@ export default function Schedule() {
           </div>
           <div className="h-[10vh] flex flex-col relative top-5 font-style">
             <div className="w-[4vh] flex justify-center">
-              <div className="border-l-2 border-t-2 border-white h-[10vh]"></div>
+              <div className="border-l-2 border-t-2 border-white h-[10vh] -z-10"></div>
             </div>
             <div>
               <div className="flex gap-2">
-                <div className="w-[4vh] flex justify-center">
+                <div className="w-[4vh] flex justify-center z-20">
                   <div className="rounded-full w-[2vh] h-[2vh] bg-gradient-to-t from-[#ea580b] to-[#ea580b] absolute"></div>
                 </div>
                 <div className="flex flex-col sm:flex-row border-r-4 justify-between w-[55vw] bg-[#ea580b] rounded-md p-3">
@@ -271,7 +271,7 @@ export default function Schedule() {
                       <h1>Panel Discussion</h1>
                     </div>
                     <div className="text-lg">
-                      <p>Venue: Auditorium</p>
+                      <p>Venue: Concert Hall</p>
                     </div>
                   </div>
                   <div className="flex items-center text-white p-3 font-semibold">
@@ -308,13 +308,13 @@ export default function Schedule() {
             </div>
           </div>
 
-          <div className="h-[18vh] flex flex-col relative top-5 font-style">
+          <div className="h-[16vh] flex flex-col relative top-5 font-style">
             <div className="w-[4vh] flex justify-center">
-              <div className="border-l-2 border-t-2 border-white h-[18vh] "></div>
+              <div className="border-l-2 border-t-2 border-white h-[16vh] -z-10"></div>
             </div>
             <div>
               <div className="flex gap-2">
-                <div className="w-[4vh] flex justify-center ">
+                <div className="w-[4vh] flex justify-center z-20">
                   <div className="rounded-full w-[2vh] h-[2vh] bg-gradient-to-t from-[#ea580b] to-[#ea580b] absolute"></div>
                 </div>
                 <div className="flex flex-col sm:flex-row border-r-4 justify-between w-[55vw] bg-[#ea580b] rounded-md p-3">
@@ -323,11 +323,11 @@ export default function Schedule() {
                       <h1>Paper Presentation</h1>
                     </div>
                     <div className="text-lg">
-                    <p>Venue: Concert Hall</p>
+                      <p>Venue: Concert Hall</p>
                     </div>
                   </div>
                   <div className="flex items-center text-white p-3 font-semibold">
-                    July 30, 2024 02:00 to 03:30 PM
+                    July 30, 2024 2:00 to 03:30 PM
                   </div>
                 </div>
               </div>
