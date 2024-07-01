@@ -9,7 +9,7 @@ export default function Event() {
           <div className="py-32 px-6 flex flex-col gap-9 items-center">
             <div className="flex text-white font-staat justify-between items-center gap-10">
               <div>
-                <img src="/events/event1.png" className="w-56 h-52" />
+                <img src="/event1.jpg" className="w-64 h-52" />
               </div>
               <div className="flex flex-col gap-3">
                 <div className="text-3xl inline-block tracking-wider  text-blue-500">
@@ -18,22 +18,21 @@ export default function Event() {
                 <div className="tracking-wider font-inter">
                   <p>
                     Explore current challenges and opportunities in computer
-                    science through insightful panel discussions with industry
-                    experts.
+                    science through dynamic insightful panel discussions with
+                    industry experts.
                   </p>
                 </div>
                 <div className="">
-                  <ol className="flex gap-5 text-xl   tracking-wider">
+                  <ol className="flex gap-5 text-xl tracking-wider">
                     <li>Industry Experts</li>
                     <li>Embracing AI era</li>
                   </ol>
                 </div>
               </div>
             </div>
-            
             <div className="flex text-white font-staat justify-between items-center gap-10">
               <div>
-                <img src="/events/event2.png" className="w-56 h-52" />
+                <img src="/events2.jpeg" className="w-64 h-52" />
               </div>
               <div className="flex flex-col gap-3">
                 <div className="text-3xl inline-block tracking-wider  text-blue-500">
@@ -41,22 +40,23 @@ export default function Event() {
                 </div>
                 <div className="tracking-wider font-inter">
                   <p>
-                    Explore current challenges and opportunities in computer
-                    science through insightful panel discussions with industry
-                    experts.
+                    Gain valuable insights from renowned researchers and
+                    industry leaders who will generously share their knowledge,
+                    and experiences.
                   </p>
                 </div>
                 <div className="">
-                  <ol className="flex gap-5 text-xl   tracking-wider">
-                    <li>Industry Experts</li>
-                    <li>Embracing AI era</li>
+                  <ol className="flex gap-5 text-xl  tracking-wider">
+                    <li>Blockchain</li>
+                    <li>AI/ML</li>
+                    <li>Entrepreneurship</li>
                   </ol>
                 </div>
               </div>
             </div>
-            <div className="flex text-white font-staat justify-between items-center gap-10">
+            <div className="flex text-white font-staat justify-between items-center gap-8">
               <div>
-                <img src="/events/event3.png" className="w-56 h-52" />
+                <img src="/events3.jpg" className="w-64 h-52" />
               </div>
               <div className="flex flex-col gap-3">
                 <div className="text-3xl inline-block tracking-wider text-blue-500">
@@ -64,22 +64,21 @@ export default function Event() {
                 </div>
                 <div className="tracking-wider font-inter">
                   <p>
-                    Explore current challenges and opportunities in computer
-                    science through insightful panel discussions with industry
-                    experts.
+                    Enhance your skills and knowledge with interactive workshops
+                    led by experienced professionals in various computer science
+                    domains.
                   </p>
                 </div>
-           <div className="">
+                <div className="">
                   <ol className="flex gap-5 text-xl   tracking-wider">
-                    <li>Industry Experts</li>
-                    <li>Embracing AI era</li>
+                    <li>Data Minning</li>
                   </ol>
                 </div>
               </div>
             </div>
-            <div className="flex text-white font-staat justify-between items-center gap-10">
+            <div className="flex text-white font-staat justify-between items-center gap-8">
               <div>
-                <img src="/events/event5.png" className="w-56 h-52" />
+                <img src="/events5.jpg" className="w-64 h-52" />
               </div>
               <div className="flex flex-col gap-3">
                 <div className="text-3xl inline-block tracking-wider  text-blue-500">
@@ -87,22 +86,22 @@ export default function Event() {
                 </div>
                 <div className="tracking-wider font-inter">
                   <p>
-                    Explore current challenges and opportunities in computer
-                    science through insightful panel discussions with industry
-                    experts.
+                    Participate in exciting art competition that promotes
+                    creative recycling and raises awareness about responsible
+                    e-waste management.
                   </p>
                 </div>
-           <div className="">
-                  <ol className="flex gap-5 text-xl   tracking-wider">
-                    <li>Industry Experts</li>
-                    <li>Embracing AI era</li>
+                <div className="">
+                  <ol className="flex gap-5 text-xl tracking-wider">
+                    <li>Unlease Creativity</li>
+                    <li>Environmental Impact</li>
                   </ol>
                 </div>
               </div>
             </div>
-            <div className="flex text-white font-staat justify-between items-center gap-10">
+            <div className="flex text-white font-staat justify-between items-center gap-8">
               <div>
-                <img src="/events/event4.png" className="w-56 h-52" />
+                <img src="/events4.jpg" className="w-64 h-52" />
               </div>
               <div className="flex flex-col gap-3">
                 <div className="text-3xl text-blue-500 inline-block tracking-wider ">
@@ -110,38 +109,39 @@ export default function Event() {
                 </div>
                 <div className="tracking-wider font-inter">
                   <p>
-                    Explore current challenges and opportunities in computer
-                    science through insightful panel discussions with industry
-                    experts.
+                    Showcase your research paper and make a valuable
+                    contribution to the academic community by presenting your
+                    papers at CSIS 2023.
                   </p>
                 </div>
-           <div className="">
-                  <ol className="flex gap-5 text-xl   tracking-wider">
-                    <li>Industry Experts</li>
-                    <li>Embracing AI era</li>
+                <div className="">
+                  <ol className="flex gap-5 text-xl tracking-wider">
+                    <li>Diverse Research</li>
+                    <li>Generous Prizes</li>
+                    <li>Expert Judges</li>
                   </ol>
                 </div>
               </div>
             </div>
-            <div className="flex text-white font-staat justify-between items-center gap-10">
+            <div className="flex text-white font-staat justify-between items-center gap-8">
               <div>
-                <img src="/events/event6.png" className="w-56 h-52" />
+                <img src="/events6.jpg" className="w-64 h-52 " />
               </div>
               <div className="flex flex-col gap-3">
                 <div className="text-3xl inline-block tracking-wider  text-blue-500">
                   <h1>cultural evening</h1>
                 </div>
-                <div className="tracking-wider font-inter">
+                <div className=" font-inter">
                   <p>
-                    Explore current challenges and opportunities in computer
-                    science through insightful panel discussions with industry
-                    experts.
+                    Enjoy a cultural evening filled with diverse performance and
+                    talents from participants and also get opportunity to
+                    interact and socialize with each other.
                   </p>
                 </div>
-           <div className="">
-                  <ol className="flex gap-5 text-xl   tracking-wider">
-                    <li>Industry Experts</li>
-                    <li>Embracing AI era</li>
+                <div className="">
+                  <ol className="flex gap-5 text-xl tracking-wider">
+                    <li>Inclusivity and Unity</li>
+                    <li>Lasting Memories</li>
                   </ol>
                 </div>
               </div>
@@ -152,7 +152,7 @@ export default function Event() {
         <div className="py-32 px-6 flex flex-col gap-9">
           <div className="flex text-white font-staat justify-between items-center gap-10">
             <div>
-              <img src="/events/event1.png" className="w-72 h-36" />
+              <img src="/event1.jpg" className="w-64 h-36" />
             </div>
             <div className="flex flex-col gap-3">
               <div className="text-xl text-blue-500">
@@ -161,8 +161,8 @@ export default function Event() {
               <div className="font-serif text-sm">
                 <p>
                   Explore current challenges and opportunities in computer
-                  science through insightful panel discussions with industry
-                  experts.
+                  science through dynamic insightful panel discussions with
+                  industry experts.
                 </p>
               </div>
               <div className="w-full">
@@ -175,7 +175,7 @@ export default function Event() {
           </div>
           <div className="flex text-white font-staat justify-between items-center gap-10">
             <div>
-              <img src="/events/event2.png" className="w-72 h-36" />
+              <img src="/events2.jpeg" className="w-64 h-36" />
             </div>
             <div className="flex flex-col gap-3">
               <div className="text-xl text-blue-500">
@@ -183,9 +183,9 @@ export default function Event() {
               </div>
               <div className="font-serif text-sm">
                 <p>
-                  Explore current challenges and opportunities in computer
-                  science through insightful panel discussions with industry
-                  experts.
+                  Gain valuable insights from renowned researchers and industry
+                  leaders who will generously share their knowledge, and
+                  experiences.
                 </p>
               </div>
               <div className="">
@@ -198,7 +198,7 @@ export default function Event() {
           </div>
           <div className="flex text-white font-staat justify-between items-center gap-10">
             <div>
-              <img src="/events/event3.png" className="w-72 h-36" />
+              <img src="/events3.jpg" className="w-64 h-36" />
             </div>
             <div className="flex flex-col gap-3">
               <div className="text-xl text-blue-500">
@@ -206,9 +206,9 @@ export default function Event() {
               </div>
               <div className="font-serif text-sm">
                 <p>
-                  Explore current challenges and opportunities in computer
-                  science through insightful panel discussions with industry
-                  experts.
+                  Enhance your skills and knowledge with interactive workshops
+                  led by experienced professionals in various computer science
+                  domains.
                 </p>
               </div>
               <div className="">
@@ -221,7 +221,7 @@ export default function Event() {
           </div>
           <div className="flex text-white font-staat justify-between items-center gap-10">
             <div>
-              <img src="/events/event5.png" className="w-72 h-36" />
+              <img src="/events4.jpg" className="w-64 h-36" />
             </div>
             <div className="flex flex-col gap-3">
               <div className="text-xl text-blue-500">
@@ -229,9 +229,9 @@ export default function Event() {
               </div>
               <div className="font-serif text-sm">
                 <p>
-                  Explore current challenges and opportunities in computer
-                  science through insightful panel discussions with industry
-                  experts.
+                  Participate in exciting art competition that promotes creative
+                  recycling and raises awareness about responsible e-waste
+                  management.
                 </p>
               </div>
               <div className="">
@@ -244,7 +244,7 @@ export default function Event() {
           </div>
           <div className="flex text-white font-staat justify-between items-center gap-10">
             <div>
-              <img src="/events/event4.png" className="w-72 h-36" />
+              <img src="/events5.jpg" className="w-64 h-36" />
             </div>
             <div className="flex flex-col gap-3">
               <div className="text-xl text-blue-500">
@@ -267,7 +267,7 @@ export default function Event() {
           </div>
           <div className="flex text-white font-staat justify-between items-center gap-10">
             <div>
-              <img src="/events/event6.png" className="w-72 h-36" />
+              <img src="/events6.jpg" className="w-64 h-36" />
             </div>
             <div className="flex flex-col gap-3">
               <div className="text-xl text-blue-500">

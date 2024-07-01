@@ -2,7 +2,7 @@
 import SpeakerCard from "@/components/SpeakerCard";
 import { useMediaQuery } from "@mui/material";
 export default function Speakers() {
-  const isNonMobileScreen = useMediaQuery("(min-width: 1000px)");
+const isNonMobileScreen = useMediaQuery("(min-width: 1000px)");
   return (
     <div>
       {isNonMobileScreen ? (
@@ -13,8 +13,12 @@ export default function Speakers() {
               <div className="text-nim_ticket_b font-staat text-5xl">
                 <h1>SPEAKERS</h1>
               </div>
-
-              <div className="grid grid-cols-3 gap-8 xl:gap-32">
+              <div className="grid grid-cols-4 gap-8 xl:gap-32">
+              <SpeakerCard
+                  heading="Sandeep Varma"
+                  para="Sandeep is a thought leader and chief architect of multiple large-scale enterprise big data platforms, and he heads all delivery from ZS’s big data center of excellence in India. He specializes in rapidly building high-performance teams focused on cutting-edge technologies and high-quality delivery.He did MBA in marketing and systems from BIM Trichy and a bachelor’s in mechanical engineering from Bengaluru University."
+                  image="/speakers4.jpeg"
+                />
                 <SpeakerCard
                   heading="Saptarshi Ghosh"
                   para="President of Students & Young Professionals at IEEE Computer Society.Leading strategic activities and initiatives for the world's largest organisation related to Computer Science. ASIC Design Engineer (SoC) at Intel Corporation, driving best-in-class performance for Intel Xeon Memory Controllers, aligning IP with CEO's IDM2.0 Strategy. based in Santa Clara County, California, United States, and San Francisco Bay Area."
@@ -36,11 +40,12 @@ export default function Speakers() {
                   para="Specializing in renewable energy, notably solar power, I excel in fields such as medical electronics, Internet of Things (IoT), Agri-Tech, Healthcare Tech, and Machine Learning. My contributions include research papers and keynote speeches at international conferences, earning recognition through numerous international awards for my dedication and impact in these fields."
                   image="/speakers3.jpg"
                 />
+              
               </div>
               {/* </div> */}
             </div>
 
-            {/* <div className="flex flex-col items-center gap-7">
+            {/*<div className="flex flex-col items-center gap-7">
             <div className="text-7xl font-staat text-white pb-16">
               RENOWNED <span className="text-[#bcff1f]">SPEAKERS</span>
             </div>
@@ -176,12 +181,17 @@ export default function Speakers() {
                 <h1>Advisors</h1>
               </div>
               <div className="px-4 space-y-4">
+              <SpeakerCard
+                  heading="Sandeep Varma"
+                  para="Sandeep is a thought leader and chief architect of multiple large-scale enterprise big data platforms, and he heads all delivery from ZS’s big data center of excellence in India. He specializes in rapidly building high-performance teams focused on cutting-edge technologies and high-quality delivery."
+                  image="/speakers4.jpeg"
+                />
                 <SpeakerCard
                   heading="Saptarshi Ghosh"
                   para="President of Students & Young Professionals at IEEE Computer Society.Leading strategic activities and initiatives for the world's largest organisation related to Computer Science. ASIC Design Engineer (SoC) at Intel Corporation, driving best-in-class performance for Intel Xeon Memory Controllers, aligning IP with CEO's IDM2.0 Strategy. based in Santa Clara County, California, United States, and San Francisco Bay Area."
                   image="/speakers1.jpg"
                 />
-              <SpeakerCard
+                <SpeakerCard
                   heading="Shivam Abhilash"
                   para="  Experienced technology leader with a demonstrated history of
                     working in the management consulting industry. Skilled in
@@ -197,6 +207,7 @@ export default function Speakers() {
                   para="Specializing in renewable energy, notably solar power, I excel in fields such as medical electronics, Internet of Things (IoT), Agri-Tech, Healthcare Tech, and Machine Learning. My contributions include research papers and keynote speeches at international conferences, earning recognition through numerous international awards for my dedication and impact in these fields."
                   image="/speakers3.jpg"
                 />
+              
                 {/* <SpeakerCard /> */}
               </div>
               {/* <div className="advisors flex flex-col items-center gap-11">

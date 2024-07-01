@@ -44,3 +44,7 @@
     @apply flex items-center text-9xl justify-center
   }
 }
+
+.font-style{
+  font-family: 'Times New Roman';
+}
