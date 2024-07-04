@@ -46,7 +46,9 @@ export default function Navbar(){
                 <button onClick={() => router.push('/speakers/')}>Speakers</button>
                 <button onClick={() => router.push('/about/')}>About</button>
             </div>
-            <button className="bg-[#5cb1f6] opacity-80 px-3 py-1 text-md rounded-md">register</button>
+           
+            <button onClick={() => router.push('/register/')} className="bg-[#5cb1f6] opacity-80 px-3 py-1 text-md rounded-md">register Now</button>
+            
         </div>
         ) : (
             <motion.div className="flex justify-between p-3 items-center fixed w-[100vw] z-50 bg-black">

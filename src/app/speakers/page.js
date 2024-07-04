@@ -2,19 +2,18 @@
 import SpeakerCard from "@/components/SpeakerCard";
 import { useMediaQuery } from "@mui/material";
 export default function Speakers() {
-const isNonMobileScreen = useMediaQuery("(min-width: 1000px)");
+  const isNonMobileScreen = useMediaQuery("(min-width: 1000px)");
   return (
     <div>
       {isNonMobileScreen ? (
         <div>
           <div className="pt-32 px-[82px] flex flex-col gap-28">
             <div className="flex flex-col items-center gap-7">
-              {/* <div className="advisors flex flex-col items-center gap-11"> */}
               <div className="text-nim_ticket_b font-staat text-5xl">
                 <h1>SPEAKERS</h1>
               </div>
               <div className="grid grid-cols-4 gap-8 xl:gap-32">
-              <SpeakerCard
+                <SpeakerCard
                   heading="Sandeep Varma"
                   para="Sandeep is a thought leader and chief architect of multiple large-scale enterprise big data platforms, and he heads all delivery from ZS’s big data center of excellence in India. He specializes in rapidly building high-performance teams focused on cutting-edge technologies and high-quality delivery.He did MBA in marketing and systems from BIM Trichy and a bachelor’s in mechanical engineering from Bengaluru University."
                   image="/speakers4.jpeg"
@@ -40,9 +39,7 @@ const isNonMobileScreen = useMediaQuery("(min-width: 1000px)");
                   para="Specializing in renewable energy, notably solar power, I excel in fields such as medical electronics, Internet of Things (IoT), Agri-Tech, Healthcare Tech, and Machine Learning. My contributions include research papers and keynote speeches at international conferences, earning recognition through numerous international awards for my dedication and impact in these fields."
                   image="/speakers3.jpg"
                 />
-              
               </div>
-              {/* </div> */}
             </div>
 
             {/*<div className="flex flex-col items-center gap-7">
@@ -181,7 +178,7 @@ const isNonMobileScreen = useMediaQuery("(min-width: 1000px)");
                 <h1>Advisors</h1>
               </div>
               <div className="px-4 space-y-4">
-              <SpeakerCard
+                <SpeakerCard
                   heading="Sandeep Varma"
                   para="Sandeep is a thought leader and chief architect of multiple large-scale enterprise big data platforms, and he heads all delivery from ZS’s big data center of excellence in India. He specializes in rapidly building high-performance teams focused on cutting-edge technologies and high-quality delivery."
                   image="/speakers4.jpeg"
@@ -203,11 +200,10 @@ const isNonMobileScreen = useMediaQuery("(min-width: 1000px)");
                   image="/speakers2.jpg"
                 />
                 <SpeakerCard
-                  heading="  Nikky Kumar Jha"
+                  heading="Nikky Kumar Jha"
                   para="Specializing in renewable energy, notably solar power, I excel in fields such as medical electronics, Internet of Things (IoT), Agri-Tech, Healthcare Tech, and Machine Learning. My contributions include research papers and keynote speeches at international conferences, earning recognition through numerous international awards for my dedication and impact in these fields."
                   image="/speakers3.jpg"
                 />
-              
                 {/* <SpeakerCard /> */}
               </div>
               {/* <div className="advisors flex flex-col items-center gap-11">

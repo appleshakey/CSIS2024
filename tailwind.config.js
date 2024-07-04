@@ -31,7 +31,14 @@ module.exports = {
         iem_ticket_t: "#27608f",
         nim_ticket_b: "#1565c0",
         nim_ticket_t: "#0a2f5a"
-      }
+      },
+      // screens: {
+      //   'sm': '640px',
+      //   'md': '768px',
+      //   'lg': '1024px',
+      //   'xl': '1280px',
+      //   '2xl': '1536px',
+      // }
     },
   },
   plugins: [],

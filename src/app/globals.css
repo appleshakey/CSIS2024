@@ -4,8 +4,6 @@
 @tailwind utilities;
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
 
-
-
 :root { 
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -19,8 +17,6 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
-
-
 
 @layer utilities {
   .text-balance { 
@@ -47,4 +43,11 @@
 
 .font-style{
   font-family: 'Times New Roman';
+}
+
+@media (min-width: 340px) {
+  .event-box {
+    margin-top: 20px;
+    /* margin-bottom: 14px; */
+  }
 }
