@@ -492,8 +492,8 @@ export default function Home() {
             </div>
           </div>
           <div className="FAQ flex flex-col p-5 gap-7 bg-about bg-cover">
-            <div className="flex justify-center text-4xl font-staat text-white">
-              <h1 className="text-[#156693]">FAQs</h1>
+            <div className="flex justify-center tracking-wider text-4xl font-staat text-white">
+              <h1 className="text-[#156693] ">FAQs</h1>
             </div>
             <div className="flex flex-col gap-7">
               <QAComponent />
@@ -557,7 +557,6 @@ export default function Home() {
               </div> */}
             </div>
           </div>
-
           <div className="timer flex flex-col gap-5 items-center">8
             <div className="text-white font-staat text-3xl py-4">
               <h1>
@@ -790,17 +789,21 @@ export default function Home() {
               
             </div>
           </div>
-          <div className="FAQ flex flex-col p-5 gap-7">
-            <div className="flex justify-center text-3xl font-staat text-white">
+          <div className="FAQ flex flex-col p-5 gap-7 bg-about bg-cover">
+            <div className="flex justify-center text-4xl tracking-wider text-[#156693] font-staat ">
               <h1>FAQs</h1>
             </div>
             <div className="flex flex-col gap-7">
               <QAComponent />
-              <QAComponent />
-              <QAComponent />
-              <QAComponent />
-              <QAComponent />
-              <QAComponent />
+              <QAComponent1 />
+              <QAComponent2 />
+              <QAComponent3 />
+              <QAComponent4 />
+              <QAComponent5 />
+              <QAComponent6/>
+              <QAComponent7/>
+              <QAComponent8/>
+              <QAComponent9/>
             </div>
           </div>
         </motion.div>
