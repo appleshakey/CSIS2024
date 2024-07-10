@@ -12,9 +12,11 @@ import { useMediaQuery } from "@mui/material";
 import Speakers from "@/components/Speakers";
 import QAComponent from "@/components/QAComponent";
 import SpeakerCard from "@/components/SpeakerCard";
+import { useRouter } from "next/navigation";
 
 export default function Home() {
   const isMobileScreen = useMediaQuery("(min-width: 1000px)");
+  const router = useRouter();
   const { ref: TicketRef, inView: TicketView } = useInView({
     triggerOnce: true,
     threshold: 0.5,
@@ -194,43 +196,43 @@ export default function Home() {
           <div className="bg-black h-[50vh] text-white font-staat p-5 flex flex-col gap-3">
             <div className="flex justify-center text-7xl pb-16">
               <h1>
-                Event <span className="text-[#ff0000]">timer</span>
+                Event <span className="text-[#4a8ec5] ">timer</span>
               </h1>
             </div>
             <div className="flex justify-around">
-              <div className="grid grid-cols-2 gap-2">
-                <div className="cell-holder">
-                  <div className="cell" id="d1"></div>
+              <div className="grid grid-cols-2 gap-2 ">
+                <div className="cell-holder ">
+                  <div className="cell bg-gradient-to-t from-[#4a8ec5] via-[#1666ac] " id="d1"></div>
                 </div>
                 <div className="cell-holder">
-                  <div className="cell" id="d2"></div>
-                </div>
-              </div>
-              <div className="cell-divide">:</div>
-              <div className="grid grid-cols-2 gap-2">
-                <div className="cell-holder">
-                  <div className="cell" id="h1"></div>
-                </div>
-                <div className="cell-holder">
-                  <div className="cell" id="h2"></div>
+                  <div className="cell bg-gradient-to-t from-[#4a8ec5] via-[#1666ac]" id="d2"></div>
                 </div>
               </div>
               <div className="cell-divide">:</div>
               <div className="grid grid-cols-2 gap-2">
                 <div className="cell-holder">
-                  <div className="cell" id="m1"></div>
+                  <div className="cell bg-gradient-to-t from-[#4a8ec5] via-[#1666ac]" id="h1"></div>
                 </div>
                 <div className="cell-holder">
-                  <div className="cell" id="m2"></div>
+                  <div className="cell bg-gradient-to-t from-[#4a8ec5] via-[#1666ac]" id="h2"></div>
                 </div>
               </div>
               <div className="cell-divide">:</div>
               <div className="grid grid-cols-2 gap-2">
                 <div className="cell-holder">
-                  <div className="cell" id="s1"></div>
+                  <div className="cell bg-gradient-to-t from-[#4a8ec5] via-[#1666ac]" id="m1"></div>
                 </div>
                 <div className="cell-holder">
-                  <div className="cell" id="s2"></div>
+                  <div className="cell bg-gradient-to-t from-[#4a8ec5] via-[#1666ac]" id="m2"></div>
+                </div>
+              </div>
+              <div className="cell-divide">:</div>
+              <div className="grid grid-cols-2 gap-2">
+                <div className="cell-holder">
+                  <div className="cell bg-gradient-to-t from-[#4a8ec5] via-[#1666ac]" id="s1"></div>
+                </div>
+                <div className="cell-holder">
+                  <div className="cell bg-gradient-to-t from-[#4a8ec5] via-[#1666ac]" id="s2"></div>
                 </div>
               </div>
             </div>
@@ -315,10 +317,10 @@ export default function Home() {
                   scale: [1.5, 1.5, 1.5, 1.5],
                 }}
                 transition={{
-                  duration: 2,
+                  duration: 1,
                   ease: "easeInOut",
                   repeat: Infinity,
-                  repeatDelay: 1,
+                  repeatDelay: 0.2,
                 }}
                 className="flex justify-center items-center"
               >
@@ -330,10 +332,10 @@ export default function Home() {
               <motion.div
                 animate={{ x: [-100, 0, 0, 100], opacity: [0, 1, 1, 0] }}
                 transition={{
-                  duration: 2,
+                  duration: 1,
                   ease: "easeInOut",
                   repeat: Infinity,
-                  repeatDelay: 1,
+                  repeatDelay: 0.2,
                 }}
                 className="flex justify-center items-center"
               >
@@ -342,10 +344,10 @@ export default function Home() {
               <motion.div
                 animate={{ x: [-100, 0, 0, 100], opacity: [0, 1, 1, 0] }}
                 transition={{
-                  duration: 2,
+                  duration: 1,
                   ease: "easeInOut",
                   repeat: Infinity,
-                  repeatDelay: 1,
+                  repeatDelay: 0.2,
                 }}
                 className="flex justify-center items-center"
               >
@@ -378,7 +380,7 @@ export default function Home() {
           <div className="flex flex-col items-center text-white font-staat gap-7">
             <div className="text-7xl pb-16">
               <h1>
-                Why <span className="text-[#ff8066]">CSIS ?</span>
+                Why <span className="text-[#4a8ec5]">CSIS ?</span>
               </h1>
             </div>
             <div className="flex justify-between lg:space-x-24">
@@ -454,7 +456,7 @@ export default function Home() {
           </div>
           <div className="flex flex-col items-center gap-7">
             <div className="text-7xl font-staat text-white pb-16">
-              RENOWNED <span className="text-[#bcff1f]">SPEAKERS</span>
+              RENOWNED <span className="text-[#4a8ec5]">SPEAKERS</span>
             </div>
             <div className="grid grid-cols-3 gap-8 xl:gap-32">
               <SpeakerCard
@@ -503,7 +505,7 @@ export default function Home() {
               </motion.div>
             </motion.div>
             <div className="flex justify-center p-3">
-              <button className="text-white font-staat bg-iem_ticket_b p-2 rounded-lg">
+              <button className="text-white font-staat bg-iem_ticket_b p-2 rounded-lg" onClick={() => router.push('/register/')} >
                 REGISTER NOW
               </button>
             </div>
@@ -533,15 +535,15 @@ export default function Home() {
           <div className="timer flex flex-col gap-5 items-center">8
             <div className="text-white font-staat text-3xl py-4">
               <h1>
-                Event <span className="text-[#ff0000]">timer</span>
+                Event <span className="text-[#4a8ec5]">timer</span>
               </h1>
             </div>
             <div className="flex text-white font-staat gap-2 text-3xl">
               <div className="grid grid-cols-2 gap-2">
-                <div className="bg-gray-400 rounded-lg w-5 flex justify-center items-center">
-                  <h3 id="d1">1</h3>
+                <div className="bg-[#4a8ec5] rounded-lg w-5 flex justify-center items-center">
+                  <h3 id="d1" className="">1</h3>
                 </div>
-                <div className="bg-gray-400 rounded-lg w-5 flex justify-center items-center">
+                <div className="bg-[#4a8ec5] rounded-lg w-5 flex justify-center items-center">
                   <h3 id="d2">2</h3>
                 </div>
               </div>
@@ -549,10 +551,10 @@ export default function Home() {
                 <h1>:</h1>
               </div>
               <div className="grid grid-cols-2 gap-2">
-                <div className="bg-gray-400 rounded-lg w-5 flex justify-center items-center">
+                <div className="bg-[#4a8ec5] rounded-lg w-5 flex justify-center items-center">
                   <h3 id="h1">1</h3>
                 </div>
-                <div className="bg-gray-400 rounded-lg w-5 flex justify-center items-center">
+                <div className="bg-[#4a8ec5] rounded-lg w-5 flex justify-center items-center">
                   <h3 id="h2">2</h3>
                 </div>
               </div>
@@ -560,10 +562,10 @@ export default function Home() {
                 <h1>:</h1>
               </div>
               <div className="grid grid-cols-2 gap-2">
-                <div className="bg-gray-400 rounded-lg w-5 flex justify-center items-center">
+                <div className="bg-[#4a8ec5] rounded-lg w-5 flex justify-center items-center">
                   <h3 id="m1">1</h3>
                 </div>
-                <div className="bg-gray-400 rounded-lg w-5 flex justify-center items-center">
+                <div className="bg-[#4a8ec5] rounded-lg w-5 flex justify-center items-center">
                   <h3 id="m2">2</h3>
                 </div>
               </div>
@@ -571,10 +573,10 @@ export default function Home() {
                 <h1>:</h1>
               </div>
               <div className="grid grid-cols-2 gap-2">
-                <div className="bg-gray-400 rounded-lg w-5 flex justify-center items-center">
+                <div className="bg-[#4a8ec5] rounded-lg w-5 flex justify-center items-center">
                   <h3 id="s1">1</h3>
                 </div>
-                <div className="bg-gray-400 rounded-lg w-5 flex justify-center items-center">
+                <div className="bg-[#4a8ec5] rounded-lg w-5 flex justify-center items-center">
                   <h3 id="s2">2</h3>
                 </div>
               </div>
@@ -673,7 +675,7 @@ export default function Home() {
           <div className="whyCSIS flex flex-col items-center gap-7 p-5">
             <div className="text-center text-white font-staat text-3xl">
               <h1>
-                Why <span className="text-[#ff8066]">CSIS</span> 2024 ?
+                Why <span className="text-[#4a8ec5]">CSIS</span> 2024 ?
               </h1>
             </div>
             <div className="flex flex-col items-center gap-3">
@@ -740,7 +742,7 @@ export default function Home() {
           <div className="renownedSpeakers flex flex-col items-center p-5 gap-7">
             <div className="text-white font-staat text-3xl">
                  <div className="font-staat text-white">
-              RENOWNED <span className="text-[#bcff1f]">SPEAKERS</span>
+              RENOWNED <span className="text-[#4a8ec5]">SPEAKERS</span>
             </div>
             </div>
             <div className="flex gap-5 overflow-y-auto w-[75%] h-[120%]">

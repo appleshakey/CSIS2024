@@ -86,7 +86,7 @@ export default function Navbar(){
                                     router.push('/about');}} variants={menuItemVariant}>About</motion.button>
                                 <motion.button onClick={() => {
                                     setMNavbar(!MNavbar);
-                                    router.push('/');}} variants={menuItemVariant}>Register Now</motion.button>
+                                    router.push('/register');}} variants={menuItemVariant}>Register Now</motion.button>
                             </motion.div>
                         </motion.div>
                     </motion.div>
