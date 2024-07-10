@@ -402,7 +402,7 @@ export default function Schedule() {
                   <div className="rounded-full w-[2vh] h-[2vh] bg-gradient-to-t from-[#fffef3] to-[#fffef3] absolute"></div>
                 </div>
                 <div className="flex justify-between lg:flex-row sm:flex-row w-[65vw] bg-[#fffef3] border-r-4 border-[#1565C0] rounded-md p-3">
-                  <div className="flex flex-col text-[#1565C0] justify-center">
+                  <div className="flex flex-col text-[#0D47A1] justify-center">
                     <div className="text-sm sm:text-[24px]  font-semibold">
                       <h1>Tech Talk</h1>
                     </div>
@@ -413,7 +413,7 @@ export default function Schedule() {
                       <p>Venue: Concert Hall</p>
                     </div>
                   </div>
-                  <div className="flex text-xs sm:text-[14px] items-center text-[#1565C0] p-3 font-semibold">
+                  <div className="flex text-xs sm:text-[14px] items-center text-[#0D47A1] p-3 font-semibold">
                     July 29, 2024 02:00 to 03:00 PM
                   </div>
                 </div>
@@ -458,7 +458,7 @@ export default function Schedule() {
                   <div className="rounded-full w-[2vh] h-[2vh] bg-gradient-to-t from-[#fffef3] to-[#fffef3] absolute"></div>
                 </div>
                 <div className="flex justify-between lg:flex-row sm:flex-row w-[65vw] bg-[#fffef3] border-r-4 border-[#1565C0]  rounded-md p-3">
-                  <div className="flex flex-col text-[#1565C0] justify-center">
+                  <div className="flex flex-col text-[#0D47A1] justify-center">
                     <div className="text-sm sm:text-[24px]  font-semibold">
                       <h1>Photo Session</h1>
                     </div>
@@ -466,7 +466,7 @@ export default function Schedule() {
                       <p>Venue: Auditorium</p>
                     </div>
                   </div>
-                  <div className="flex text-sm items-center text-[#1565C0] font-semibold p-3">
+                  <div className="flex text-sm items-center text-[#0D47A1] font-semibold p-3">
                     July 29, 2024 04:00 to 04:20 PM
                   </div>
                 </div>
@@ -541,7 +541,7 @@ export default function Schedule() {
                   <div className="rounded-full w-[2vh] h-[2vh] bg-gradient-to-t from-[#fffef3] to-[#fffef3] absolute"></div>
                 </div>
                 <div className="flex justify-between sm:flex-row w-[65vw] bg-[#fffef3] border-r-4 border-[#1565C0] rounded-md p-3">
-                  <div className="flex flex-col text-[#1565C0] justify-center">
+                  <div className="flex flex-col text-[#0D47A1] justify-center">
                     <div className="text-sm sm:text-[24px] font-semibold">
                       <h1>Benifits Of IEEE</h1>
                     </div>
@@ -549,7 +549,7 @@ export default function Schedule() {
                       <p>Venue: Auditorium</p>
                     </div>
                   </div>
-                  <div className="flex text-sm text-[#1565C0] items-center p-3 font-semibold">
+                  <div className="flex text-sm text-[#0D47A1] items-center p-3 font-semibold">
                     July 30, 2024 11:00 to 01:00 PM
                   </div>
                 </div>
@@ -591,7 +591,7 @@ export default function Schedule() {
                   <div className="rounded-full w-[2vh] h-[2vh] bg-gradient-to-t from-[#fffef3] to-[#fffef3] absolute"></div>
                 </div>
                 <div className="flex justify-between sm:flex-row w-[65vw] bg-[#fffef3] border-r-4 border-[#1565C0]  rounded-md p-3">
-                  <div className="flex text-[#1565C0] flex-col justify-center">
+                  <div className="flex text-[#0D47A1] flex-col justify-center">
                     <div className="text-sm sm:text-[24px]  font-semibold">
                       <h1>Ariyan-(workshop) Session-2 Abroad Intern</h1>
                     </div>
@@ -599,7 +599,7 @@ export default function Schedule() {
                       <p>Venue: Auditorium</p>
                     </div>
                   </div>
-                  <div className="flex  text-sm items-center text-[#1565C0] font-semibold p-3">
+                  <div className="flex  text-sm items-center text-[#0D47A1] font-semibold p-3">
                     July 30, 2024 03:30 to 04:30 PM
                   </div>
                 </div>
