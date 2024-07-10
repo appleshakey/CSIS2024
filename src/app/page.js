@@ -13,6 +13,15 @@ import Speakers from "@/components/Speakers";
 import QAComponent from "@/components/QAComponent";
 import SpeakerCard from "@/components/SpeakerCard";
 import { useRouter } from "next/navigation";
+import QAComponent1 from "@/components/QAComponent1";
+import QAComponent2 from "@/components/QAComponent2";
+import QAComponent3 from "@/components/QAComponent3";
+import QAComponent4 from "@/components/QAComponent4";
+import QAComponent5 from "@/components/QAComponent5";
+import QAComponent6 from "@/components/QAComponent6";
+import QAComponent7 from "@/components/QAComponent7";
+import QAComponent8 from "@/components/QAComponent8";
+import QAComponent9 from "@/components/QAComponent9";
 
 export default function Home() {
   const isMobileScreen = useMediaQuery("(min-width: 1000px)");
@@ -480,6 +489,23 @@ export default function Home() {
                 para="Specializing in renewable energy, notably solar power, I excel in fields such as medical electronics, Internet of Things (IoT), Agri-Tech, Healthcare Tech, and Machine Learning. My contributions include research papers and keynote speeches at international conferences, earning recognition through numerous international awards for my dedication and impact in these fields."
                 image="/speakers3.jpg"
               />
+            </div>
+          </div>
+          <div className="FAQ flex flex-col p-5 gap-7 bg-about bg-cover">
+            <div className="flex justify-center text-4xl font-staat text-white">
+              <h1 className="text-[#156693]">FAQs</h1>
+            </div>
+            <div className="flex flex-col gap-7">
+              <QAComponent />
+              <QAComponent1 />
+              <QAComponent2 />
+              <QAComponent3 />
+              <QAComponent4 />
+              <QAComponent5 />
+              <QAComponent6/>
+              <QAComponent7/>
+              <QAComponent8/>
+              <QAComponent9/>
             </div>
           </div>
         </motion.div>
