@@ -530,7 +530,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="timer flex flex-col gap-5 items-center">
+          <div className="timer flex flex-col gap-5 items-center">8
             <div className="text-white font-staat text-3xl py-4">
               <h1>
                 Event <span className="text-[#ff0000]">timer</span>

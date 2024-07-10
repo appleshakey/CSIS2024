@@ -71,7 +71,6 @@ export default function Speakers() {
                   para1="Lunch and snacks will be provided."
                   tickets="Book your Tickets"
                 />
-
                 <Register
                   heading="IEEE Members"
                   heading1="With accommodation"

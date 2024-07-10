@@ -12,7 +12,7 @@ export default function Speakers() {
               <div className="text-nim_ticket_b font-staat text-5xl">
                 <h1>SPEAKERS</h1>
               </div>
-              <div className="grid grid-cols-4 gap-8 xl:gap-32">
+              <div className="grid grid-cols-2 gap-8 xl:gap-32">
                 <SpeakerCard
                   heading="Sandeep Varma"
                   para="Sandeep is a thought leader and chief architect of multiple large-scale enterprise big data platforms, and he heads all delivery from ZS’s big data center of excellence in India. He specializes in rapidly building high-performance teams focused on cutting-edge technologies and high-quality delivery.He did MBA in marketing and systems from BIM Trichy and a bachelor’s in mechanical engineering from Bengaluru University."
@@ -25,17 +25,17 @@ export default function Speakers() {
                 />
                 <SpeakerCard
                   heading="Shivam Abhilash"
-                  para="  Experienced technology leader with a demonstrated history of
-                    working in the management consulting industry. Skilled in
-                    Machine Learning, NLP, Graph, Production ready ML Solutions,
-                    Leadership, Management and Solution Delivery. Strong
-                    business development professional graduated from Indian
-                    Institute Of Information Technology having knowledge of Data
-                    Analytics."
+                  para="Experienced technology leader with a demonstrated history of
+                  working in the management consulting industry. Skilled in
+                  Machine Learning, NLP, Graph, Production ready ML Solutions,
+                  Leadership, Management and Solution Delivery. Strong
+                  business development professional graduated from Indian
+                  Institute Of Information Technology having knowledge of Data
+                  Analytics."
                   image="/speakers2.jpg"
                 />
                 <SpeakerCard
-                  heading="  Nikky Kumar Jha"
+                  heading="Nikky Kumar Jha"
                   para="Specializing in renewable energy, notably solar power, I excel in fields such as medical electronics, Internet of Things (IoT), Agri-Tech, Healthcare Tech, and Machine Learning. My contributions include research papers and keynote speeches at international conferences, earning recognition through numerous international awards for my dedication and impact in these fields."
                   image="/speakers3.jpg"
                 />
@@ -190,7 +190,7 @@ export default function Speakers() {
                 />
                 <SpeakerCard
                   heading="Shivam Abhilash"
-                  para="  Experienced technology leader with a demonstrated history of
+                  para="Experienced technology leader with a demonstrated history of
                     working in the management consulting industry. Skilled in
                     Machine Learning, NLP, Graph, Production ready ML Solutions,
                     Leadership, Management and Solution Delivery. Strong
