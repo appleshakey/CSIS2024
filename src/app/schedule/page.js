@@ -508,9 +508,9 @@ export default function Schedule() {
                 </div>
               </div>
             </div>
-            <div className="h-[18vh] flex flex-col relative top-6">
+            <div className="h-[17vh] flex flex-col relative top-6">
               <div className="w-[4vh] flex justify-center">
-                <div className="border-l-2 border-white h-[18vh]"></div>
+                <div className="border-l-2 border-white h-[17vh]"></div>
               </div>
               <div>
                 <div className="flex gap-2">
@@ -536,9 +536,9 @@ export default function Schedule() {
                 </div>
               </div>
             </div>
-            <div className="h-[23vh] flex flex-col relative top-7">
+            <div className="h-[22vh] flex flex-col relative top-7">
               <div className="w-[4vh] flex justify-center">
-                <div className="border-l-2 border-white h-[23vh] -z-10"></div>
+                <div className="border-l-2 border-white h-[22vh] -z-10"></div>
               </div>
               <div>
                 <div className="flex gap-2">
@@ -561,9 +561,9 @@ export default function Schedule() {
                 </div>
               </div>
             </div>
-            <div className="h-[20vh] flex flex-col relative top-6">
+            <div className="h-[19vh] flex flex-col relative top-6">
               <div className="w-[4vh] flex justify-center">
-                <div className="border-l-2 border-white h-[20vh]"></div>
+                <div className="border-l-2 border-white h-[19vh]"></div>
               </div>
               <div>
                 <div className="flex gap-2">
@@ -779,9 +779,9 @@ export default function Schedule() {
                 </div>
               </div>
             </div>
-            <div className="h-[28vh] flex flex-col relative top-7">
+            <div className="h-[24vh] flex flex-col relative top-7">
               <div className="w-[4vh] flex justify-center">
-                <div className="border-l-2 border-white h-[28vh] -z-10"></div>
+                <div className="border-l-2 border-white h-[24vh] -z-10"></div>
               </div>
               <div>
                 <div className="flex gap-2">
