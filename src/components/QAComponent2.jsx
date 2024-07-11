@@ -22,7 +22,7 @@ export default function QAComponent2() {
         <div className="flex justify-start text-white font-inter text-lg mt-2">
           <h1>
             You can register for the Computer Society India Symposium 2024 by
-            visiting the official website [Website URL] and filling out the
+            visiting the official website https://www.ieeecssrm.in/ and filling out the
             online registration form.
           </h1>
         </div>

@@ -24,7 +24,7 @@ export default function QAComponent9() {
           <h1>
             To stay updated with the latest announcements, schedules, and other
             important information about the Computer Society India Symposium
-            2023, it is recommended to regularly visit the official website
+            2024, it is recommended to regularly visit the official website
             https://www.ieeecssrm.in/.in or follow the official social media channels of the
             event. Additionally, registered participants may receive email
             updates with pertinent details.
