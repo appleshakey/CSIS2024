@@ -19,8 +19,6 @@ export default function Day1(){
         const Time = [
             "Aug 26,2023 10:00AM", "Aug 26,2023 10:00AM", "Aug 26,2023 10:00AM", "Aug 26,2023 10:00AM", "Aug 26,2023 10:00AM", "Aug 26,2023 10:00AM", "Aug 26,2023 10:00AM", "Aug 26,2023 10:00AM",
         ]
-
-        //line width
         ctx.strokeStyle = "white";
         ctx.lineWidth = 3;
         ctx.fillStyle = "#156693";

@@ -253,6 +253,7 @@ export default function Schedule() {
                 </div>
               </div>
             </div>
+
             <div className="flex flex-col">
               <div className="flex gap-5 absolute">
                 <div className="rounded-full bg-gradient-to-b from-[#1565C0] to-[#BBDEFB]  h-[4vh] w-[4vh] z-10"></div>
@@ -386,6 +387,7 @@ export default function Schedule() {
                 </div>
               </div>
             </div>
+
             <div className="flex flex-col">
               <div className="flex gap-5 absolute">
                 <div className="rounded-full bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] h-[4vh] w-[4vh] z-10"></div>
@@ -419,6 +421,7 @@ export default function Schedule() {
                 </div>
               </div>
             </div>
+            
           </div>
         </div>
       ) : (
@@ -505,9 +508,9 @@ export default function Schedule() {
                 </div>
               </div>
             </div>
-            <div className="h-[15vh] flex flex-col relative top-6">
+            <div className="h-[18vh] flex flex-col relative top-6">
               <div className="w-[4vh] flex justify-center">
-                <div className="border-l-2 border-white h-[15vh]"></div>
+                <div className="border-l-2 border-white h-[18vh]"></div>
               </div>
               <div>
                 <div className="flex gap-2">
@@ -533,9 +536,9 @@ export default function Schedule() {
                 </div>
               </div>
             </div>
-            <div className="h-[20vh] flex flex-col relative top-7">
+            <div className="h-[23vh] flex flex-col relative top-7">
               <div className="w-[4vh] flex justify-center">
-                <div className="border-l-2 border-white h-[20vh] -z-10"></div>
+                <div className="border-l-2 border-white h-[23vh] -z-10"></div>
               </div>
               <div>
                 <div className="flex gap-2">
@@ -558,9 +561,9 @@ export default function Schedule() {
                 </div>
               </div>
             </div>
-            <div className="h-[18vh] flex flex-col relative top-6">
+            <div className="h-[20vh] flex flex-col relative top-6">
               <div className="w-[4vh] flex justify-center">
-                <div className="border-l-2 border-white h-[18vh]"></div>
+                <div className="border-l-2 border-white h-[20vh]"></div>
               </div>
               <div>
                 <div className="flex gap-2">
@@ -586,9 +589,9 @@ export default function Schedule() {
                 </div>
               </div>
             </div>
-            <div className="h-[20vh] flex flex-col relative top-6">
+            <div className="h-[22vh] flex flex-col relative top-6">
               <div className="w-[4vh] flex justify-center">
-                <div className="border-l-2 border-white h-[20vh] -z-10"></div>
+                <div className="border-l-2 border-white h-[22vh] -z-10"></div>
               </div>
               <div>
                 <div className="flex gap-2">
@@ -614,9 +617,9 @@ export default function Schedule() {
                 </div>
               </div>
             </div>
-            <div className="h-[20vh] flex flex-col relative top-6">
+            <div className="h-[23vh] flex flex-col relative top-6">
               <div className="w-[4vh] flex justify-center">
-                <div className="border-l-2 border-white h-[20vh]"></div>
+                <div className="border-l-2 border-white h-[23vh]"></div>
               </div>
               <div>
                 <div className="flex gap-2">
@@ -640,9 +643,9 @@ export default function Schedule() {
                 </div>
               </div>
             </div>
-            <div className="h-[18vh] flex flex-col relative top-6">
+            <div className="h-[20vh] flex flex-col relative top-6">
               <div className="w-[4vh] flex justify-center">
-                <div className="border-l-2 border-white h-[18vh] -z-10"></div>
+                <div className="border-l-2 border-white h-[20vh] -z-10"></div>
               </div>
               <div>
                 <div className="flex gap-2">
@@ -667,6 +670,7 @@ export default function Schedule() {
               </div>
             </div>
           </div>
+          
           <div className="flex flex-col mt-14">
             <div className="flex gap-5 absolute">
               <div className="rounded-full bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] h-[4vh] w-[4vh] z-10"></div>
@@ -775,9 +779,9 @@ export default function Schedule() {
                 </div>
               </div>
             </div>
-            <div className="h-[23vh] flex flex-col relative top-7">
+            <div className="h-[28vh] flex flex-col relative top-7">
               <div className="w-[4vh] flex justify-center">
-                <div className="border-l-2 border-white h-[23vh] -z-10"></div>
+                <div className="border-l-2 border-white h-[28vh] -z-10"></div>
               </div>
               <div>
                 <div className="flex gap-2">

@@ -1,13 +1,8 @@
 "use client";
-import TicketCard from "@/components/TicketCard";
-import TicketCardM from "@/components/TicketCardM";
-import Image from "next/image";
-import { useEffect, useRef } from "react";
-import { Parallax, useParallax, ParallaxBanner } from "react-scroll-parallax";
-import { details } from "@/components/TicketsInfo";
+import { useEffect } from "react";
+import { useParallax, ParallaxBanner } from "react-scroll-parallax";
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
-import { usePathname } from "next/navigation";
 import { useMediaQuery } from "@mui/material";
 import Speakers from "@/components/Speakers";
 import QAComponent from "@/components/QAComponent";
@@ -37,7 +32,6 @@ export default function Home() {
     opacity: [2, 0],
     speed: 20,
   });
-
   const bg = useParallax({});
 
   const variants = {
@@ -211,37 +205,61 @@ export default function Home() {
             <div className="flex justify-around">
               <div className="grid grid-cols-2 gap-2 ">
                 <div className="cell-holder ">
-                  <div className="cell bg-gradient-to-t from-[#4a8ec5] via-[#1666ac] " id="d1"></div>
+                  <div
+                    className="cell bg-gradient-to-t from-[#4a8ec5] via-[#1666ac] "
+                    id="d1"
+                  ></div>
                 </div>
                 <div className="cell-holder">
-                  <div className="cell bg-gradient-to-t from-[#4a8ec5] via-[#1666ac]" id="d2"></div>
-                </div>
-              </div>
-              <div className="cell-divide">:</div>
-              <div className="grid grid-cols-2 gap-2">
-                <div className="cell-holder">
-                  <div className="cell bg-gradient-to-t from-[#4a8ec5] via-[#1666ac]" id="h1"></div>
-                </div>
-                <div className="cell-holder">
-                  <div className="cell bg-gradient-to-t from-[#4a8ec5] via-[#1666ac]" id="h2"></div>
+                  <div
+                    className="cell bg-gradient-to-t from-[#4a8ec5] via-[#1666ac]"
+                    id="d2"
+                  ></div>
                 </div>
               </div>
               <div className="cell-divide">:</div>
               <div className="grid grid-cols-2 gap-2">
                 <div className="cell-holder">
-                  <div className="cell bg-gradient-to-t from-[#4a8ec5] via-[#1666ac]" id="m1"></div>
+                  <div
+                    className="cell bg-gradient-to-t from-[#4a8ec5] via-[#1666ac]"
+                    id="h1"
+                  ></div>
                 </div>
                 <div className="cell-holder">
-                  <div className="cell bg-gradient-to-t from-[#4a8ec5] via-[#1666ac]" id="m2"></div>
+                  <div
+                    className="cell bg-gradient-to-t from-[#4a8ec5] via-[#1666ac]"
+                    id="h2"
+                  ></div>
                 </div>
               </div>
               <div className="cell-divide">:</div>
               <div className="grid grid-cols-2 gap-2">
                 <div className="cell-holder">
-                  <div className="cell bg-gradient-to-t from-[#4a8ec5] via-[#1666ac]" id="s1"></div>
+                  <div
+                    className="cell bg-gradient-to-t from-[#4a8ec5] via-[#1666ac]"
+                    id="m1"
+                  ></div>
                 </div>
                 <div className="cell-holder">
-                  <div className="cell bg-gradient-to-t from-[#4a8ec5] via-[#1666ac]" id="s2"></div>
+                  <div
+                    className="cell bg-gradient-to-t from-[#4a8ec5] via-[#1666ac]"
+                    id="m2"
+                  ></div>
+                </div>
+              </div>
+              <div className="cell-divide">:</div>
+              <div className="grid grid-cols-2 gap-2">
+                <div className="cell-holder">
+                  <div
+                    className="cell bg-gradient-to-t from-[#4a8ec5] via-[#1666ac]"
+                    id="s1"
+                  ></div>
+                </div>
+                <div className="cell-holder">
+                  <div
+                    className="cell bg-gradient-to-t from-[#4a8ec5] via-[#1666ac]"
+                    id="s2"
+                  ></div>
                 </div>
               </div>
             </div>
@@ -360,7 +378,7 @@ export default function Home() {
                 }}
                 className="flex justify-center items-center"
               >
-                <img src="./event-patner.png" className="h-40"/>
+                <img src="./event-patner.png" className="h-40" />
               </motion.div>
             </div>
           </motion.div>
@@ -502,10 +520,10 @@ export default function Home() {
               <QAComponent3 />
               <QAComponent4 />
               <QAComponent5 />
-              <QAComponent6/>
-              <QAComponent7/>
-              <QAComponent8/>
-              <QAComponent9/>
+              <QAComponent6 />
+              <QAComponent7 />
+              <QAComponent8 />
+              <QAComponent9 />
             </div>
           </div>
         </motion.div>
@@ -531,7 +549,10 @@ export default function Home() {
               </motion.div>
             </motion.div>
             <div className="flex justify-center p-3">
-              <button className="text-white font-staat bg-iem_ticket_b p-2 rounded-lg" onClick={() => router.push('/register/')} >
+              <button
+                className="text-white font-staat bg-iem_ticket_b p-2 rounded-lg"
+                onClick={() => router.push("/register/")}
+              >
                 REGISTER NOW
               </button>
             </div>
@@ -557,7 +578,8 @@ export default function Home() {
               </div> */}
             </div>
           </div>
-          <div className="timer flex flex-col gap-5 items-center">8
+          <div className="timer flex flex-col gap-5 items-center">
+            8
             <div className="text-white font-staat text-3xl py-4">
               <h1>
                 Event <span className="text-[#4a8ec5]">timer</span>
@@ -566,7 +588,9 @@ export default function Home() {
             <div className="flex text-white font-staat gap-2 text-3xl">
               <div className="grid grid-cols-2 gap-2">
                 <div className="bg-[#4a8ec5] rounded-lg w-5 flex justify-center items-center">
-                  <h3 id="d1" className="">1</h3>
+                  <h3 id="d1" className="">
+                    1
+                  </h3>
                 </div>
                 <div className="bg-[#4a8ec5] rounded-lg w-5 flex justify-center items-center">
                   <h3 id="d2">2</h3>
@@ -766,15 +790,18 @@ export default function Home() {
           </div>
           <div className="renownedSpeakers flex flex-col items-center p-5 gap-7">
             <div className="text-white font-staat text-3xl">
-                 <div className="font-staat text-white">
-              RENOWNED <span className="text-[#4a8ec5]">SPEAKERS</span>
-            </div>
+              <div className="font-staat text-white">
+                RENOWNED <span className="text-[#4a8ec5]">SPEAKERS</span>
+              </div>
             </div>
             <div className="flex gap-5 overflow-y-auto w-[75%] h-[120%]">
-              <Speakers  heading="Saptarshi Ghosh"
+              <Speakers
+                heading="Saptarshi Ghosh"
                 para="President of Students & Young Professionals at IEEE Computer Society.Leading strategic activities and initiatives for the world's largest organisation related to Computer Science. ASIC Design Engineer (SoC) at Intel Corporation, driving best-in-class performance for Intel Xeon Memory Controllers, aligning IP with CEO's IDM2.0 Strategy. based in Santa Clara County, California, United States, and San Francisco Bay Area."
-                image="/speakers1.jpg"/>
-              <Speakers  heading="Shivam Abhilash"
+                image="/speakers1.jpg"
+              />
+              <Speakers
+                heading="Shivam Abhilash"
                 para="  Experienced technology leader with a demonstrated history of
                     working in the management consulting industry. Skilled in
                     Machine Learning, NLP, Graph, Production ready ML Solutions,
@@ -782,11 +809,13 @@ export default function Home() {
                     business development professional graduated from Indian
                     Institute Of Information Technology having knowledge of Data
                     Analytics."
-                image="/speakers2.jpg" />
-              <Speakers heading="  Nikky Kumar Jha"
+                image="/speakers2.jpg"
+              />
+              <Speakers
+                heading="  Nikky Kumar Jha"
                 para="Specializing in renewable energy, notably solar power, I excel in fields such as medical electronics, Internet of Things (IoT), Agri-Tech, Healthcare Tech, and Machine Learning. My contributions include research papers and keynote speeches at international conferences, earning recognition through numerous international awards for my dedication and impact in these fields."
-                image="/speakers3.jpg" />
-              
+                image="/speakers3.jpg"
+              />
             </div>
           </div>
           <div className="FAQ flex flex-col p-5 gap-7 bg-about bg-cover">
@@ -800,10 +829,10 @@ export default function Home() {
               <QAComponent3 />
               <QAComponent4 />
               <QAComponent5 />
-              <QAComponent6/>
-              <QAComponent7/>
-              <QAComponent8/>
-              <QAComponent9/>
+              <QAComponent6 />
+              <QAComponent7 />
+              <QAComponent8 />
+              <QAComponent9 />
             </div>
           </div>
         </motion.div>
