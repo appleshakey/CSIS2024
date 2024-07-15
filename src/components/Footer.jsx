@@ -48,7 +48,7 @@ export default function Footer() {
                 <div className="text-4xl tracking-wider mb-4">
                   <h1>CSIS 2024</h1>
                 </div>
-                <div className="text-xl font-inter mb-2 tracking-wider">
+                <div className="text-xl font-inter mb-2 tracking-wider text-center">
                   <p>
                     SRM Nagar, Kattankulathur - 603203, Chengalpattu District -
                     Tamil Nadu.
@@ -58,7 +58,7 @@ export default function Footer() {
             cs.ieeecusb@gmail.com
           </p> */}
                 </div>
-                <div className="text-2xl tracking-wider mb-4">
+                <div className="text-2xl tracking-wider mb-4 flex flex-col items-center">
                   <h2>Follow Us</h2>
                   <div className="flex space-x-4 mt-2">
                     <a href="#" className="text-white hover:text-gray-400">
@@ -116,7 +116,7 @@ export default function Footer() {
                 <div className="text-2xl md:text-4xl tracking-wider mb-4">
                   <h1>CSIS 2024</h1>
                 </div>
-                <div className="md:text-xl font-inter mb-2 tracking-wider">
+                <div className="md:text-xl font-inter mb-2 tracking-wider text-center">
                   <p>
                     SRM Nagar, Kattankulathur - 603203, Chengalpattu District -
                     Tamil Nadu.
@@ -126,7 +126,7 @@ export default function Footer() {
             cs.ieeecusb@gmail.com
           </p> */}
                 </div>
-                <div className="text-2xl tracking-wider mb-4">
+                <div className="text-2xl tracking-wider mb-4 flex flex-col items-center">
                   <h2>Follow Us</h2>
                   <div className="flex space-x-4 mt-2">
                     <a href="#" className="text-white hover:text-gray-400">
