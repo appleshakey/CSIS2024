@@ -79,13 +79,13 @@ export default function Schedule() {
                     <div className={"flex justify-between w-[50vw] bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] p-3 rounded-md " + font}>
                       <div className="flex flex-col justify-center ">
                         <div className="text-2xl font-semibold">
-                          <h1>Teck Talk</h1>
+                          <h1>Tech Talk</h1>
                         </div>
                         <div className="text-lg">
                           <p>Venue: Auditorium</p>
                         </div>
                       </div>
-                      <div className="flex items-center font-semibold text-white font-style p-3">
+                      <div className={"flex items-center font-semibold text-white p-3" + font}>
                         July 29, 2024 11:00 to 12:00 PM
                       </div>
                     </div>
@@ -194,7 +194,7 @@ export default function Schedule() {
                           <p>Venue: Concert Hall</p>
                         </div>
                       </div>
-                      <div className="flex items-center font-semibold text-white font-style p-3">
+                      <div className={"flex items-center font-semibold text-white p-3 "+font}>
                         July 29, 2024 03:00 to 04:00 PM
                       </div>
                     </div>
