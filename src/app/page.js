@@ -128,10 +128,16 @@ export default function Home() {
                 >
                   <div className="  flex flex-col text-center gap-y-8">
                     <div className="flex flex-col">
-                      <h1 className="text-4xl inline-block tracking-wider ">
-                        SRM Institute of Science And Technology in association
-                        with IEEE Computer Society
-                      </h1>
+                      {/* <h1 className="text-4xl inline-block tracking-wider ">
+                        SRM Institute of Science And Technology <br/>
+                        in association <br/>
+                        IEEE Computer Society
+                      </h1> */}
+                      <div className="flex flex-col text-5xl tracking-wider">
+                        <h1>SRM Institute of Science and Technology</h1>
+                        <h3 className="text-3xl">in association with</h3>
+                        <h1>IEEE Computer Society</h1>
+                      </div>
                     </div>
                     <p className="text-4xl tracking-wider">PRESENTS</p>
                     <div className="flex flex-col">
