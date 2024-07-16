@@ -424,7 +424,7 @@ export default function Schedule() {
           </div>
         </div>
       ) : (
-        <div className="text-white font-staat py-32 px-6 flex flex-col gap-44 -z-50">
+        <div className="text-white font-staat py-32 px-6 flex flex-col gap-44 -z-50">    
           <div className="flex flex-col">
             <div className="flex gap-5 absolute">
               <div className="rounded-full bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] h-[4vh] w-[4vh] z-10"></div>

@@ -20,9 +20,9 @@ export default function Speakers() {
                 />
                 <SpeakerCard
                   heading="Saptarshi Ghosh"
-                  para="President of Students & Young Professionals at IEEE Computer Society.Leading strategic activities and initiatives for the world's largest organisation related to Computer Science. ASIC Design Engineer (SoC) at Intel Corporation, driving best-in-class performance for Intel Xeon Memory Controllers, aligning IP with CEO's IDM2.0 Strategy. based in Santa Clara County, California, United States, and San Francisco Bay Area."
-                  image="/speakers1.jpg"
-                />
+                  para="Saptarshi Ghosh is a System-On-Chip Design Engineer at Intel, who is working at the leading forefront of technology to enable and design the next generation of AI-enabled Intel Xeon® processors. His dedication and commitment to advancing computing have been recognized both at Intel as well as through the UC Berkeley College of Engineering  where he holds a Masters Degree in Electrical Engineering & Computer Sciences. He currently chairs the Students and Young Professionals Board in IEEE Computer Society, an organization having more than 50,000 members."
+                  image="/image3.jpeg"
+                />           
                 <SpeakerCard
                   heading="Shivam Abhilash"
                   para="Experienced technology leader with a demonstrated history of
@@ -50,7 +50,7 @@ export default function Speakers() {
               <div className="max-w-sm rounded overflow-hidden shadow-lg border-2 border-[#0070a9] group">
                 <img
                   className="w-full transform transition-transform duration-300 ease-in-out group-hover:scale-110"
-                  src="/speakers1.jpg"
+                  src="/image3.jpg"
                   alt="Sunset in the mountains"
                 />
                 <div className=" py-4 tracking-wider mx-4">
@@ -185,8 +185,8 @@ export default function Speakers() {
                 />
                 <SpeakerCard
                   heading="Saptarshi Ghosh"
-                  para="President of Students & Young Professionals at IEEE Computer Society.Leading strategic activities and initiatives for the world's largest organisation related to Computer Science. ASIC Design Engineer (SoC) at Intel Corporation, driving best-in-class performance for Intel Xeon Memory Controllers, aligning IP with CEO's IDM2.0 Strategy. based in Santa Clara County, California, United States, and San Francisco Bay Area."
-                  image="/speakers1.jpg"
+                  para="Saptarshi Ghosh is a System-On-Chip Design Engineer at Intel, who is working at the leading forefront of technology to enable and design the next generation of AI-enabled Intel Xeon® processors. His dedication and commitment to advancing computing have been recognized both at Intel as well as through the UC Berkeley College of Engineering  where he holds a Masters Degree in Electrical Engineering & Computer Sciences. He currently chairs the Students and Young Professionals Board in IEEE Computer Society, an organization having more than 50,000 members."
+                  image="/image3.jpeg"
                 />
                 <SpeakerCard
                   heading="Shivam Abhilash"

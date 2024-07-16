@@ -203,7 +203,7 @@ export default function Home() {
               </h1>
             </div>
             <div className="flex justify-around">
-              <div className="grid grid-cols-2 gap-2 ">
+              <div className="grid grid-cols-2 gap-2">
                 <div className="cell-holder ">
                   <div
                     className="cell bg-gradient-to-t from-[#4a8ec5] via-[#1666ac] "
@@ -695,7 +695,7 @@ export default function Home() {
               </div>
           </div>
         </div>
-      </div> */}
+      </div>
           <div className="ourEventPartners flex flex-col gap-3">
             <div className="text-3xl text-white font-staat flex justify-center py-4">
               <h1>
