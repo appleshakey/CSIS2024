@@ -48,7 +48,7 @@ export default function Navbar() {
           </div>
           <button
             onClick={() => router.push("/register/")}
-            className=" opacity-80 px-3 py-1 text-md rounded-md register-button"
+            className="px-3 py-1 text-md rounded-md register-button"
           >
             register Now
           </button>
