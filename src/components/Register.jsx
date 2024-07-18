@@ -37,7 +37,7 @@ export default function Register({
           )}
           <div className="flex justify-center py-4">
             <button
-              className="border font-staat tracking-wider text-xl opacity-80 text-white px-2 py-1 text-md rounded-md"
+              className="border font-staat tracking-wider text-xl opacity-80 text-white px-2 py-1 text-md rounded-md  book-ticket"
               onClick={() => {
                 setTimeout(() => {
                   window.open(

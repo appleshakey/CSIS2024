@@ -12,17 +12,25 @@ export default function Speakers() {
               <div className="text-nim_ticket_b font-staat text-5xl">
                 <h1>SPEAKERS</h1>
               </div>
-              <div className="grid grid-cols-2 gap-8 xl:gap-32">
+              <div className="grid grid-cols-3 gap-8 xl:gap-32">
                 <SpeakerCard
                   heading="Sandeep Varma"
                   para="Sandeep is a thought leader and chief architect of multiple large-scale enterprise big data platforms, and he heads all delivery from ZS’s big data center of excellence in India. He specializes in rapidly building high-performance teams focused on cutting-edge technologies and high-quality delivery.He did MBA in marketing and systems from BIM Trichy and a bachelor’s in mechanical engineering from Bengaluru University."
-                  image="/speakers4.jpeg"
+                  image="/image6.jpeg"
                 />
                 <SpeakerCard
                   heading="Saptarshi Ghosh"
                   para="Saptarshi Ghosh is a System-On-Chip Design Engineer at Intel, who is working at the leading forefront of technology to enable and design the next generation of AI-enabled Intel Xeon® processors. His dedication and commitment to advancing computing have been recognized both at Intel as well as through the UC Berkeley College of Engineering  where he holds a Masters Degree in Electrical Engineering & Computer Sciences. He currently chairs the Students and Young Professionals Board in IEEE Computer Society, an organization having more than 50,000 members."
                   image="/image3.jpeg"
-                />           
+                />   
+                  <SpeakerCard
+                  heading="Soma Prathibha "
+                  para="Dr. Soma Prathibha is a distinguished academic and thought leader with a profound impact in Cloud Computing, Data Science, and Blockchain. She has organized over 10 national and international events, published 16 research papers in top-tier international journals, and presented at 21 international and 15 national conferences. As an Excom Member of IEEE WIE MAS Section, her contributions have significantly advanced the field and inspired countless students and professionals."
+                  image="/image5.jpeg"
+                />                   
+              </div>
+              
+              <div className="grid grid-cols-2 gap-8 xl:gap-32">      
                 <SpeakerCard
                   heading="Shivam Abhilash"
                   para="Experienced technology leader with a demonstrated history of
@@ -38,7 +46,7 @@ export default function Speakers() {
                   heading="Nikky Kumar Jha"
                   para="Specializing in renewable energy, notably solar power, I excel in fields such as medical electronics, Internet of Things (IoT), Agri-Tech, Healthcare Tech, and Machine Learning. My contributions include research papers and keynote speeches at international conferences, earning recognition through numerous international awards for my dedication and impact in these fields."
                   image="/speakers3.jpg"
-                />
+                />               
               </div>
             </div>
 
@@ -175,13 +183,13 @@ export default function Speakers() {
           <div className="pt-32 flex flex-col gap-28">
             <div className="advisors flex flex-col items-center gap-11">
               <div className="text-nim_ticket_b font-staat text-2xl">
-                <h1>Advisors</h1>
+                <h1>Speakers</h1>
               </div>
               <div className="px-4 space-y-4">
                 <SpeakerCard
                   heading="Sandeep Varma"
                   para="Sandeep is a thought leader and chief architect of multiple large-scale enterprise big data platforms, and he heads all delivery from ZS’s big data center of excellence in India. He specializes in rapidly building high-performance teams focused on cutting-edge technologies and high-quality delivery."
-                  image="/speakers4.jpeg"
+                  image="/image6.jpeg"
                 />
                 <SpeakerCard
                   heading="Saptarshi Ghosh"
@@ -204,7 +212,11 @@ export default function Speakers() {
                   para="Specializing in renewable energy, notably solar power, I excel in fields such as medical electronics, Internet of Things (IoT), Agri-Tech, Healthcare Tech, and Machine Learning. My contributions include research papers and keynote speeches at international conferences, earning recognition through numerous international awards for my dedication and impact in these fields."
                   image="/speakers3.jpg"
                 />
-                {/* <SpeakerCard /> */}
+                  <SpeakerCard
+                  heading="Soma Prathibha "
+                  para="Dr. Soma Prathibha is a distinguished academic and thought leader with a profound impact in Cloud Computing, Data Science, and Blockchain. She has organized over 10 national and international events, published 16 research papers in top-tier international journals, and presented at 21 international and 15 national conferences. As an Excom Member of IEEE WIE MAS Section, her contributions have significantly advanced the field and inspired countless students and professionals."
+                  image="/image5.jpeg"
+                />     
               </div>
               {/* <div className="advisors flex flex-col items-center gap-11">
                 <div className="text-nim_ticket_b font-staat text-2xl">
