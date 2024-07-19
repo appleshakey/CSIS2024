@@ -39,12 +39,18 @@ export default function Navbar() {
           <div>
             <img src="/csis_.png" className=" h-14 w-32" />
           </div>
+          <div>
+            <img src="/srm-logo.png" className="h-12 w-32"/>
+          </div>
           <div className="flex gap-16">
             <button onClick={() => router.push("/")}>Home</button>
             <button onClick={() => router.push("/schedule/")}>Schedule</button>
             <button onClick={() => router.push("/events/")}>Events</button>
             <button onClick={() => router.push("/speakers/")}>Speakers</button>
             <button onClick={() => router.push("/about/")}>About</button>
+          </div>
+          <div>
+            <img src="/event-patner.png" className="h-12 w-32"/>
           </div>
           <button
             onClick={() => router.push("/register/")}
