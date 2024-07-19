@@ -183,7 +183,7 @@ export default function Speakers() {
           <div className="pt-32 flex flex-col gap-28">
             <div className="advisors flex flex-col items-center gap-11">
               <div className="text-nim_ticket_b font-staat text-2xl">
-                <h1>Speakers</h1>
+                <h1>Speakers </h1>
               </div>
               <div className="px-4 space-y-4">
                 <SpeakerCard

@@ -7,6 +7,50 @@ export default function Event() {
       {isNonMobileScreen ? (
         <div>
           <div className="py-32 px-6 flex flex-col gap-9 items-center">
+            <div className="flex text-white font-staat justify-between items-center gap-8">
+              <div>
+                <img src="/idea2.png" className="w-64 h-52 " />
+              </div>
+              <div className="flex flex-col gap-3">
+                <div className="text-3xl inline-block tracking-wider  text-blue-500">
+                  <h1>Ideathon</h1>
+                </div>
+                <div className="font-inter">
+                  <p>
+                    IEEE CSIS 2024: Ignite your creativity and drive change.Act
+                    Collaborate, grow, and lead the future of technology with our
+                     best and brightest industry.
+                  </p>
+                </div>
+                <div className="">
+                  <button className="border font-staat event-button tracking-wider opacity-80 text-white px-2 py-1 text-md rounded-md">
+                    Rules and Regulations
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div className="flex text-white font-staat justify-between items-center gap-8">
+              <div>
+                <img src="/idea3.png" className="w-64 h-52 " />
+              </div>
+              <div className="flex flex-col gap-3">
+                <div className="text-3xl inline-block tracking-wider  text-blue-500">
+                  <h1>Coding Competition</h1>
+                </div>
+                <div className=" font-inter">
+                  <p>
+                    Join the Coding Competition to test your skills while
+                    pushing the boundaries of cutting-edge technology with
+                    groundbreaking and innovative solutions.
+                  </p>
+                </div>
+                <div className="">
+                  <button className="border font-staat event-button tracking-wider opacity-80 text-white px-2 py-1 text-md rounded-md">
+                    Rules and Regulations
+                  </button>
+                </div>
+              </div>
+            </div>
             <div className="flex text-white font-staat justify-between items-center gap-10">
               <div>
                 <img src="/event1.jpg" className="w-64 h-52" />
@@ -105,7 +149,7 @@ export default function Event() {
               </div>
               <div className="flex flex-col gap-3">
                 <div className="text-3xl text-blue-500 inline-block tracking-wider ">
-                  <h1>platform for paper presentation</h1>
+                  <h1>Platform for Paper Presentation</h1>
                 </div>
                 <div className="tracking-wider font-inter">
                   <p>
@@ -129,7 +173,7 @@ export default function Event() {
               </div>
               <div className="flex flex-col gap-3">
                 <div className="text-3xl inline-block tracking-wider  text-blue-500">
-                  <h1>cultural evening</h1>
+                  <h1>Cultural Evening</h1>
                 </div>
                 <div className=" font-inter">
                   <p>
@@ -150,6 +194,50 @@ export default function Event() {
         </div>
       ) : (
         <div className="py-32 px-6 flex flex-col gap-9">
+          <div className="flex text-white font-staat justify-between items-center gap-10">
+            <div>
+              <img src="/idea2.png" className="w-64 h-36" />
+            </div>
+            <div className="flex flex-col gap-3">
+              <div className="text-xl text-blue-500">
+                <h1>Ideathon</h1>
+              </div>
+              <div className="font-serif text-sm">
+                <p>
+                  Ignite your creativity and drive change. Collaborate, grow,
+                  and lead the future of technology with the best and brightest
+                  Industry.
+                </p>
+              </div>
+              <div className="">
+                  <button className="border font-staat event-button tracking-wider opacity-80 text-white px-2 py-1 text-sm rounded-md">
+                    Rules and Regulations
+                  </button>
+                </div>
+            </div>
+          </div>
+          <div className="flex text-white font-staat justify-between items-center gap-10">
+            <div>
+              <img src="/idea3.png" className="w-64 h-36 " />
+            </div>
+            <div className="flex flex-col gap-3">
+              <div className="text-xl text-blue-500">
+                <h1>Coding Competition</h1>
+              </div>
+              <div className="font-serif text-sm">
+                <p>
+                  Join the Coding Competition to test your skills and push the
+                  boundaries of technology with groundbreaking and innovative
+                  solutions.
+                </p>
+              </div>
+              <div className="">
+                  <button className="border font-staat event-button tracking-wider opacity-80 text-white px-2 py-1 text-sm rounded-md">
+                    Rules and Regulations
+                  </button>
+                </div>
+            </div>
+          </div>
           <div className="flex text-white font-staat justify-between items-center gap-10">
             <div>
               <img src="/event1.jpg" className="w-64 h-36" />
@@ -190,8 +278,9 @@ export default function Event() {
               </div>
               <div className="">
                 <ol className="flex gap-5">
-                  <li>Industry Experts</li>
-                  <li>Embracing AI era</li>
+                  <li>Blockchain</li>
+                  <li>AI/ML</li>
+                  <li>Entrepreneurship</li>
                 </ol>
               </div>
             </div>
@@ -213,8 +302,7 @@ export default function Event() {
               </div>
               <div className="">
                 <ol className="flex gap-5">
-                  <li>Industry Experts</li>
-                  <li>Embracing AI era</li>
+                  <li>Data Minning</li>
                 </ol>
               </div>
             </div>
@@ -236,8 +324,8 @@ export default function Event() {
               </div>
               <div className="">
                 <ol className="flex gap-5">
-                  <li>Industry Experts</li>
-                  <li>Embracing AI era</li>
+                  <li>Unlease Creativity</li>
+                  <li>Environmental Impact</li>
                 </ol>
               </div>
             </div>
@@ -248,7 +336,7 @@ export default function Event() {
             </div>
             <div className="flex flex-col gap-3">
               <div className="text-xl text-blue-500">
-                <h1>platform for paper presentation</h1>
+                <h1>Platform for Paper Presentation</h1>
               </div>
               <div className="font-serif text-sm">
                 <p>
@@ -259,8 +347,9 @@ export default function Event() {
               </div>
               <div className="">
                 <ol className="flex gap-5">
-                  <li>Industry Experts</li>
-                  <li>Embracing AI era</li>
+                  <li>Diverse Research</li>
+                  <li>Generous Prizes</li>
+                  <li>Expert Judges</li>
                 </ol>
               </div>
             </div>
@@ -271,7 +360,7 @@ export default function Event() {
             </div>
             <div className="flex flex-col gap-3">
               <div className="text-xl text-blue-500">
-                <h1>cultural evening</h1>
+                <h1>Cultural Evening</h1>
               </div>
               <div className="font-serif text-sm">
                 <p>
@@ -282,8 +371,8 @@ export default function Event() {
               </div>
               <div className="">
                 <ol className="flex gap-5">
-                  <li>Industry Experts</li>
-                  <li>Embracing AI era</li>
+                  <li>Inclusivity and Unity</li>
+                  <li>Lasting Memories</li>
                 </ol>
               </div>
             </div>

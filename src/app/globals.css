@@ -70,3 +70,18 @@
 .book-ticket:hover {
   background-color: #0178b5;
 }
+
+.text-style {
+  transition: background-color 0.3s;
+}
+
+.text-style:hover {
+  color: #1976d2;
+}
+.event-button {
+  transition: background-color 0.2s;
+}
+
+.event-button:hover {
+  background-color: #0D47A1
+}

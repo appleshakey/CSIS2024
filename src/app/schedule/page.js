@@ -13,7 +13,7 @@ export default function Schedule() {
             <div className="flex flex-col">
               <div className="flex gap-5 absolute">
                 <div className="rounded-full bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] h-[4vh] w-[4vh] z-10"></div>
-                <div className={"text-3xl " + font}>
+                <div className={"text-3xl tracking-wider " + font}>
                   <h1>Day 1</h1>
                 </div>
               </div>
@@ -22,7 +22,7 @@ export default function Schedule() {
                   <div className="border-l-2 border-white h-[10vh] -z-10"></div>
                 </div>
                 <div>
-                  <div className={"flex gap-2 " + font}>
+                  <div className={"flex gap-2 tracking-wider " + font}>
                     <div className="w-[4vh] flex justify-center z-10">
                       <div className="rounded-full w-[2vh] h-[2vh] bg-gradient-to-t from-[#1565C0] to-[#BBDEFB] absolute"></div>
                     </div>
@@ -47,7 +47,7 @@ export default function Schedule() {
                   <div className="border-l-2 border-white h-[15vh]"></div>
                 </div>
                 <div>
-                  <div className={"flex gap-2 " + font}>
+                  <div className={"flex gap-2  tracking-wider " + font}>
                     <div className="w-[4vh] flex justify-center">
                       <div className="rounded-full w-[2vh] h-[2vh] bg-gradient-to-t from-[#fffef3] to-[#fffef3] absolute z-10"></div>
                     </div>
@@ -82,7 +82,7 @@ export default function Schedule() {
                         font
                       }
                     >
-                      <div className="flex flex-col justify-center ">
+                      <div className="flex flex-col justify-center tracking-wider ">
                         <div className="text-2xl font-semibold">
                           <h1>Tech Talk 1</h1>
                         </div>
@@ -121,7 +121,7 @@ export default function Schedule() {
                       }
                     >
                       <div className="flex flex-col justify-center text-[#0D47A1]">
-                        <div className="text-2xl font-semibold ">
+                        <div className="text-2xl font-semibold  tracking-wider ">
                           <h1>Ice Breaking Event</h1>
                         </div>
                         <div className="text-lg">
@@ -150,7 +150,7 @@ export default function Schedule() {
                       <div className="rounded-full w-[2vh] h-[2vh] bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] absolute z-10"></div>
                     </div>
                     <div className="flex justify-between w-[50vw] bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] p-3 rounded-md">
-                      <div className="flex flex-col justify-center  text-white">
+                      <div className="flex flex-col justify-center  tracking-wider text-white">
                         <div className="text-2xl font-semibold">
                           <h1>Tech Talk 2</h1>
                         </div>
@@ -179,7 +179,7 @@ export default function Schedule() {
                     </div>
                     <div
                       className={
-                        "flex justify-between w-[50vw] bg-gradient-to-t from-[#fffef3] to-[#fffef3] p-3 rounded-md " +
+                        "flex justify-between tracking-wider w-[50vw] bg-gradient-to-t from-[#fffef3] to-[#fffef3] p-3 rounded-md " +
                         font
                       }
                     >
@@ -208,7 +208,7 @@ export default function Schedule() {
                       <div className="rounded-full w-[2vh] h-[2vh] bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] absolute z-10"></div>
                     </div>
                     <div className="flex justify-between w-[50vw] bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] p-3 rounded-md">
-                      <div className="flex flex-col justify-center  text-white">
+                      <div className="flex flex-col justify-center tracking-wider text-white">
                         <div className="text-2xl font-semibold">
                           <h1>Panel discussion</h1>
                         </div>
@@ -235,7 +235,7 @@ export default function Schedule() {
                     <div className="flex justify-between w-[50vw] bg-gradient-to-t from-[#fffef3] to-[#fffef3] p-3 rounded-md">
                       <div
                         className={
-                          "flex flex-col justify-center text-[#0D47A1] " + font
+                          "flex flex-col justify-center text-[#0D47A1] tracking-wider " + font
                         }
                       >
                         <div className="text-2xl font-medium">
@@ -268,7 +268,7 @@ export default function Schedule() {
                       <div className="rounded-full w-[2vh] h-[2vh] bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] absolute z-10"></div>
                     </div>
                     <div className="flex justify-between w-[50vw] bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] p-3 rounded-md">
-                      <div className="flex flex-col justify-center  text-white">
+                      <div className="flex flex-col justify-center tracking-wider text-white">
                         <div className="text-2xl font-semibold">
                           <h1>Photo Session</h1>
                         </div>
@@ -295,7 +295,7 @@ export default function Schedule() {
                     <div className="flex justify-between w-[50vw] bg-gradient-to-t from-[#fffef3] to-[#fffef3] p-3 rounded-md">
                       <div
                         className={
-                          "flex flex-col justify-center text-[#0D47A1] " + font
+                          "flex flex-col justify-center tracking-wider text-[#0D47A1] " + font
                         }
                       >
                         <div className="text-2xl font-semibold">
@@ -328,7 +328,7 @@ export default function Schedule() {
                       <div className="rounded-full w-[2vh] h-[2vh] bg-gradient-to-b from-[#1565C0] to-[#BBDEFB]  absolute z-10"></div>
                     </div>
                     <div className="flex justify-between w-[50vw] bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] p-3 rounded-md">
-                      <div className={"flex flex-col justify-center" + font}>
+                      <div className={"flex flex-col justify-center tracking-wider " + font}>
                         <div className="text-2xl font-semibold">
                           <h1>High Tea & Networking Session</h1>
                         </div>
@@ -350,11 +350,10 @@ export default function Schedule() {
                 </div>
               </div>
             </div>
-
             <div className="flex flex-col">
               <div className="flex gap-5 absolute">
                 <div className="rounded-full bg-gradient-to-b from-[#1565C0] to-[#BBDEFB]  h-[4vh] w-[4vh] z-10"></div>
-                <div className={"text-3xl " + font}>
+                <div className={"text-3xl tracking-wider " + font}>
                   <h1>Day 2</h1>
                 </div>
               </div>
@@ -367,7 +366,7 @@ export default function Schedule() {
                     <div className="w-[4vh] flex justify-center z-10">
                       <div className="rounded-full w-[2vh] h-[2vh] bg-gradient-to-t from-[#1565C0] to-[#BBDEFB] absolute"></div>
                     </div>
-                    <div className="flex justify-between w-[50vw] bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] p-3 rounded-md">
+                    <div className="flex tracking-wider justify-between w-[50vw] bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] p-3 rounded-md">
                       <div className="flex flex-col justify-center">
                         <div className="text-2xl font-semibold">
                           <h1>Benifits Of IEEE</h1>
@@ -396,7 +395,7 @@ export default function Schedule() {
                       <div className="rounded-full w-[2vh] h-[2vh] bg-gradient-to-t from-[#fffef3] to-[#fffef3] absolute z-10"></div>
                     </div>
                     <div className="flex justify-between w-[50vw] bg-gradient-to-t from-[#fffef3] to-[#fffef3] p-3 rounded-md">
-                      <div className="flex flex-col justify-center  text-[#0D47A1]">
+                      <div className="flex flex-col justify-center tracking-wider text-[#0D47A1]">
                         <div className="text-2xl font-semibold">
                           <h1>Tech Talk 1</h1>
                         </div>
@@ -424,7 +423,7 @@ export default function Schedule() {
                       <div className="rounded-full w-[2vh] h-[2vh] bg-gradient-to-b from-[#1565C0] to-[#BBDEFB]  absolute z-10"></div>
                     </div>
                     <div className="flex justify-between w-[50vw] bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] p-3 rounded-md">
-                      <div className={"flex flex-col justify-center " + font}>
+                      <div className={"flex flex-col justify-center tracking-wider " + font}>
                         <div className="text-2xl font-semibold">
                           <h1>Coding Competition</h1>
                         </div>
@@ -457,7 +456,7 @@ export default function Schedule() {
                       <div className="rounded-full w-[2vh] h-[2vh] bg-gradient-to-t from-[#fffef3] to-[#fffef3] absolute z-10"></div>
                     </div>
                     <div className="flex justify-between w-[50vw] bg-gradient-to-t from-[#fffef3] to-[#fffef3] p-3 rounded-md">
-                      <div className="flex flex-col justify-center  text-[#0D47A1]">
+                      <div className="flex flex-col justify-center tracking-wider  text-[#0D47A1]">
                         <div className="text-2xl font-semibold">
                           <h1>Ideathon</h1>
                         </div>
@@ -482,7 +481,7 @@ export default function Schedule() {
                       <div className="rounded-full w-[2vh] h-[2vh] bg-gradient-to-b from-[#1565C0] to-[#BBDEFB]  absolute z-10"></div>
                     </div>
                     <div className="flex justify-between w-[50vw] bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] p-3 rounded-md">
-                      <div className={"flex flex-col justify-center " + font}>
+                      <div className={"flex flex-col justify-center tracking-wider " + font}>
                         <div className="text-2xl font-semibold">
                           <h1>Tech Talk 2</h1>
                         </div>
@@ -517,7 +516,7 @@ export default function Schedule() {
                     <div className="flex justify-between w-[50vw]  bg-gradient-to-t from-[#fffef3] to-[#fffef3] p-3 rounded-md">
                       <div
                         className={
-                          "flex flex-col justify-center text-[#0D47A1] " + font
+                          "flex flex-col justify-center text-[#0D47A1] tracking-wider " + font
                         }
                       >
                         <div className="text-2xl font-semibold">
@@ -549,7 +548,7 @@ export default function Schedule() {
                       <div className="rounded-full w-[2vh] h-[2vh] bg-gradient-to-b from-[#1565C0] to-[#BBDEFB]  absolute z-10"></div>
                     </div>
                     <div className="flex justify-between w-[50vw] bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] p-3 rounded-md">
-                      <div className={"flex flex-col justify-center " + font}>
+                      <div className={"flex flex-col justify-center tracking-wider " + font}>
                         <div className="text-2xl font-semibold">
                           <h1>Ideathon</h1>
                         </div>
@@ -581,7 +580,7 @@ export default function Schedule() {
                     <div className="flex justify-between w-[50vw] bg-gradient-to-t from-[#fffef3] to-[#fffef3] p-3 rounded-md">
                       <div
                         className={
-                          "flex flex-col justify-center text-[#0D47A1] " + font
+                          "flex flex-col justify-center text-[#0D47A1]  tracking-wider " + font
                         }
                       >
                         <div className="text-2xl font-semibold ">
@@ -616,7 +615,7 @@ export default function Schedule() {
                       <div className="rounded-full w-[2vh] h-[2vh] bg-gradient-to-b from-[#1565C0] to-[#BBDEFB]  absolute z-10"></div>
                     </div>
                     <div className="flex justify-between w-[50vw] bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] p-3 rounded-md">
-                      <div className={"flex flex-col justify-center " + font}>
+                      <div className={"flex flex-col justify-center tracking-wider " + font}>
                         <div className="text-2xl font-semibold">
                           <h1>High tea & snacks</h1>
                         </div>
@@ -674,11 +673,11 @@ export default function Schedule() {
             <div className="flex flex-col">
               <div className="flex gap-5 absolute">
                 <div className="rounded-full bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] h-[4vh] w-[4vh] z-10"></div>
-                <div className={"text-3xl " + font}>
+                <div className={"text-3xl tracking-wider " + font}>
                   <h1>Day 3</h1>
                 </div>
               </div>
-              <div className="h-[10vh] flex flex-col relative top-6">
+              <div className="h-[10vh] flex flex-col  relative top-6">
                 <div className="w-[4vh] flex justify-center">
                   <div className="border-l-2 border-white h-[10vh]"></div>
                 </div>
@@ -688,7 +687,7 @@ export default function Schedule() {
                       <div className="rounded-full w-[2vh] h-[2vh] bg-gradient-to-b from-[#1565C0] to-[#BBDEFB]  absolute z-10"></div>
                     </div>
                     <div className="flex justify-between w-[50vw] bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] p-3 rounded-md">
-                      <div className={"flex flex-col justify-center " + font}>
+                      <div className={"flex flex-col justify-center tracking-wider " + font}>
                         <div className="text-2xl font-semibold">
                           <h1>Tech Talk 1</h1>
                         </div>
@@ -721,7 +720,7 @@ export default function Schedule() {
                       <div className="rounded-full w-[2vh] h-[2vh] bg-gradient-to-t from-[#fffef3] to-[#fffef3] absolute z-10"></div>
                     </div>
                     <div className="flex justify-between w-[50vw] bg-gradient-to-t from-[#fffef3] to-[#fffef3] p-3 rounded-md">
-                      <div className="flex flex-col justify-center  text-[#0D47A1]">
+                      <div className="flex flex-col justify-center  tracking-wider text-[#0D47A1]">
                         <div className="text-2xl font-semibold">
                           <h1>Tea & Snacks</h1>
                         </div>
@@ -746,7 +745,7 @@ export default function Schedule() {
                       <div className="rounded-full w-[2vh] h-[2vh] bg-gradient-to-b from-[#1565C0] to-[#BBDEFB]  absolute z-10"></div>
                     </div>
                     <div className="flex justify-between w-[50vw] bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] p-3 rounded-md">
-                      <div className={"flex flex-col justify-center " + font}>
+                      <div className={"flex flex-col justify-center  tracking-wider " + font}>
                         <div className="text-2xl font-semibold">
                           <h1>Tech Talk 2</h1>
                         </div>
@@ -779,7 +778,7 @@ export default function Schedule() {
                       <div className="rounded-full w-[2vh] h-[2vh] bg-gradient-to-t from-[#fffef3] to-[#fffef3] absolute z-10"></div>
                     </div>
                     <div className="flex justify-between w-[50vw] bg-gradient-to-t from-[#fffef3] to-[#fffef3] p-3 rounded-md">
-                      <div className="flex flex-col justify-center  text-[#0D47A1]">
+                      <div className="flex flex-col justify-center  tracking-wider text-[#0D47A1]">
                         <div className="text-2xl font-semibold">
                           <h1>Lunch</h1>
                         </div>
@@ -804,7 +803,7 @@ export default function Schedule() {
                       <div className="rounded-full w-[2vh] h-[2vh] bg-gradient-to-b from-[#1565C0] to-[#BBDEFB]  absolute z-10"></div>
                     </div>
                     <div className="flex justify-between w-[50vw] bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] p-3 rounded-md">
-                      <div className={"flex flex-col justify-center " + font}>
+                      <div className={"flex flex-col justify-center  tracking-wider " + font}>
                         <div className="text-2xl font-semibold">
                           <h1>Cultural and Valedictory</h1>
                         </div>
@@ -833,7 +832,7 @@ export default function Schedule() {
           <div className="flex flex-col ">
             <div className="flex gap-5 absolute">
               <div className="rounded-full bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] h-[4vh] w-[4vh] z-10"></div>
-              <div className={"text-3xl " + font}>
+              <div className={"text-3xl tracking-wider " + font}>
                 <h1>Day 1</h1>
               </div>
             </div>
@@ -842,7 +841,7 @@ export default function Schedule() {
                 <div className="border-l-2 border-white h-[10vh] -z-10"></div>
               </div>
               <div>
-                <div className={"flex gap-2 " + font}>
+                <div className={"flex gap-2  tracking-wider " + font}>
                   <div className="w-[4vh] flex justify-center z-10">
                     <div className="rounded-full w-[2vh] h-[2vh] bg-gradient-to-t from-[#1565C0] to-[#BBDEFB] absolute"></div>
                   </div>
@@ -855,7 +854,7 @@ export default function Schedule() {
                         <p>Venue: Concert Hall</p>
                       </div>
                     </div>
-                    <div className="flex items-center font-semibold  text-white  p-3">
+                    <div className="flex items-center text-sm text-white  p-3">
                       July 29, 2024 9:00 to 10:00 AM
                     </div>
                   </div>
@@ -872,7 +871,7 @@ export default function Schedule() {
                     <div className="rounded-full w-[2vh] h-[2vh] bg-gradient-to-t from-[#fffef3] to-[#fffef3] absolute z-10"></div>
                   </div>
                   <div className="flex justify-between w-[75vw] bg-gradient-to-t from-[#fffef3] to-[#fffef3] p-3 rounded-md">
-                    <div className="flex flex-col justify-center  text-[#0D47A1]">
+                    <div className="flex flex-col justify-center  tracking-wider text-[#0D47A1]">
                       <div className="text-xl font-bold">
                         <h1>Inauguration</h1>
                       </div>
@@ -880,7 +879,7 @@ export default function Schedule() {
                         <p>Venue: Auditorium</p>
                       </div>
                     </div>
-                    <div className="flex items-center font-semibold  text-[#0D47A1] p-3">
+                    <div className="flex items-center  text-sm  text-[#0D47A1] p-3">
                       July 29, 2024 10:00 to 11:00 AM
                     </div>
                   </div>
@@ -899,7 +898,7 @@ export default function Schedule() {
                   </div>
                   <div
                     className={
-                      "flex justify-between w-[75vw] bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] p-3 rounded-md " +
+                      "flex justify-between tracking-wider w-[75vw] bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] p-3 rounded-md " +
                       font
                     }
                   >
@@ -916,7 +915,7 @@ export default function Schedule() {
                     </div>
                     <div
                       className={
-                        "flex items-center font-semibold text-white p-3" + font
+                        "flex items-center  text-sm text-white p-3" + font
                       }
                     >
                       July 29, 2024 11:00 to 11:50 AM
@@ -936,7 +935,7 @@ export default function Schedule() {
                   </div>
                   <div
                     className={
-                      "flex justify-between w-[75vw] bg-gradient-to-t from-[#fffef3] to-[#fffef3] p-3 rounded-md " +
+                      "flex justify-between w-[75vw] tracking-wider bg-gradient-to-t from-[#fffef3] to-[#fffef3] p-3 rounded-md " +
                       font
                     }
                   >
@@ -950,7 +949,7 @@ export default function Schedule() {
                     </div>
                     <div
                       className={
-                        "flex items-center font-semibold text-[#0D47A1] p-3" +
+                        "flex items-center text-sm text-[#0D47A1] p-3" +
                         font
                       }
                     >
@@ -969,7 +968,7 @@ export default function Schedule() {
                   <div className="w-[4vh] flex justify-center">
                     <div className="rounded-full w-[2vh] h-[2vh] bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] absolute z-10"></div>
                   </div>
-                  <div className="flex justify-between w-[75vw] bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] p-3 rounded-md">
+                  <div className="flex justify-between w-[75vw]  tracking-wider bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] p-3 rounded-md">
                     <div className="flex flex-col justify-center  text-white">
                       <div className="text-xl font-bold">
                         <h1>Tech Talk 2</h1>
@@ -981,7 +980,7 @@ export default function Schedule() {
                         <p>Venue: Auditorium</p>
                       </div>
                     </div>
-                    <div className="flex items-center font-semibold  text-white p-3">
+                    <div className="flex items-center text-sm  text-white p-3">
                       July 29, 2024 12:00 to 01:00 PM
                     </div>
                   </div>
@@ -999,7 +998,7 @@ export default function Schedule() {
                   </div>
                   <div
                     className={
-                      "flex justify-between w-[75vw] bg-gradient-to-t from-[#fffef3] to-[#fffef3] p-3 rounded-md " +
+                      "flex justify-between w-[75vw] tracking-wider bg-gradient-to-t from-[#fffef3] to-[#fffef3] p-3 rounded-md " +
                       font
                     }
                   >
@@ -1011,7 +1010,7 @@ export default function Schedule() {
                         <p>Venue: Auditorium</p>
                       </div>
                     </div>
-                    <div className="flex items-center font-semibold text-[#0D47A1] p-3">
+                    <div className="flex items-center text-sm text-[#0D47A1] p-3">
                       July 29, 2024 01:00 to 02:00 PM
                     </div>
                   </div>
@@ -1027,7 +1026,7 @@ export default function Schedule() {
                   <div className="w-[4vh] flex justify-center">
                     <div className="rounded-full w-[2vh] h-[2vh] bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] absolute z-10"></div>
                   </div>
-                  <div className="flex justify-between w-[75vw] bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] p-3 rounded-md">
+                  <div className="flex justify-between tracking-wider w-[75vw] bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] p-3 rounded-md">
                     <div className="flex flex-col justify-center  text-white">
                       <div className="text-xl font-semibold">
                         <h1>Panel discussion</h1>
@@ -1036,7 +1035,7 @@ export default function Schedule() {
                         <p>Venue: Concert Hall</p>
                       </div>
                     </div>
-                    <div className="flex items-center font-semibold  text-white p-3">
+                    <div className="flex items-center text-sm  text-white p-3">
                       July 29, 2024 02:00 to 03:20 PM
                     </div>
                   </div>
@@ -1052,7 +1051,7 @@ export default function Schedule() {
                   <div className="w-[4vh] flex justify-center">
                     <div className="rounded-full w-[2vh] h-[2vh] bg-gradient-to-t from-[#fffef3] to-[#fffef3]  absolute z-10"></div>
                   </div>
-                  <div className="flex justify-between w-[75vw] bg-gradient-to-t from-[#fffef3] to-[#fffef3] p-3 rounded-md">
+                  <div className="flex justify-between w-[75vw] tracking-wider bg-gradient-to-t from-[#fffef3] to-[#fffef3] p-3 rounded-md">
                     <div
                       className={
                         "flex flex-col justify-center text-[#0D47A1] " + font
@@ -1068,7 +1067,7 @@ export default function Schedule() {
                     </div>
                     <div
                       className={
-                        "flex items-center font-semibold text-[#0D47A1] p-3 " +
+                        "flex items-center  text-sm text-[#0D47A1] p-3 " +
                         font
                       }
                     >
@@ -1087,7 +1086,7 @@ export default function Schedule() {
                   <div className="w-[4vh] flex justify-center">
                     <div className="rounded-full w-[2vh] h-[2vh] bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] absolute z-10"></div>
                   </div>
-                  <div className="flex justify-between w-[75vw] bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] p-3 rounded-md">
+                  <div className="flex justify-between w-[75vw] tracking-wider bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] p-3 rounded-md">
                     <div className="flex flex-col justify-center  text-white">
                       <div className="text-xl font-bold">
                         <h1>Photo Session</h1>
@@ -1096,7 +1095,7 @@ export default function Schedule() {
                         <p>Venue: Concert Hall</p>
                       </div>
                     </div>
-                    <div className="flex items-center font-semibold  text-white p-3">
+                    <div className="flex items-center text-sm  text-white p-3">
                       July 29, 2024 04:00 to 04:10 PM
                     </div>
                   </div>
@@ -1112,7 +1111,7 @@ export default function Schedule() {
                   <div className="w-[4vh] flex justify-center">
                     <div className="rounded-full w-[2vh] h-[2vh] bg-gradient-to-t from-[#fffef3] to-[#fffef3]  absolute z-10"></div>
                   </div>
-                  <div className="flex justify-between w-[75vw] bg-gradient-to-t from-[#fffef3] to-[#fffef3] p-3 rounded-md">
+                  <div className="flex justify-between w-[75vw] tracking-wider bg-gradient-to-t from-[#fffef3] to-[#fffef3] p-3 rounded-md">
                     <div
                       className={
                         "flex flex-col justify-center text-[#0D47A1] " + font
@@ -1128,7 +1127,7 @@ export default function Schedule() {
                     </div>
                     <div
                       className={
-                        "flex items-center font-semibold text-[#0D47A1] p-3" +
+                        "flex items-center text-sm text-[#0D47A1] p-3" +
                         font
                       }
                     >
@@ -1147,7 +1146,7 @@ export default function Schedule() {
                   <div className="w-[4vh] flex justify-center">
                     <div className="rounded-full w-[2vh] h-[2vh] bg-gradient-to-b from-[#1565C0] to-[#BBDEFB]  absolute z-10"></div>
                   </div>
-                  <div className="flex justify-between w-[75vw] bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] p-3 rounded-md">
+                  <div className="flex justify-between w-[75vw] tracking-wider bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] p-3 rounded-md">
                     <div className={"flex flex-col justify-center" + font}>
                       <div className="text-xl font-bold">
                         <h1>High Tea & Networking Session</h1>
@@ -1158,7 +1157,7 @@ export default function Schedule() {
                     </div>
                     <div
                       className={
-                        "flex items-center font-semibold text-white p-3" + font
+                        "flex items-center text-sm text-white p-3" + font
                       }
                     >
                       July 29, 2024 04:30 to 05:00 PM
@@ -1169,10 +1168,10 @@ export default function Schedule() {
             </div>
           </div>
 
-          <div className={"flex flex-col mt-14 " + font}>
+          <div className={"flex flex-col mt-14 tracking-wider " + font}>
             <div className="flex gap-5 absolute">
               <div className="rounded-full bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] h-[4vh] w-[4vh] z-10"></div>
-              <div className={"text-3xl " + font}>
+              <div className={"text-3xl tracking-wider " + font}>
                 <h1>Day 2</h1>
               </div>
             </div>
@@ -1185,7 +1184,7 @@ export default function Schedule() {
                   <div className="w-[4vh] flex justify-center z-10">
                     <div className="rounded-full w-[2vh] h-[2vh] bg-gradient-to-t from-[#1565C0] to-[#BBDEFB] absolute"></div>
                   </div>
-                  <div className="flex justify-between w-[75vw] bg-gradient-to-t from-[#1565C0] to-[#BBDEFB] p-3 rounded-md">
+                  <div className="flex justify-between tracking-wider w-[75vw] bg-gradient-to-t from-[#1565C0] to-[#BBDEFB] p-3 rounded-md">
                     <div className={"flex flex-col justify-center "  + font}>
                       <div className="text-xl font-bold">
                         <h1>Benifits Of IEEE</h1>
@@ -1194,7 +1193,7 @@ export default function Schedule() {
                         <p>Venue: Auditorium</p>
                       </div>
                     </div>
-                    <div className="flex items-center text-white p-3 ">
+                    <div className="flex items-center text-sm text-white p-3 ">
                       July 30, 2024 09:00 to 10:00 AM
                     </div>
                   </div>
@@ -1222,7 +1221,7 @@ export default function Schedule() {
                         <p>Venue: Auditorium</p>
                       </div>
                     </div>
-                    <div className="flex items-center font-semibold  text-[#0D47A1] p-3">
+                    <div className="flex items-center text-sm  text-[#0D47A1] p-3">
                       July 30, 2024 10:00 to 11:00 AM
                     </div>
                   </div>
@@ -1250,7 +1249,7 @@ export default function Schedule() {
                         <p>Venue: Concert Hall</p>
                       </div>
                     </div>
-                    <div className="flex items-center font-semibold text-white p-3 ">
+                    <div className="flex items-center text-sm text-white p-3 ">
                       July 30, 2024 11:00 to 11:50 AM
                     </div>
                   </div>
@@ -1275,7 +1274,7 @@ export default function Schedule() {
                         <p>Venue: Auditorium</p>
                       </div>
                     </div>
-                    <div className="flex items-center font-semibold  text-[#0D47A1] p-3">
+                    <div className="flex items-center text-sm  text-[#0D47A1] p-3">
                       July 30, 2024 11:50 to 12:00 PM
                     </div>
                   </div>
@@ -1303,7 +1302,7 @@ export default function Schedule() {
                         <p>Venue: Concert Hall</p>
                       </div>
                     </div>
-                    <div className="flex items-center font-semibold text-white p-3 ">
+                    <div className="flex items-center text-sm text-white p-3 ">
                       July 30, 2024 12:00 to 01:00 PM
                     </div>
                   </div>
@@ -1328,7 +1327,7 @@ export default function Schedule() {
                         <p>Venue: Concert Hall</p>
                       </div>
                     </div>
-                    <div className="flex items-center font-semibold text-[#0D47A1] p-3 ">
+                    <div className="flex items-center text-sm text-[#0D47A1] p-3 ">
                       July 30, 2024 01:00 to 02:00 PM
                     </div>
                   </div>
@@ -1353,7 +1352,7 @@ export default function Schedule() {
                         <p>Venue: Concert Hall</p>
                       </div>
                     </div>
-                    <div className="flex items-center font-semibold text-white p-3 ">
+                    <div className="flex items-center text-sm text-white p-3 ">
                       July 30, 2024 02:00 to 03:30 PM
                     </div>
                   </div>
@@ -1381,7 +1380,7 @@ export default function Schedule() {
                         <p>Venue: Concert Hall</p>
                       </div>
                     </div>
-                    <div className="flex items-center font-semibold text-[#0D47A1] p-3 ">
+                    <div className="flex items-center text-sm text-[#0D47A1] p-3 ">
                       July 30, 2024 03:30 to 04:30 PM
                     </div>
                   </div>
@@ -1406,16 +1405,16 @@ export default function Schedule() {
                         <p>Venue: Concert Hall</p>
                       </div>
                     </div>
-                    <div className="flex items-center font-semibold text-white p-3 ">
+                    <div className="flex items-center text-sm text-white p-3 ">
                       July 30, 2024 03:50 to 04:00 PM
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="h-[15vh] flex flex-col relative top-6">
+            <div className="h-[20vh] flex flex-col relative top-6">
               <div className="w-[4vh] flex justify-center">
-                <div className="border-l-2 border-white h-[15vh]"></div>
+                <div className="border-l-2 border-white h-[20vh]"></div>
               </div>
               <div>
                 <div className="flex gap-2">
@@ -1431,7 +1430,7 @@ export default function Schedule() {
                         <p>Venue: Concert Hall</p>
                       </div>
                     </div>
-                    <div className="flex items-center font-semibold text-[#0D47A1] p-3 ">
+                    <div className="flex items-center text-sm text-[#0D47A1] p-3 ">
                       July 30, 2024 04:00 to 05:00 PM
                     </div>
                   </div>
@@ -1440,10 +1439,10 @@ export default function Schedule() {
             </div>
           </div>
 
-          <div className="flex flex-col">
+          <div className="flex flex-col mt-10 tracking-wider ">
               <div className="flex gap-5 absolute">
                 <div className="rounded-full bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] h-[4vh] w-[4vh] z-10"></div>
-                <div className={"text-3xl " + font}>
+                <div className={"text-3xl tracking-wider " + font}>
                   <h1>Day 3</h1>
                 </div>
               </div>
@@ -1458,10 +1457,10 @@ export default function Schedule() {
                     </div>
                     <div className="flex justify-between w-[75vw] bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] p-3 rounded-md">
                       <div className={"flex flex-col justify-center " + font}>
-                        <div className="text-2xl font-semibold">
+                        <div className="text-xl font-bold">
                           <h1>Tech Talk 1</h1>
                         </div>
-                        <div className="text-xl font-semibold">
+                        <div className="text-sm font-semibold">
                           <h1>By Mr.Sandeep Varma</h1>
                         </div>
                         <div className="text-lg">
@@ -1470,7 +1469,7 @@ export default function Schedule() {
                       </div>
                       <div
                         className={
-                          "flex items-center font-semibold text-white p-3" +
+                          "flex items-center text-sm text-white p-3" +
                           font
                         }
                       >
@@ -1480,9 +1479,9 @@ export default function Schedule() {
                   </div>
                 </div>
               </div>
-              <div className="h-[17vh] flex flex-col relative top-6">
+              <div className="h-[20vh] flex flex-col relative top-6">
                 <div className="w-[4vh] flex justify-center">
-                  <div className="border-l-2 border-white h-[17vh]"></div>
+                  <div className="border-l-2 border-white h-[20vh]"></div>
                 </div>
                 <div>
                   <div className={"flex gap-2 " + font}>
@@ -1491,23 +1490,23 @@ export default function Schedule() {
                     </div>
                     <div className="flex justify-between w-[75vw] bg-gradient-to-t from-[#fffef3] to-[#fffef3] p-3 rounded-md">
                       <div className="flex flex-col justify-center  text-[#0D47A1]">
-                        <div className="text-2xl font-semibold">
+                        <div className="text-xl font-bold">
                           <h1>Tea & Snacks</h1>
                         </div>
                         <div className="text-lg">
                           <p>Venue: Auditorium</p>
                         </div>
                       </div>
-                      <div className="flex items-center font-semibold  text-[#0D47A1] p-3">
+                      <div className="flex items-center text-sm  text-[#0D47A1] p-3">
                         July 31, 2024 11:00 to 11:10 AM
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="h-[14vh] flex flex-col relative top-6">
+              <div className="h-[18vh] flex flex-col relative top-6">
                 <div className="w-[4vh] flex justify-center">
-                  <div className="border-l-2 border-white h-[14vh]"></div>
+                  <div className="border-l-2 border-white h-[18vh]"></div>
                 </div>
                 <div>
                   <div className="flex gap-2">
@@ -1516,10 +1515,10 @@ export default function Schedule() {
                     </div>
                     <div className="flex justify-between w-[75vw] bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] p-3 rounded-md">
                       <div className={"flex flex-col justify-center " + font}>
-                        <div className="text-2xl font-semibold">
+                        <div className="text-xl font-bold">
                           <h1>Tech Talk 2</h1>
                         </div>
-                        <div className="text-xl font-semibold">
+                        <div className="text-sm font-semibold">
                           <h1>By Dr.Soma</h1>
                         </div>
                         <div className="text-lg">
@@ -1528,7 +1527,7 @@ export default function Schedule() {
                       </div>
                       <div
                         className={
-                          "flex items-center font-semibold text-white p-3" +
+                          "flex items-center text-sm text-white p-3" +
                           font
                         }
                       >
@@ -1538,9 +1537,9 @@ export default function Schedule() {
                   </div>
                 </div>
               </div>
-              <div className="h-[17vh] flex flex-col relative top-6">
+              <div className="h-[20vh] flex flex-col relative top-6">
                 <div className="w-[4vh] flex justify-center">
-                  <div className="border-l-2 border-white h-[17vh]"></div>
+                  <div className="border-l-2 border-white h-[20vh]"></div>
                 </div>
                 <div>
                   <div className={"flex gap-2 " + font}>
@@ -1549,23 +1548,23 @@ export default function Schedule() {
                     </div>
                     <div className="flex justify-between w-[75vw] bg-gradient-to-t from-[#fffef3] to-[#fffef3] p-3 rounded-md">
                       <div className="flex flex-col justify-center  text-[#0D47A1]">
-                        <div className="text-2xl font-semibold">
+                        <div className="text-xl font-bold">
                           <h1>Lunch</h1>
                         </div>
                         <div className="text-lg">
                           <p>Venue: Auditorium</p>
                         </div>
                       </div>
-                      <div className="flex items-center font-semibold  text-[#0D47A1] p-3">
+                      <div className="flex items-center text-sm  text-[#0D47A1] p-3">
                         July 31, 2024 12:00 to 01:0 PM
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="h-[15vh] flex flex-col relative top-6">
+              <div className="h-[18vh] flex flex-col relative top-6">
                 <div className="w-[4vh] flex justify-center">
-                  <div className="border-l-2 border-white h-[15vh]"></div>
+                  <div className="border-l-2 border-white h-[18vh]"></div>
                 </div>
                 <div>
                   <div className="flex gap-2">
@@ -1574,17 +1573,16 @@ export default function Schedule() {
                     </div>
                     <div className="flex justify-between w-[75vw] bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] p-3 rounded-md">
                       <div className={"flex flex-col justify-center " + font}>
-                        <div className="text-2xl font-semibold">
+                        <div className="text-xl font-bold">
                           <h1>Cultural and Valedictory</h1>
                         </div>
-
                         <div className="text-lg">
                           <p>Venue: Concert Hall</p>
                         </div>
                       </div>
                       <div
                         className={
-                          "flex items-center font-semibold text-white p-3" +
+                          "flex items-center text-sm text-white p-3" +
                           font
                         }
                       >
@@ -1594,8 +1592,7 @@ export default function Schedule() {
                   </div>
                 </div>
               </div>
-            </div>
-         
+          </div>      
         </div>
       )}
     </div>

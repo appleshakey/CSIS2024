@@ -17,6 +17,7 @@ import QAComponent6 from "@/components/QAComponent6";
 import QAComponent7 from "@/components/QAComponent7";
 import QAComponent8 from "@/components/QAComponent8";
 import QAComponent9 from "@/components/QAComponent9";
+import Competition from "@/components/competition";
 
 export default function Home() {
   const isMobileScreen = useMediaQuery("(min-width: 1000px)");
@@ -155,6 +156,25 @@ export default function Home() {
                 </div>
               </div>
             </div>
+          </div>
+          <div className="flex flex-col items-center gap-7">
+            {/* <div className="text-7xl font-staat text-white pb-16">
+              RENOWNED <span className="text-[#4a8ec5]">SPEAKERS</span>
+            </div> */}
+            <div className="grid grid-cols-2 gap-8 xl:gap-32">
+              <Competition
+                heading="Ideathon"
+                para="The IEEE CSIS Ideathon is an innovative competition that brings together creative minds from various disciplines to solve real-world problems. Participants collaborate in teams to brainstorm, develop, and pitch groundbreaking ideas. With a focus on technology and engineering, the event fosters a spirit of innovation and entrepreneurship. "
+                image="/idea2.png"
+                heading1="Rules and Regulation"
+              />
+              <Competition
+                heading="Coding Competition"
+                para="The IEEE CSIS Coding Competition is a dynamic event where participants tackle challenging programming problems in a competitive setting. Teams or individuals race against the clock to develop efficient algorithms. This competition provides an excellent opportunity for coders to showcase their technical skills, and gain recognition within the tech community."
+                image="/idea4.jpeg"
+                heading1="Rules and Regulation"
+              />
+            </div>  
           </div>
           <div className=" text-white bg-black py-9 px-12 flex flex-col gap-16">
             <h1 className="text-7xl font-staat bg-gradient-to-r from-[#4a8ec5] via-[#1666ac] to-[#bcbcbc] inline-block bg-clip-text text-transparent ">
@@ -494,8 +514,8 @@ export default function Home() {
             <div className="grid grid-cols-3 gap-8 xl:gap-32">
               <SpeakerCard
                 heading="Saptarshi Ghosh"
-                para="President of Students & Young Professionals at IEEE Computer Society.Leading strategic activities and initiatives for the world's largest organisation related to Computer Science. ASIC Design Engineer (SoC) at Intel Corporation, driving best-in-class performance for Intel Xeon Memory Controllers, aligning IP with CEO's IDM2.0 Strategy. based in Santa Clara County, California, United States, and San Francisco Bay Area."
-                image="/speakers1.jpg"
+                para="Saptarshi Ghosh is a System-On-Chip Design Engineer at Intel, who is working at the leading forefront of technology to enable and design the next generation of AI-enabled Intel Xeon® processors. His dedication and commitment to advancing computing have been recognized both at Intel as well as through the UC Berkeley College of Engineering  where he holds a Masters Degree in Electrical Engineering & Computer Sciences. He currently chairs the Students and Young Professionals Board in IEEE Computer Society, an organization having more than 50,000 members."
+                image="/image3.jpeg"
               />
               <SpeakerCard
                 heading="Shivam Abhilash"
@@ -509,7 +529,7 @@ export default function Home() {
                 image="/speakers2.jpg"
               />
               <SpeakerCard
-                heading="  Nikky Kumar Jha"
+                heading="Nikky Kumar Jha"
                 para="Specializing in renewable energy, notably solar power, I excel in fields such as medical electronics, Internet of Things (IoT), Agri-Tech, Healthcare Tech, and Machine Learning. My contributions include research papers and keynote speeches at international conferences, earning recognition through numerous international awards for my dedication and impact in these fields."
                 image="/speakers3.jpg"
               />
@@ -803,8 +823,8 @@ export default function Home() {
             <div className="flex gap-5 overflow-y-auto w-[75%] h-[120%]">
               <Speakers
                 heading="Saptarshi Ghosh"
-                para="President of Students & Young Professionals at IEEE Computer Society.Leading strategic activities and initiatives for the world's largest organisation related to Computer Science. ASIC Design Engineer (SoC) at Intel Corporation, driving best-in-class performance for Intel Xeon Memory Controllers, aligning IP with CEO's IDM2.0 Strategy. based in Santa Clara County, California, United States, and San Francisco Bay Area."
-                image="/speakers1.jpg"
+                para="Saptarshi Ghosh is a System-On-Chip Design Engineer at Intel, who is working at the leading forefront of technology to enable and design the next generation of AI-enabled Intel Xeon® processors. His dedication and commitment to advancing computing have been recognized both at Intel as well as through the UC Berkeley College of Engineering  where he holds a Masters Degree in Electrical Engineering & Computer Sciences. He currently chairs the Students and Young Professionals Board in IEEE Computer Society, an organization having more than 50,000 members."
+                image="/image.jpeg"
               />
               <Speakers
                 heading="Shivam Abhilash"
