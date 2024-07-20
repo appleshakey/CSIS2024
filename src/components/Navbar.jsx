@@ -60,7 +60,7 @@ export default function Navbar() {
           </button>
         </div>
       ) : (
-        <motion.div className="flex gap-5 p-3 items-center fixed w-[100vw] z-50 bg-black">
+        <motion.div className="flex gap-5 justify-between p-3 items-center fixed w-[100vw] z-50 bg-black">
           <div>
             <img src="/csis_.png" className="h-10 w-24" />
           </div>

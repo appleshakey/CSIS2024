@@ -6,7 +6,7 @@ export default function Speakers() {
   return (
     <div>
       {isNonMobileScreen ? (
-        <div>
+        <div className="flex flex-col gap-16">
           <div className="pt-32 px-[82px] flex flex-col gap-28">
             <div className="flex flex-col items-center gap-7">
               <div className="text-nim_ticket_b font-staat text-5xl">
@@ -176,6 +176,18 @@ export default function Speakers() {
                         <h1>Adarsh</h1> 
                     </div>
                 </div> */}
+          </div>
+          <div className="text-nim_ticket_b">
+            <div className="flex justify-center text-5xl font-staat">
+              <h1>Dignitaries</h1>
+            </div>
+            <div className="flex justify-center">
+              <SpeakerCard
+                  heading="HR Mohan"
+                  para="Specializing in renewable energy, notably solar power, I excel in fields such as medical electronics, Internet of Things (IoT), Agri-Tech, Healthcare Tech, and Machine Learning. My contributions include research papers and keynote speeches at international conferences, earning recognition through numerous international awards for my dedication and impact in these fields."
+                  image="/dignitary1.jpg"
+                />
+            </div>
           </div>
         </div>
       ) : (
