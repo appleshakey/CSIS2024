@@ -386,34 +386,9 @@ export default function Schedule() {
                   </div>
                 </div>
               </div>
-              <div className="h-[17vh] flex flex-col relative top-3">
+              <div className="h-[18vh] flex flex-col relative top-6">
                 <div className="w-[4vh] flex justify-center">
-                  <div className="border-l-2 border-white h-[17vh] -z-10"></div>
-                </div>
-                <div>
-                  <div className={"flex gap-2 " + font}>
-                    <div className="w-[4vh] flex justify-center z-10">
-                      <div className="rounded-full w-[2vh] h-[2vh] bg-gradient-to-t from-[#1565C0] to-[#BBDEFB] absolute"></div>
-                    </div>
-                    <div className="flex justify-between w-[50vw] bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] p-3 rounded-md">
-                      <div className="flex flex-col justify-center">
-                        <div className="text-2xl font-semibold">
-                          <h1>High tea and snacks</h1>
-                        </div>
-                        <div className="text-lg">
-                          <p>Venue: Concert Hall</p>
-                        </div>
-                      </div>
-                      <div className="flex items-center font-semibold  text-white  p-3">
-                        July 30, 2024 09:00 to 10:00 AM
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="h-[12vh] flex flex-col relative top-6">
-                <div className="w-[4vh] flex justify-center">
-                  <div className="border-l-2 border-white h-[12vh]"></div>
+                  <div className="border-l-2 border-white h-[18vh]"></div>
                 </div>
                 <div>
                   <div className={"flex gap-2 " + font}>
@@ -439,9 +414,31 @@ export default function Schedule() {
                   </div>
                 </div>
               </div>
-              <div className="h-[17vh] flex flex-col relative top-6">
+              <div className="h-[20vh] flex flex-col relative top-3">
                 <div className="w-[4vh] flex justify-center">
-                  <div className="border-l-2 border-white h-[17vh]"></div>
+                  <div className="border-l-2 border-white h-[20vh] -z-10"></div>
+                </div>
+                <div>
+                  <div className= {"flex gap-2 " + font}>
+                    <div className="w-[4vh] flex justify-center z-10">
+                      <div className="rounded-full w-[2vh] h-[2vh] bg-gradient-to-t from-[#1565C0] to-[#BBDEFB] absolute"></div>
+                    </div>
+                    <div className="flex justify-between w-[50vw] bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] p-3 rounded-md">
+                      <div className="flex flex-col justify-center">
+                        <div className="text-2xl font-semibold">
+                          <h1>High tea and snacks</h1>
+                        </div>
+                      </div>
+                      <div className="flex items-center font-semibold  text-white  p-3">
+                        July 30, 2024 11:00 to 11:20 AM
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="h-[11vh] flex flex-col relative top-6">
+                <div className="w-[4vh] flex justify-center">
+                  <div className="border-l-2 border-white h-[11vh]"></div>
                 </div>
                 <div>
                   <div className="flex gap-2">
@@ -466,7 +463,7 @@ export default function Schedule() {
                           font
                         }
                       >
-                        July 30, 2024 11:00 to 12:00 PM
+                        July 30, 2024 11:20 to 12:20 PM
                       </div>
                     </div>
                   </div>
@@ -499,7 +496,7 @@ export default function Schedule() {
                           font
                         }
                       >
-                        July 30, 2024 12:00 to 01:00 PM
+                        July 30, 2024 12:20 to 01:20 PM
                       </div>
                     </div>
                   </div>
@@ -533,7 +530,7 @@ export default function Schedule() {
                           font
                         }
                       >
-                        July 30, 2024 01:00 to 02:00 PM
+                        July 30, 2024 01:20 to 02:20 PM
                       </div>
                     </div>
                   </div>
@@ -563,7 +560,7 @@ export default function Schedule() {
                           font
                         }
                       >
-                        July 30, 2024 02:00 to 03:30 PM
+                        July 30, 2024 02:20 to 03:50 PM
                       </div>
                     </div>
                   </div>
@@ -600,7 +597,7 @@ export default function Schedule() {
                           font
                         }
                       >
-                        July 30, 2024 03:30 to 04:30 PM
+                        July 30, 2024 03:50 to 04:50 PM
                       </div>
                     </div>
                   </div>
@@ -630,7 +627,7 @@ export default function Schedule() {
                           font
                         }
                       >
-                        July 30, 2024 04:30 to 05:00 PM
+                        July 30, 2024 04:50 to 05:20 PM
                       </div>
                     </div>
                   </div>
@@ -839,10 +836,6 @@ export default function Schedule() {
                         <div className="text-2xl font-semibold">
                           <h1>Tea and snacks</h1>
                         </div>
-
-                        <div className="text-lg">
-                          <p>Venue: Concert Hall</p>
-                        </div>
                       </div>
                       <div
                         className={
@@ -850,7 +843,7 @@ export default function Schedule() {
                           font
                         }
                       >
-                        July 31, 2024 01:00 to 04:00 PM
+                        July 31, 2024 04:00 to 04:30 PM
                       </div>
                     </div>
                   </div>
@@ -861,7 +854,7 @@ export default function Schedule() {
         </div>
       ) : (
         <div className="text-white font-staat py-32 px-6 flex flex-col gap-44 -z-50">
-          <div className="flex flex-col ">
+          <div className="flex flex-col">
             <div className="flex gap-5 absolute">
               <div className="rounded-full bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] h-[4vh] w-[4vh] z-10"></div>
               <div className={"text-3xl " + font}>
@@ -1235,31 +1228,6 @@ export default function Schedule() {
                 </div>
               </div>
             </div>
-            <div className="h-[17vh] flex flex-col relative top-3">
-              <div className="w-[4vh] flex justify-center">
-                <div className="border-l-2 border-white h-[17vh] -z-10"></div>
-              </div>
-              <div>
-                <div className="flex gap-2">
-                  <div className="w-[4vh] flex justify-center z-10">
-                    <div className="rounded-full w-[2vh] h-[2vh] bg-gradient-to-t from-[#1565C0] to-[#BBDEFB] absolute"></div>
-                  </div>
-                  <div className="flex justify-between w-[75vw] bg-gradient-to-t from-[#1565C0] to-[#BBDEFB] p-3 rounded-md">
-                    <div className={"flex flex-col justify-center "  + font}>
-                      <div className="text-xl font-bold">
-                        <h1>High tea and snacks</h1>
-                      </div>
-                      <div className="text-lg">
-                        <p>Venue: Auditorium</p>
-                      </div>
-                    </div>
-                    <div className="flex items-center text-white p-3 ">
-                      July 30, 2024 09:00 to 10:00 AM
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
             <div className="h-[17vh] flex flex-col relative top-6">
               <div className="w-[4vh] flex justify-center">
                 <div className="border-l-2 border-white h-[17vh]"></div>
@@ -1288,9 +1256,31 @@ export default function Schedule() {
                 </div>
               </div>
             </div>
-            <div className="h-[17vh] flex flex-col relative top-6">
+            <div className="h-[20vh] flex flex-col relative top-3">
               <div className="w-[4vh] flex justify-center">
-                <div className="border-l-2 border-white h-[17vh]"></div>
+                <div className="border-l-2 border-white h-[20vh] -z-10"></div>
+              </div>
+              <div>
+                <div className="flex gap-2">
+                  <div className="w-[4vh] flex justify-center z-10">
+                    <div className="rounded-full w-[2vh] h-[2vh] bg-gradient-to-t from-[#1565C0] to-[#BBDEFB] absolute"></div>
+                  </div>
+                  <div className="flex justify-between w-[75vw] bg-gradient-to-t from-[#1565C0] to-[#BBDEFB] p-3 rounded-md">
+                    <div className={"flex flex-col justify-center "  + font}>
+                      <div className="text-xl font-bold">
+                        <h1>High tea and snacks</h1>
+                      </div>
+                    </div>
+                    <div className="flex items-center text-white p-3 ">
+                      July 30, 2024 11:00 to 11:20 AM
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="h-[15vh] flex flex-col relative top-6">
+              <div className="w-[4vh] flex justify-center">
+                <div className="border-l-2 border-white h-[15vh]"></div>
               </div>
               <div>
                 <div className="flex gap-2">
@@ -1310,7 +1300,7 @@ export default function Schedule() {
                       </div>
                     </div>
                     <div className="flex items-center font-semibold text-white p-3 ">
-                      July 30, 2024 11:00 to 12:00 PM
+                      July 30, 2024 11:20 to 12:20 PM
                     </div>
                   </div>
                 </div>
@@ -1338,15 +1328,15 @@ export default function Schedule() {
                       </div>
                     </div>
                     <div className="flex items-center font-semibold text-white p-3 ">
-                      July 30, 2024 12:00 to 01:00 PM
+                      July 30, 2024 12:20 to 01:20 PM
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="h-[21vh] flex flex-col relative top-6">
+            <div className="h-[19vh] flex flex-col relative top-6">
               <div className="w-[4vh] flex justify-center">
-                <div className="border-l-2 border-white h-[21vh]"></div>
+                <div className="border-l-2 border-white h-[19vh]"></div>
               </div>
               <div>
                 <div className="flex gap-2">
@@ -1363,7 +1353,7 @@ export default function Schedule() {
                       </div>
                     </div>
                     <div className="flex items-center font-semibold text-[#0D47A1] p-3 ">
-                      July 30, 2024 01:00 to 02:00 PM
+                      July 30, 2024 01:20 to 02:20 PM
                     </div>
                   </div>
                 </div>
@@ -1388,7 +1378,7 @@ export default function Schedule() {
                       </div>
                     </div>
                     <div className="flex items-center font-semibold text-white p-3 ">
-                      July 30, 2024 02:00 to 03:30 PM
+                      July 30, 2024 02:20 to 03:50 PM
                     </div>
                   </div>
                 </div>
@@ -1416,7 +1406,7 @@ export default function Schedule() {
                       </div>
                     </div>
                     <div className="flex items-center font-semibold text-[#0D47A1] p-3 ">
-                      July 30, 2024 03:30 to 04:30 PM
+                      July 30, 2024 03:50 to 04:50 PM
                     </div>
                   </div>
                 </div>
@@ -1441,13 +1431,16 @@ export default function Schedule() {
                       </div>
                     </div>
                     <div className="flex items-center font-semibold text-white p-3 ">
-                      July 30, 2024 03:50 to 04:00 PM
+                      July 30, 2024 4:50 to 5:15 PM
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="h-[15vh] flex flex-col relative top-6">
+            <div className="h-[7vh]">
+
+            </div>
+            {/* <div className="h-[15vh] flex flex-col relative top-6">
               <div className="w-[4vh] flex justify-center">
                 <div className="border-l-2 border-white h-[15vh]"></div>
               </div>
@@ -1471,7 +1464,7 @@ export default function Schedule() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <div className="flex flex-col">
@@ -1514,9 +1507,9 @@ export default function Schedule() {
                   </div>
                 </div>
               </div>
-              <div className="h-[17vh] flex flex-col relative top-6">
+              <div className="h-[23vh] flex flex-col relative top-6">
                 <div className="w-[4vh] flex justify-center">
-                  <div className="border-l-2 border-white h-[17vh]"></div>
+                  <div className="border-l-2 border-white h-[23vh]"></div>
                 </div>
                 <div>
                   <div className={"flex gap-2 " + font}>
@@ -1539,9 +1532,9 @@ export default function Schedule() {
                   </div>
                 </div>
               </div>
-              <div className="h-[14vh] flex flex-col relative top-6">
+              <div className="h-[20vh] flex flex-col relative top-6">
                 <div className="w-[4vh] flex justify-center">
-                  <div className="border-l-2 border-white h-[14vh]"></div>
+                  <div className="border-l-2 border-white h-[20vh]"></div>
                 </div>
                 <div>
                   <div className="flex gap-2">
@@ -1572,9 +1565,9 @@ export default function Schedule() {
                   </div>
                 </div>
               </div>
-              <div className="h-[17vh] flex flex-col relative top-6">
+              <div className="h-[23vh] flex flex-col relative top-6">
                 <div className="w-[4vh] flex justify-center">
-                  <div className="border-l-2 border-white h-[17vh]"></div>
+                  <div className="border-l-2 border-white h-[23vh]"></div>
                 </div>
                 <div>
                   <div className={"flex gap-2 " + font}>
@@ -1597,9 +1590,9 @@ export default function Schedule() {
                   </div>
                 </div>
               </div>
-              <div className="h-[15vh] flex flex-col relative top-6">
+              <div className="h-[16vh] flex flex-col relative top-6">
                 <div className="w-[4vh] flex justify-center">
-                  <div className="border-l-2 border-white h-[15vh]"></div>
+                  <div className="border-l-2 border-white h-[16vh]"></div>
                 </div>
                 <div>
                   <div className="flex gap-2">
@@ -1622,15 +1615,15 @@ export default function Schedule() {
                           font
                         }
                       >
-                        July 31, 2024 01:00 to 04:00 PM
+                        July 31, 2024 04:00 to 04:30 PM
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div className="h-[15vh] flex flex-col relative top-6">
+              <div className="h-[16vh] flex flex-col relative top-6">
                 <div className="w-[4vh] flex justify-center">
-                  <div className="border-l-2 border-white h-[15vh]"></div>
+                  <div className="border-l-2 border-white h-[16svh]"></div>
                 </div>
                 <div>
                   <div className="flex gap-2">
@@ -1641,10 +1634,6 @@ export default function Schedule() {
                       <div className={"flex flex-col justify-center " + font}>
                         <div className="text-2xl font-semibold">
                           <h1>Tea and snacks</h1>
-                        </div>
-
-                        <div className="text-lg">
-                          <p>Venue: Concert Hall</p>
                         </div>
                       </div>
                       <div
