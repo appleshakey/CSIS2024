@@ -1,6 +1,6 @@
 "use client";
 import { RotateRight } from "@mui/icons-material";
-import SpeakerTile from "./speakerTile";
+import SpeakerTile from "./SpeakerTile";
 import { useState } from "react";
 import { motion } from "framer-motion";
 export default function SpeakerCarousel(){
