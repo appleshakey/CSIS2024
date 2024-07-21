@@ -17,6 +17,8 @@ import QAComponent6 from "@/components/QAComponent6";
 import QAComponent7 from "@/components/QAComponent7";
 import QAComponent8 from "@/components/QAComponent8";
 import QAComponent9 from "@/components/QAComponent9";
+import SpeakerCarousel from "@/components/speakerCarousel";
+
 
 export default function Home() {
   const isMobileScreen = useMediaQuery("(min-width: 1000px)");
@@ -491,29 +493,7 @@ export default function Home() {
             <div className="text-7xl font-staat text-white pb-16">
               RENOWNED <span className="text-[#4a8ec5]">SPEAKERS</span>
             </div>
-            <div className="grid grid-cols-3 gap-8 xl:gap-32">
-              <SpeakerCard
-                heading="Saptarshi Ghosh"
-                para="President of Students & Young Professionals at IEEE Computer Society.Leading strategic activities and initiatives for the world's largest organisation related to Computer Science. ASIC Design Engineer (SoC) at Intel Corporation, driving best-in-class performance for Intel Xeon Memory Controllers, aligning IP with CEO's IDM2.0 Strategy. based in Santa Clara County, California, United States, and San Francisco Bay Area."
-                image="/speakers1.jpg"
-              />
-              <SpeakerCard
-                heading="Shivam Abhilash"
-                para="  Experienced technology leader with a demonstrated history of
-                    working in the management consulting industry. Skilled in
-                    Machine Learning, NLP, Graph, Production ready ML Solutions,
-                    Leadership, Management and Solution Delivery. Strong
-                    business development professional graduated from Indian
-                    Institute Of Information Technology having knowledge of Data
-                    Analytics."
-                image="/speakers2.jpg"
-              />
-              <SpeakerCard
-                heading="  Nikky Kumar Jha"
-                para="Specializing in renewable energy, notably solar power, I excel in fields such as medical electronics, Internet of Things (IoT), Agri-Tech, Healthcare Tech, and Machine Learning. My contributions include research papers and keynote speeches at international conferences, earning recognition through numerous international awards for my dedication and impact in these fields."
-                image="/speakers3.jpg"
-              />
-            </div>
+            <SpeakerCarousel />
           </div>
           <div className="FAQ flex flex-col p-5 gap-7 bg-about bg-cover">
             <div className="flex justify-center tracking-wider text-4xl font-staat text-white">
@@ -818,9 +798,19 @@ export default function Home() {
                 image="/speakers2.jpg"
               />
               <Speakers
+                heading="Sandeep Varma"
+                para="Sandeep is a thought leader and chief architect of multiple large-scale enterprise big data platforms, and he heads all delivery from ZS’s big data center of excellence in India. He specializes in rapidly building high-performance teams focused on cutting-edge technologies and high-quality delivery.He did MBA in marketing and systems from BIM Trichy and a bachelor’s in mechanical engineering from Bengaluru University."
+                image="/image6.jpeg"
+              />
+              <Speakers
                 heading="  Nikky Kumar Jha"
                 para="Specializing in renewable energy, notably solar power, I excel in fields such as medical electronics, Internet of Things (IoT), Agri-Tech, Healthcare Tech, and Machine Learning. My contributions include research papers and keynote speeches at international conferences, earning recognition through numerous international awards for my dedication and impact in these fields."
                 image="/speakers3.jpg"
+              />
+              <Speakers
+                heading="Soma Prathibha "
+                para="Dr. Soma Prathibha is a distinguished academic and thought leader with a profound impact in Cloud Computing, Data Science, and Blockchain. She has organized over 10 national and international events, published 16 research papers in top-tier international journals, and presented at 21 international and 15 national conferences. As an Excom Member of IEEE WIE MAS Section, her contributions have significantly advanced the field and inspired countless students and professionals."
+                image="/image5.jpeg"
               />
             </div>
           </div>
