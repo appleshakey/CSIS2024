@@ -19,7 +19,6 @@ export default function SpeakerCarousel(){
                 return 0;
             }
         });
-        console.log(newSpeakers);
         setShowSpeaker(newSpeakers);
         setTimeout(() => setTimeUp(true), 3000);
     }
@@ -45,7 +44,6 @@ export default function SpeakerCarousel(){
 
     const id = setInterval(() => {
         const button = document.querySelector(".leftButton");
-        console.log(button);
         if(button){button.click();}
         else{
             clearInterval(id);
