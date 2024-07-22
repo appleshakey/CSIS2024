@@ -39,6 +39,9 @@ export default function Navbar() {
           <div>
             <img src="/csis_.png" className=" h-14 w-32" />
           </div>
+          <div>
+            <img src="/srm-logo.png" className="h-12 w-32"/>
+          </div>
           <div className="flex gap-16">
             <button onClick={() => router.push("/")}>Home</button>
             <button onClick={() => router.push("/schedule/")}>Schedule</button>
@@ -46,17 +49,26 @@ export default function Navbar() {
             <button onClick={() => router.push("/speakers/")}>Speakers</button>
             <button onClick={() => router.push("/about/")}>About</button>
           </div>
+          <div>
+            <img src="/event-patner.png" className="h-12 w-32"/>
+          </div>
           <button
             onClick={() => router.push("/register/")}
-            className=" opacity-80 px-3 py-1 text-md rounded-md register-button"
+            className="px-3 py-1 text-md rounded-md register-button"
           >
             register Now
           </button>
         </div>
       ) : (
-        <motion.div className="flex justify-between p-3 items-center fixed w-[100vw] z-50 bg-black">
+        <motion.div className="flex gap-5 p-3 items-center fixed w-[100vw] z-50 bg-black">
           <div>
-            <img src="/csis_.png" className="h-14 w-32" />
+            <img src="/csis_.png" className="h-10 w-24" />
+          </div>
+          <div>
+            <img src="/srm-logo.png" className="h-10 w-24"/>
+          </div>
+          <div>
+            <img src="/event-patner.png" className="h-10 w-24"/>
           </div>
           <button onClick={() => setMNavbar(!MNavbar)}>
             <svg
