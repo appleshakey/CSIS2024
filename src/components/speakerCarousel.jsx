@@ -86,7 +86,6 @@ export default function SpeakerCarousel() {
           speakerDescription="Specializing in renewable energy, notably solar power, I excel in fields such as medical electronics, Internet of Things (IoT), Agri-Tech, Healthcare Tech, and Machine Learning. My contributions include research papers and keynote speeches at international conferences, earning recognition through numerous international awards for my dedication and impact in these fields."
         />
       )}
-
       {showSpeaker[1] == 1 && (
         <SpeakerTile
           speakerName="Saptarshi Ghosh"
@@ -94,7 +93,6 @@ export default function SpeakerCarousel() {
           speakerDescription="Saptarshi Ghosh is a System-On-Chip Design Engineer at Intel, who is working at the leading forefront of technology to enable and design the next generation of AI-enabled Intel Xeon® processors. His dedication and commitment to advancing computing have been recognized both at Intel as well as through the UC Berkeley College of Engineering  where he holds a Masters Degree in Electrical Engineering & Computer Sciences. He currently chairs the Students and Young Professionals Board in IEEE Computer Society, an organization having more than 50,000 members."
         />
       )}
-
       {showSpeaker[2] == 1 && (
         <SpeakerTile
           speakerName="Shivam Abhilash"
@@ -107,7 +105,6 @@ export default function SpeakerCarousel() {
           speakerImg="/speakers2.jpg"
         />
       )}
-
       {showSpeaker[3] == 1 && (
         <SpeakerTile
           speakerName="Sandeep Varma"
