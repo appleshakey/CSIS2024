@@ -1,3 +1,4 @@
+
 export default function SpeakerCard({ heading, para, image }) {
   return (
     <div className="text-white bg-gradient-to-b from-[#0178b5] to-[#000000] rounded-lg p-2 max-w-sm overflow-hidden shadow-lg">

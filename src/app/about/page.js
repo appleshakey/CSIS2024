@@ -13,15 +13,7 @@ export default function AboutMe() {
               </div>
               <div className="text-white  text-md text-center font-inter ">
                 <p>
-                  The CSIS (Computer Society India Symposium) event is a
-                  flagship gathering organized annually by the IEEE (Institute
-                  of Electrical and Electronics Engineers) Computer Society,
-                  aimed at fostering collaboration, innovation, and knowledge
-                  sharing within the computer science and information technology
-                  community in India. This symposium serves as a premier
-                  platform for students, professionals, researchers, and
-                  enthusiasts to come together and engage in insightful
-                  discussions, technical sessions, and interactive workshops.
+                The CSIS (Computer Society India Symposium) is an annual event organized by the IEEE Computer Society to promote collaboration, innovation, and knowledge sharing within India's computer science and IT community. It serves as a premier platform for students, professionals, researchers, and enthusiasts to engage in discussions, technical sessions, and workshops.
                   {/* <br />
                   <br />
                   Participants and Activities: The symposium serves as a premier
@@ -44,20 +36,7 @@ export default function AboutMe() {
               </div>
               <div className="text-white  text-md text-center font-inter">
                 <p>
-                  SRM Institute of Science and Technology is one of the top
-                  ranking universities in India with over 52,000 full time
-                  students and more than 3200 faculty across all the campuses.
-                  It's vision is “To emerge as a World – Class University in
-                  creating and disseminating knowledge and providing students a
-                  unique learning experience in Science, Technology, Medicine,
-                  Management and other areas of Scholarship that will best serve
-                  the world and for the betterment of mankind”. And it's mission
-                  is to “MOVE UP through international alliances and
-                  collaborative initiatives to achieve global excellence.
-                  ACCOMPLISH A PROCESS to advance knowledge in a rigorous
-                  academic and research environment. ATTRACT AND BUILD PEOPLE in
-                  a rewarding and an inspiring environment by fostering freedom,
-                  empowerment, creativity and innovation”.
+                SRM Institute of Science and Technology is a top-ranking Indian university with over 52,000 students and 3,200 faculty across its campuses. Its vision is to become a world-class university providing unique learning experiences in various fields. Its mission is to achieve global excellence through international alliances, advance knowledge in a rigorous environment, and foster an inspiring atmosphere of freedom, creativity, and innovation.
                   {/* <br />
                   <br />
                   Participants and Activities: The symposium serves as a premier
@@ -139,21 +118,7 @@ export default function AboutMe() {
               </div>
               <div className="text-white  text-md text-center font-inter">
                 <p>
-                  The IEEE CS has conducted 2 events so far. The first being
-                  Leap'24 a dynamic and innovative event that combines the
-                  excitement of a hackathon with the strategic thinking of an
-                  ideathon. Over the course of three days, which started on the
-                  29th of February, participants will dived deep into their
-                  selected domain, leveraged their skills, knowledge, and
-                  creativity to tackle real-world challenges and push the
-                  boundaries of innovation. The other being Cyber Frontiers
-                  which was conducted on April 29th which was an enlightening
-                  and insightful tech talk on the dynamic landscape of
-                  cybersecurity, featuring Mr D Swaminathan, a distinguished IT
-                  security veteran with over three decades of hands-on
-                  experience. This event unraveled the complexities of modern
-                  cybersecurity and provided invaluable insights into
-                  safeguarding digital assets.
+                The IEEE CS has conducted two events: Leap'24, a three-day event starting on February 29th, combined a hackathon and ideathon where participants tackled real-world challenges using their skills and creativity. Cyber Frontiers, held on April 29th, featured IT security expert Mr. D. Swaminathan, who discussed modern cybersecurity complexities and provided insights into protecting digital assets.
                   {/* <br />
                   <br />
                   Participants and Activities: The symposium serves as a premier
@@ -181,15 +146,7 @@ export default function AboutMe() {
               </div>
               <div className="text-white  text-md text-center font-inter">
                 <p>
-                  The CSIS (Computer Society India Symposium) event is a
-                  flagship gathering organized annually by the IEEE (Institute
-                  of Electrical and Electronics Engineers) Computer Society,
-                  aimed at fostering collaboration, innovation, and knowledge
-                  sharing within the computer science and information technology
-                  community in India. This symposium serves as a premier
-                  platform for students, professionals, researchers, and
-                  enthusiasts to come together and engage in insightful
-                  discussions, technical sessions, and interactive workshops.
+                The CSIS (Computer Society India Symposium) is an annual event organized by the IEEE Computer Society to promote collaboration, innovation, and knowledge sharing within India's computer science and IT community. It serves as a premier platform for students, professionals, researchers, and enthusiasts to engage in discussions, technical sessions, and workshops.
                   {/* <br />
                   <br />
                   Participants and Activities: The symposium serves as a premier
@@ -212,20 +169,7 @@ export default function AboutMe() {
               </div>
               <div className="text-white  text-md text-center font-inter">
                 <p>
-                SRM Institute of Science and Technology is one of the top
-                  ranking universities in India with over 52,000 full time
-                  students and more than 3200 faculty across all the campuses.
-                  It's vision is “To emerge as a World – Class University in
-                  creating and disseminating knowledge and providing students a
-                  unique learning experience in Science, Technology, Medicine,
-                  Management and other areas of Scholarship that will best serve
-                  the world and for the betterment of mankind”. And it's mission
-                  is to “MOVE UP through international alliances and
-                  collaborative initiatives to achieve global excellence.
-                  ACCOMPLISH A PROCESS to advance knowledge in a rigorous
-                  academic and research environment. ATTRACT AND BUILD PEOPLE in
-                  a rewarding and an inspiring environment by fostering freedom,
-                  empowerment, creativity and innovation”.
+                SRM Institute of Science and Technology is a top-ranking Indian university with over 52,000 students and 3,200 faculty across its campuses. Its vision is to become a world-class university providing unique learning experiences in various fields. Its mission is to achieve global excellence through international alliances, advance knowledge in a rigorous environment, and foster an inspiring atmosphere of freedom, creativity, and innovation.
                   {/* <br />
                   <br />
                   Participants and Activities: The symposium serves as a premier
@@ -307,21 +251,7 @@ export default function AboutMe() {
               </div>
               <div className="text-white  text-md text-center font-inter">
                 <p>
-                The IEEE CS has conducted 2 events so far. The first being
-                  Leap'24 a dynamic and innovative event that combines the
-                  excitement of a hackathon with the strategic thinking of an
-                  ideathon. Over the course of three days, which started on the
-                  29th of February, participants will dived deep into their
-                  selected domain, leveraged their skills, knowledge, and
-                  creativity to tackle real-world challenges and push the
-                  boundaries of innovation. The other being Cyber Frontiers
-                  which was conducted on April 29th which was an enlightening
-                  and insightful tech talk on the dynamic landscape of
-                  cybersecurity, featuring Mr D Swaminathan, a distinguished IT
-                  security veteran with over three decades of hands-on
-                  experience. This event unraveled the complexities of modern
-                  cybersecurity and provided invaluable insights into
-                  safeguarding digital assets.
+                The IEEE CS has conducted two events: Leap'24, a three-day event starting on February 29th, combined a hackathon and ideathon where participants tackled real-world challenges using their skills and creativity. Cyber Frontiers, held on April 29th, featured IT security expert Mr. D. Swaminathan, who discussed modern cybersecurity complexities and provided insights into protecting digital assets.
                   {/* <br />
                   <br />
                   Participants and Activities: The symposium serves as a premier

@@ -54,112 +54,32 @@ export default function Event() {
                     <p className="text-xl">&nbsp; &nbsp; &nbsp; &nbsp; Teams must consist of a minimum of 1 and a maximum of 4 members, as specified by the organizers.</p>
                   </div>
                   <div>
-                    <h1 className="text-3xl text-[#4a8ec5]">2.Eligibility</h1>
+                    <h1 className="text-3xl text-[#4a8ec5]">2.Topic</h1>
                     <div className="text-xl">
                       <ol>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;The ideathon is open to all college students.</li>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Participants must register for the event within the specified deadline.</li>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Participants must provide accurate information during registration.</li>
+                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;The Topic will be given on spot.</li>
                       </ol>
                     </div>
                   </div>
                   <div>
-                    <h1 className="text-3xl text-[#4a8ec5]">3.Code of Conduct</h1>
+                    <h1 className="text-3xl text-[#4a8ec5]">3.Powerpoint Presentation</h1>
                     <div className="text-xl">
                       <ol>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;	Participants must adhere to a code of conduct that promotes respect, inclusivity, and professionalism.</li>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;	Any form of harassment, discrimination, or inappropriate behavior will not be tolerated and may result in immediate disqualification and removal from the event premises.</li>
+                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp; The participant is free to use their choice of template for powerpoints.</li>
                       </ol>
                     </div>
                   </div>
                   <div>
-                    <h1 className="text-3xl text-[#4a8ec5]">4.Intellectual Property</h1>
+                    <h1 className="text-3xl text-[#4a8ec5]">4.Maximum Number of slides</h1>
                     <div className="text-xl">
                       <ol>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;	Participants must adhere to a code of conduct that promotes respect, inclusivity, and professionalism.</li>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;	Any form of harassment, discrimination, or inappropriate behavior will not be tolerated and may result in immediate disqualification and removal from the event premises.</li>
-                      </ol>
-                    </div>
-                  </div>
-                  <div>
-                    <h1 className="text-3xl text-[#4a8ec5]">5.Presentation Guidelines:</h1>
-                    <div className="text-xl">
-                      <ol>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Each team must prepare a presentation to showcase their project.</li>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Presentations must adhere to the specified time limit.</li>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Visual aids such as slides, demos, and prototypes are encouraged.</li>
-                      </ol>
-                    </div>
-                  </div>
-                  <div>
-                    <h1 className="text-3xl text-[#4a8ec5]">6.Project Requirements</h1>
-                    <div className="text-xl">
-                      <ol>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Projects must be original and developed during the ideathon duration.</li>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Participants may use third-party libraries, frameworks, and APIs, provided they have appropriate licenses.</li>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Plagiarism of code or ideas is strictly prohibited.</li>
-                      </ol>
-                    </div>
-                  </div>
-                  <div>
-                    <h1 className="text-3xl text-[#4a8ec5]">7.Judging criteria</h1>
-                    <div className="text-xl">
-                      <ol>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Projects will be evaluated based on predefined criteria such as creativity, technical complexity, feasibility, and impact.</li>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Judges' decisions are final and not subject to appeal.</li>
-                      </ol>
-                    </div>
-                  </div>
-                  <div>
-                    <h1 className="text-3xl text-[#4a8ec5]">8.Equipment and Tools</h1>
-                    <div className="text-xl">
-                      <ol>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Participants are responsible for bringing their laptops, software, and any other necessary equipment.</li>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Organizers may provide access to additional resources and tools as specified.</li>
-                      </ol>
-                    </div>
-                  </div>
-                  <div>
-                    <h1 className="text-3xl text-[#4a8ec5]">9.Hackathon Timeline</h1>
-                    <div className="text-xl">
-                      <ol>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Participants must adhere to the schedule provided by the organizers.</li>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Late arrivals may result in disqualification from certain activities or penalties.</li>
-                      </ol>
-                    </div>
-                  </div>
-                  <div>
-                    <h1 className="text-3xl text-[#4a8ec5]">10.Safety and Security</h1>
-                    <div className="text-xl">
-                      <ol>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Participants must comply with all safety and security regulations provided by the venue.</li>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Participants are responsible for the safety and security of their personal belongings.</li>
-                      </ol>
-                    </div>
-                  </div>
-                  <div>
-                    <h1 className="text-3xl text-[#4a8ec5]">11.Disqualification</h1>
-                    <div className="text-xl">
-                      <ol>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Violation of any rules or regulations may result in immediate disqualification from the hackathon.</li>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Disqualified teams forfeit any prizes or recognition.</li>
-                      </ol>
-                    </div>
-                  </div>
-                  <div>
-                    <h1 className="text-3xl text-[#4a8ec5]">12.Organizer Discretion</h1>
-                    <div className="text-xl">
-                      <ol>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;The organizers reserve the right to modify rules, regulations, or event details at their discretion.</li>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;The organizers will resolve any disputes or unforeseen circumstances.</li>
+                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;	The maximum number of slides for presentation is 10.</li>
                       </ol>
                     </div>
                   </div>
                   <div>
                     <h4 className="text-2xl">
-                    Before attending the event, participants must select a domain for which they will be given on the spot during the event.<br/>
-                    
-                    By participating in the ideathon, participants agree to abide by these rules and regulations. Failure to comply may result in consequences determined by the organizers.
+                      Note: &nbsp; Each Member of a team should possess their own event tickets.
                     </h4>
                   </div>
                 </div>
@@ -182,42 +102,21 @@ export default function Event() {
                       <ol>
                         <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;The competition is open to individuals only. Team participation is not permitted.</li>
                         <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Participants must register for the event within the specified deadline.</li>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Participants must provide accurate information during registration..</li>
                       </ol>
                     </div>
                   </div>
                   <div>
-                    <h1 className="text-3xl text-[#4a8ec5]">2.Participation</h1>
-                    <div className="text-xl">
-                      <ol>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Each participant must register individually.</li>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Each participant must work independently and may not collaborate with others during the competition.</li>
-                      </ol>
-                    </div>
-                  </div>
-                  <div>
-                    <h1 className="text-3xl text-[#4a8ec5]">3.Code of Conduct</h1>
-                    <div className="text-xl">
-                      <ol>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;	Participants must adhere to a code of conduct that promotes respect, inclusivity, and professionalism.</li>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;	Any form of harassment, discrimination, or inappropriate behavior will not be tolerated and may result in immediate disqualification and removal from the event premises.</li>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp; Plagiarism of code is strictly prohibited.</li>
-                      </ol>
-                    </div>
-                  </div>
-                  <div>
-                    <h1 className="text-3xl text-[#4a8ec5]">4.Judging criteria</h1>
+                    <h1 className="text-3xl text-[#4a8ec5]">2.Judging criteria</h1>
                     <div className="text-xl">
                       <ol>
                         <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Solutions will be evaluated based on correctness, efficiency, and adherence to the problem requirements.</li>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Judges' decisions are final and not subject to appeal.</li>
                         <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Prizes will be awarded to the top-performing individuals based on their scores.</li>
                         <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;In the event of a tie, the time taken to submit the final correct solution will be considered.</li>
                       </ol>
                     </div>
                   </div>
                   <div>
-                    <h1 className="text-3xl text-[#4a8ec5]">5.Submission</h1>
+                    <h1 className="text-3xl text-[#4a8ec5]">3.Submission</h1>
                     <div className="text-xl">
                       <ol>
                         <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;All solutions must be submitted by the individual registered for the competition.</li>
@@ -226,47 +125,11 @@ export default function Event() {
                     </div>
                   </div>
                   <div>
-                    <h1 className="text-3xl text-[#4a8ec5]">6.Completion Timeline</h1>
+                    <h1 className="text-3xl text-[#4a8ec5]">4.Completion Timeline</h1>
                     <div className="text-xl">
                       <ol>
                         <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Participants must adhere to the schedule provided by the organizers.</li>
                         <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Late arrivals may result in disqualification from certain activities or penalties.</li>
-                      </ol>
-                    </div>
-                  </div>
-                  <div>
-                    <h1 className="text-3xl text-[#4a8ec5]">7.Technical Requirements</h1>
-                    <div className="text-xl">
-                      <ol>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Participants must ensure they have a stable internet connection and the necessary software/tools to participate.</li>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;The competition organizers are not responsible for any technical issues faced by participants.</li>
-                      </ol>
-                    </div>
-                  </div>
-                  <div>
-                    <h1 className="text-3xl text-[#4a8ec5]">8.Safety and Security</h1>
-                    <div className="text-xl">
-                      <ol>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Participants must comply with all safety and security regulations provided by the venue.</li>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Participants are responsible for the safety and security of their personal belongings.</li>
-                      </ol>
-                    </div>
-                  </div>
-                  <div>
-                    <h1 className="text-3xl text-[#4a8ec5]">9.Disqualification</h1>
-                    <div className="text-xl">
-                      <ol>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Violation of any rules or regulations may result in immediate disqualification from the hackathon.</li>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Disqualified teams forfeit any prizes or recognition.</li>
-                      </ol>
-                    </div>
-                  </div>
-                  <div>
-                    <h1 className="text-3xl text-[#4a8ec5]">10.Organizer Discretion</h1>
-                    <div className="text-xl">
-                      <ol>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;The organizers reserve the right to modify rules, regulations, or event details at their discretion.</li>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;The organizers will resolve any disputes or unforeseen circumstances.</li>
                       </ol>
                     </div>
                   </div>
@@ -430,112 +293,32 @@ export default function Event() {
                     <p className="text-xl">&nbsp; &nbsp; &nbsp; &nbsp; Teams must consist of a minimum of 1 and a maximum of 4 members, as specified by the organizers.</p>
                   </div>
                   <div>
-                    <h1 className="text-3xl text-[#4a8ec5]">2.Eligibility</h1>
+                    <h1 className="text-3xl text-[#4a8ec5]">2.Topic</h1>
                     <div className="text-xl">
                       <ol>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;The ideathon is open to all college students.</li>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Participants must register for the event within the specified deadline.</li>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Participants must provide accurate information during registration.</li>
+                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Topic will given on the spot.</li>
                       </ol>
                     </div>
                   </div>
                   <div>
-                    <h1 className="text-3xl text-[#4a8ec5]">3.Code of Conduct</h1>
+                    <h1 className="text-3xl text-[#4a8ec5]">3.Powerpoint template</h1>
                     <div className="text-xl">
                       <ol>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;	Participants must adhere to a code of conduct that promotes respect, inclusivity, and professionalism.</li>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;	Any form of harassment, discrimination, or inappropriate behavior will not be tolerated and may result in immediate disqualification and removal from the event premises.</li>
+                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp; The participant is free to use their choice of template for powerpoints.</li>
                       </ol>
                     </div>
                   </div>
                   <div>
-                    <h1 className="text-3xl text-[#4a8ec5]">4.Intellectual Property</h1>
+                    <h1 className="text-3xl text-[#4a8ec5]">4.Maximum Number of slides</h1>
                     <div className="text-xl">
                       <ol>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;	Participants must adhere to a code of conduct that promotes respect, inclusivity, and professionalism.</li>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;	Any form of harassment, discrimination, or inappropriate behavior will not be tolerated and may result in immediate disqualification and removal from the event premises.</li>
-                      </ol>
-                    </div>
-                  </div>
-                  <div>
-                    <h1 className="text-3xl text-[#4a8ec5]">5.Presentation Guidelines:</h1>
-                    <div className="text-xl">
-                      <ol>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Each team must prepare a presentation to showcase their project.</li>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Presentations must adhere to the specified time limit.</li>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Visual aids such as slides, demos, and prototypes are encouraged.</li>
-                      </ol>
-                    </div>
-                  </div>
-                  <div>
-                    <h1 className="text-3xl text-[#4a8ec5]">6.Project Requirements</h1>
-                    <div className="text-xl">
-                      <ol>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Projects must be original and developed during the ideathon duration.</li>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Participants may use third-party libraries, frameworks, and APIs, provided they have appropriate licenses.</li>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Plagiarism of code or ideas is strictly prohibited.</li>
-                      </ol>
-                    </div>
-                  </div>
-                  <div>
-                    <h1 className="text-3xl text-[#4a8ec5]">7.Judging criteria</h1>
-                    <div className="text-xl">
-                      <ol>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Projects will be evaluated based on predefined criteria such as creativity, technical complexity, feasibility, and impact.</li>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Judges' decisions are final and not subject to appeal.</li>
-                      </ol>
-                    </div>
-                  </div>
-                  <div>
-                    <h1 className="text-3xl text-[#4a8ec5]">8.Equipment and Tools</h1>
-                    <div className="text-xl">
-                      <ol>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Participants are responsible for bringing their laptops, software, and any other necessary equipment.</li>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Organizers may provide access to additional resources and tools as specified.</li>
-                      </ol>
-                    </div>
-                  </div>
-                  <div>
-                    <h1 className="text-3xl text-[#4a8ec5]">9.Hackathon Timeline</h1>
-                    <div className="text-xl">
-                      <ol>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Participants must adhere to the schedule provided by the organizers.</li>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Late arrivals may result in disqualification from certain activities or penalties.</li>
-                      </ol>
-                    </div>
-                  </div>
-                  <div>
-                    <h1 className="text-3xl text-[#4a8ec5]">10.Safety and Security</h1>
-                    <div className="text-xl">
-                      <ol>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Participants must comply with all safety and security regulations provided by the venue.</li>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Participants are responsible for the safety and security of their personal belongings.</li>
-                      </ol>
-                    </div>
-                  </div>
-                  <div>
-                    <h1 className="text-3xl text-[#4a8ec5]">11.Disqualification</h1>
-                    <div className="text-xl">
-                      <ol>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Violation of any rules or regulations may result in immediate disqualification from the hackathon.</li>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Disqualified teams forfeit any prizes or recognition.</li>
-                      </ol>
-                    </div>
-                  </div>
-                  <div>
-                    <h1 className="text-3xl text-[#4a8ec5]">12.Organizer Discretion</h1>
-                    <div className="text-xl">
-                      <ol>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;The organizers reserve the right to modify rules, regulations, or event details at their discretion.</li>
-                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;The organizers will resolve any disputes or unforeseen circumstances.</li>
+                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;	The maximum number of slides for presentation is 10.</li>
                       </ol>
                     </div>
                   </div>
                   <div>
                     <h4 className="text-2xl">
-                    Before attending the event, participants must select a domain for which they will be given on the spot during the event.<br/>
-                    
-                    By participating in the ideathon, participants agree to abide by these rules and regulations. Failure to comply may result in consequences determined by the organizers.
+                      Note: &nbsp; Each Member of a team should possess their own event tickets.
                     </h4>
                   </div>
                 </div>
@@ -555,104 +338,47 @@ export default function Event() {
                       <h1>Guidlines For<br/> Coding<br/> Competition</h1>
                     </div>
                     <div>
-                      <h1 className="text-3xl text-[#4a8ec5]">1.Eligibility</h1>
-                      <div className="text-xl">
-                        <ol>
-                          <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;The competition is open to individuals only. Team participation is not permitted.</li>
-                          <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Participants must register for the event within the specified deadline.</li>
-                          <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Participants must provide accurate information during registration..</li>
-                        </ol>
-                      </div>
+                    <h1 className="text-3xl text-[#4a8ec5]">1.Eligibility</h1>
+                    <div className="text-xl">
+                      <ol>
+                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;The competition is open to individuals only. Team participation is not permitted.</li>
+                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Participants must register for the event within the specified deadline.</li>
+                      </ol>
                     </div>
-                    <div>
-                      <h1 className="text-3xl text-[#4a8ec5]">2.Participation</h1>
-                      <div className="text-xl">
-                        <ol>
-                          <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Each participant must register individually.</li>
-                          <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Each participant must work independently and may not collaborate with others during the competition.</li>
-                        </ol>
-                      </div>
+                  </div>
+                  <div>
+                    <h1 className="text-3xl text-[#4a8ec5]">2.Judging criteria</h1>
+                    <div className="text-xl">
+                      <ol>
+                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Solutions will be evaluated based on correctness, efficiency, and adherence to the problem requirements.</li>
+                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Prizes will be awarded to the top-performing individuals based on their scores.</li>
+                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;In the event of a tie, the time taken to submit the final correct solution will be considered.</li>
+                      </ol>
                     </div>
-                    <div>
-                      <h1 className="text-3xl text-[#4a8ec5]">3.Code of Conduct</h1>
-                      <div className="text-xl">
-                        <ol>
-                          <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;	Participants must adhere to a code of conduct that promotes respect, inclusivity, and professionalism.</li>
-                          <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;	Any form of harassment, discrimination, or inappropriate behavior will not be tolerated and may result in immediate disqualification and removal from the event premises.</li>
-                          <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp; Plagiarism of code is strictly prohibited.</li>
-                        </ol>
-                      </div>
+                  </div>
+                  <div>
+                    <h1 className="text-3xl text-[#4a8ec5]">3.Submission</h1>
+                    <div className="text-xl">
+                      <ol>
+                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;All solutions must be submitted by the individual registered for the competition.</li>
+                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Sharing code or discussing problems with others during the competition is strictly prohibited.</li>
+                      </ol>
                     </div>
-                    <div>
-                      <h1 className="text-3xl text-[#4a8ec5]">4.Judging criteria</h1>
-                      <div className="text-xl">
-                        <ol>
-                          <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Solutions will be evaluated based on correctness, efficiency, and adherence to the problem requirements.</li>
-                          <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Judges' decisions are final and not subject to appeal.</li>
-                          <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Prizes will be awarded to the top-performing individuals based on their scores.</li>
-                          <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;In the event of a tie, the time taken to submit the final correct solution will be considered.</li>
-                        </ol>
-                      </div>
+                  </div>
+                  <div>
+                    <h1 className="text-3xl text-[#4a8ec5]">4.Completion Timeline</h1>
+                    <div className="text-xl">
+                      <ol>
+                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Participants must adhere to the schedule provided by the organizers.</li>
+                        <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Late arrivals may result in disqualification from certain activities or penalties.</li>
+                      </ol>
                     </div>
-                    <div>
-                      <h1 className="text-3xl text-[#4a8ec5]">5.Submission</h1>
-                      <div className="text-xl">
-                        <ol>
-                          <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;All solutions must be submitted by the individual registered for the competition.</li>
-                          <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Sharing code or discussing problems with others during the competition is strictly prohibited.</li>
-                        </ol>
-                      </div>
-                    </div>
-                    <div>
-                      <h1 className="text-3xl text-[#4a8ec5]">6.Completion Timeline</h1>
-                      <div className="text-xl">
-                        <ol>
-                          <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Participants must adhere to the schedule provided by the organizers.</li>
-                          <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Late arrivals may result in disqualification from certain activities or penalties.</li>
-                        </ol>
-                      </div>
-                    </div>
-                    <div>
-                      <h1 className="text-3xl text-[#4a8ec5]">7.Technical Requirements</h1>
-                      <div className="text-xl">
-                        <ol>
-                          <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Participants must ensure they have a stable internet connection and the necessary software/tools to participate.</li>
-                          <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;The competition organizers are not responsible for any technical issues faced by participants.</li>
-                        </ol>
-                      </div>
-                    </div>
-                    <div>
-                      <h1 className="text-3xl text-[#4a8ec5]">8.Safety and Security</h1>
-                      <div className="text-xl">
-                        <ol>
-                          <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Participants must comply with all safety and security regulations provided by the venue.</li>
-                          <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Participants are responsible for the safety and security of their personal belongings.</li>
-                        </ol>
-                      </div>
-                    </div>
-                    <div>
-                      <h1 className="text-3xl text-[#4a8ec5]">9.Disqualification</h1>
-                      <div className="text-xl">
-                        <ol>
-                          <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Violation of any rules or regulations may result in immediate disqualification from the hackathon.</li>
-                          <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Disqualified teams forfeit any prizes or recognition.</li>
-                        </ol>
-                      </div>
-                    </div>
-                    <div>
-                      <h1 className="text-3xl text-[#4a8ec5]">10.Organizer Discretion</h1>
-                      <div className="text-xl">
-                        <ol>
-                          <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;The organizers reserve the right to modify rules, regulations, or event details at their discretion.</li>
-                          <li>&nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;The organizers will resolve any disputes or unforeseen circumstances.</li>
-                        </ol>
-                      </div>
-                    </div>
-                    <div>
-                      <h4 className="text-2xl">
-                      By participating in the coding competition, participants agree to abide by these rules and regulations. Failure to comply may result in consequences determined by the organizers.
-                      </h4>
-                    </div>
+                  </div>
+                  <div>
+                    <h4 className="text-2xl">
+                    By participating in the coding competition, participants agree to abide by these rules and regulations. Failure to comply may result in consequences determined by the organizers.
+                    </h4>
+                  </div>
                   </div>
                 </motion.div>             
               </motion.div>
