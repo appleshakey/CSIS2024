@@ -30,7 +30,6 @@ export default function Speakers() {
                   image="/image5.jpeg"
                 />
               </div>
-
               <div className="grid grid-cols-3 gap-8 xl:gap-32">
                 <SpeakerCard
                   heading="MR.Shivam Abhilash"
@@ -72,7 +71,6 @@ papers.."
                   image="/idea6.jpeg"
                 />
               </div>
-
               <div className="grid grid-cols-1 gap-8 xl:gap-32 d-flex justify-center">
                 <SpeakerCard
                   heading="MR.Nikky Kumar Jha"
@@ -264,30 +262,30 @@ papers.."
                 <SpeakerCard
                   heading="MR.ARUN SAMPATH"
                   para="Mr. Arun Sampath, a global technologist
-specialising as a Chief Engineer and Technical
-Architect delivering market leadership with
-ahead-of-the-curve technologies across multiple
-industries. He is well versed and experienced in
-Artificial Intelligence as a service."
+                  specialising as a Chief Engineer and Technical
+                  Architect delivering market leadership with
+                  ahead-of-the-curve technologies across multiple
+                  industries. He is well versed and experienced in
+                  Artificial Intelligence as a service."
                   image="/idea5.jpeg"
                 />
                 <SpeakerCard
                   heading="PROF.AMLAN CHAKRABARTI"
                   para="With a distinguished career spanning nearly 20 years,
-Dr. Amlan Chakrabarti has been recognized with
-numerous awards, including the DST BOYSCAST
-fellowship, INSA Visiting Faculty Fellowship, and IBM
-Quantum Researchers Access Award. Has led
-groundbreaking research in Embedded System Design,
-Quantum Computing, and Cybersecurity, securing
-multiple project grants and publishing over 160 research
-papers.."
+  Dr.Amlan Chakrabarti has been recognized with
+  numerous awards, including the DST BOYSCAST
+ fellowship, INSA Visiting Faculty Fellowship, and IBM
+ Quantum Researchers Access Award. Has led
+ groundbreaking research in Embedded System Design,
+ Quantum Computing, and Cybersecurity, securing
+ multiple project grants and publishing over 160 research
+ papers.."
                   //  As an Associate Editor of the Elsevier Journal
                   // of Computers and Electrical Engineering and a Sr.
                   // Member of IEEE and ACM, he continues to influence
                   // the fields of Machine Learning, Computer Vision, and
                   // Reconfigurable Computing
-                  image="/idea6.jpeg"
+                  image="/done2.jpeg"
                 />
               </div>
               {/* <div className="advisors flex flex-col items-center gap-11">

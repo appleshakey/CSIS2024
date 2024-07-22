@@ -148,7 +148,7 @@ papers.."
           // Member of IEEE and ACM, he continues to influence
           // the fields of Machine Learning, Computer Vision, and
           // Reconfigurable Computing
-          speakerImg="/idea6.jpeg"
+          speakerImg="/done2.jpeg"
         />
       )}
       {/* <button onClick={() => rotateRight()} className="text-white">rotateRight</button> */}

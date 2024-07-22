@@ -1191,7 +1191,6 @@ export default function Schedule() {
               </div>
             </div>
           </div>
-
           <div className={"flex flex-col mt-14 tracking-wider " + font}>
             <div className="flex gap-5 absolute">
               <div className="rounded-full bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] h-[4vh] w-[4vh] z-10"></div>
@@ -1465,7 +1464,6 @@ export default function Schedule() {
               </div>
             </div> */}
           </div>
-
           <div className="flex flex-col mt-10 tracking-wider ">
               <div className="flex gap-5 absolute">
                 <div className="rounded-full bg-gradient-to-b from-[#1565C0] to-[#BBDEFB] h-[4vh] w-[4vh] z-10"></div>
@@ -1646,7 +1644,6 @@ export default function Schedule() {
                   </div>
                 </div>
               </div>
-           
           </div>      
         </div>
       )}

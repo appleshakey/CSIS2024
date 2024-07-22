@@ -869,7 +869,7 @@ papers.."
                   // Member of IEEE and ACM, he continues to influence
                   // the fields of Machine Learning, Computer Vision, and
                   // Reconfigurable Computing
-                  image="/idea6.jpeg"
+                  image="/done2.jpeg"
                 />
                   <Speakers
                   heading="DR.Soma Prathibha "
