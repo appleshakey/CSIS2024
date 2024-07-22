@@ -10,7 +10,7 @@ export default function Speakers() {
           <div className="pt-32 px-[82px] flex flex-col gap-28">
             <div className="flex flex-col items-center gap-7">
               <div className="text-nim_ticket_b font-staat text-5xl">
-                <h1>SPEAKERS</h1>
+                <h1>SPEAKERS & Dignitaries</h1>
               </div>
               <div className="grid grid-cols-3 gap-8 xl:gap-32">
                 <SpeakerCard
@@ -68,16 +68,22 @@ papers.."
                   // Member of IEEE and ACM, he continues to influence
                   // the fields of Machine Learning, Computer Vision, and
                   // Reconfigurable Computing
-                  image="/idea6.jpeg"
+                  image="/done2.jpeg"
                 />
               </div>
-              <div className="grid grid-cols-1 gap-8 xl:gap-32 d-flex justify-center">
+              <div className="grid grid-cols-2 gap-8 xl:gap-32 ">
                 <SpeakerCard
                   heading="MR.Nikky Kumar Jha"
                   para="Specializing in renewable energy, notably solar power, I excel in fields such as medical electronics, Internet of Things (IoT), Agri-Tech, Healthcare Tech, and Machine Learning. My contributions include research papers and keynote speeches at international conferences, earning recognition through numerous international awards for my dedication and impact in these fields."
                   image="/speakers3.jpg"
                 />
-              </div>
+             
+              <SpeakerCard
+                  heading="HR Mohan"
+                  para="Mr. H.R. Mohan, an IIT Madras graduate, pioneered computing at Seshasayee Paper Boards and The Hindu, where he introduced Internet publishing. An ICT consultant and former President of the Computer Society of India, he has organized over 1250 technical events and delivered 275+ talks. A senior member of IEEE CS and ACM, he has received the IEEE MGA Leadership Award, CSI Lifetime Achievement Award, and is a Golden Core Member of IEEE CS."
+                  image="/dignitary1.jpg"
+                />
+                 </div>
             </div>
 
             {/*<div className="flex flex-col items-center gap-7">
@@ -207,7 +213,7 @@ papers.."
                     </div>
                 </div> */}
           </div>
-          <div className="text-nim_ticket_b">
+          {/* <div className="text-nim_ticket_b">
             <div className="flex justify-center text-5xl font-staat">
               <h1>Dignitaries</h1>
             </div>
@@ -218,7 +224,7 @@ papers.."
                   image="/dignitary1.jpg"
                 />
             </div>
-          </div>
+          </div> */}
         </div>
       ) : (
         <div>
