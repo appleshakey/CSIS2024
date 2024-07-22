@@ -14,25 +14,26 @@ export default function Speakers() {
               </div>
               <div className="grid grid-cols-3 gap-8 xl:gap-32">
                 <SpeakerCard
-                  heading="Sandeep Varma"
+                  heading="MR.Sandeep Varma"
                   para="Sandeep is a thought leader and chief architect of multiple large-scale enterprise big data platforms, and he heads all delivery from ZS’s big data center of excellence in India. He specializes in rapidly building high-performance teams focused on cutting-edge technologies and high-quality delivery.He did MBA in marketing and systems from BIM Trichy and a bachelor’s in mechanical engineering from Bengaluru University."
                   image="/image6.jpeg"
                 />
                 <SpeakerCard
-                  heading="Saptarshi Ghosh"
-                  para="Saptarshi Ghosh is a System-On-Chip Design Engineer at Intel, who is working at the leading forefront of technology to enable and design the next generation of AI-enabled Intel Xeon® processors. His dedication and commitment to advancing computing have been recognized both at Intel as well as through the UC Berkeley College of Engineering  where he holds a Masters Degree in Electrical Engineering & Computer Sciences. He currently chairs the Students and Young Professionals Board in IEEE Computer Society, an organization having more than 50,000 members."
+                  heading="MR.Saptarshi Ghosh"
+                  para="Saptarshi Ghosh is a System-On-Chip Design Engineer at Intel, who is working at the leading forefront of technology to enable and design the next generation of AI-enabled Intel Xeon® processors. His dedication and commitment to advancing computing have been recognized both at Intel as well as through the UC Berkeley College of Engineering  where he holds a Masters Degree in Electrical Engineering & Computer Sciences."
+                  // He currently chairs the Students and Young Professionals Board in IEEE Computer Society, an organization having more than 50,000 members
                   image="/image3.jpeg"
-                />   
-                  <SpeakerCard
-                  heading="Soma Prathibha "
+                />
+                <SpeakerCard
+                  heading="DR.Soma Prathibha "
                   para="Dr. Soma Prathibha is a distinguished academic and thought leader with a profound impact in Cloud Computing, Data Science, and Blockchain. She has organized over 10 national and international events, published 16 research papers in top-tier international journals, and presented at 21 international and 15 national conferences. As an Excom Member of IEEE WIE MAS Section, her contributions have significantly advanced the field and inspired countless students and professionals."
                   image="/image5.jpeg"
-                />                   
+                />
               </div>
-              
-              <div className="grid grid-cols-2 gap-8 xl:gap-32">      
+
+              <div className="grid grid-cols-3 gap-8 xl:gap-32">
                 <SpeakerCard
-                  heading="Shivam Abhilash"
+                  heading="MR.Shivam Abhilash"
                   para="Experienced technology leader with a demonstrated history of
                   working in the management consulting industry. Skilled in
                   Machine Learning, NLP, Graph, Production ready ML Solutions,
@@ -43,10 +44,41 @@ export default function Speakers() {
                   image="/speakers2.jpg"
                 />
                 <SpeakerCard
-                  heading="Nikky Kumar Jha"
+                  heading="MR.ARUN SAMPATH"
+                  para="Mr. Arun Sampath, a global technologist
+specialising as a Chief Engineer and Technical
+Architect delivering market leadership with
+ahead-of-the-curve technologies across multiple
+industries. He is well versed and experienced in
+Artificial Intelligence as a service."
+                  image="/idea5.jpeg"
+                />
+                <SpeakerCard
+                  heading="PROF.AMLAN CHAKRABARTI"
+                  para="With a distinguished career spanning nearly 20 years,
+Dr. Amlan Chakrabarti has been recognized with
+numerous awards, including the DST BOYSCAST
+fellowship, INSA Visiting Faculty Fellowship, and IBM
+Quantum Researchers Access Award. Has led
+groundbreaking research in Embedded System Design,
+Quantum Computing, and Cybersecurity, securing
+multiple project grants and publishing over 160 research
+papers.."
+                  //  As an Associate Editor of the Elsevier Journal
+                  // of Computers and Electrical Engineering and a Sr.
+                  // Member of IEEE and ACM, he continues to influence
+                  // the fields of Machine Learning, Computer Vision, and
+                  // Reconfigurable Computing
+                  image="/idea6.jpeg"
+                />
+              </div>
+
+              <div className="grid grid-cols-1 gap-8 xl:gap-32 d-flex justify-center">
+                <SpeakerCard
+                  heading="MR.Nikky Kumar Jha"
                   para="Specializing in renewable energy, notably solar power, I excel in fields such as medical electronics, Internet of Things (IoT), Agri-Tech, Healthcare Tech, and Machine Learning. My contributions include research papers and keynote speeches at international conferences, earning recognition through numerous international awards for my dedication and impact in these fields."
                   image="/speakers3.jpg"
-                />               
+                />
               </div>
             </div>
 
@@ -212,11 +244,39 @@ export default function Speakers() {
                   para="Specializing in renewable energy, notably solar power, I excel in fields such as medical electronics, Internet of Things (IoT), Agri-Tech, Healthcare Tech, and Machine Learning. My contributions include research papers and keynote speeches at international conferences, earning recognition through numerous international awards for my dedication and impact in these fields."
                   image="/speakers3.jpg"
                 />
-                  <SpeakerCard
+                <SpeakerCard
                   heading="Soma Prathibha "
                   para="Dr. Soma Prathibha is a distinguished academic and thought leader with a profound impact in Cloud Computing, Data Science, and Blockchain. She has organized over 10 national and international events, published 16 research papers in top-tier international journals, and presented at 21 international and 15 national conferences. As an Excom Member of IEEE WIE MAS Section, her contributions have significantly advanced the field and inspired countless students and professionals."
                   image="/image5.jpeg"
-                />     
+                />
+                <SpeakerCard
+                  heading="MR.ARUN SAMPATH"
+                  para="Mr. Arun Sampath, a global technologist
+specialising as a Chief Engineer and Technical
+Architect delivering market leadership with
+ahead-of-the-curve technologies across multiple
+industries. He is well versed and experienced in
+Artificial Intelligence as a service."
+                  image="/idea5.jpeg"
+                />
+                <SpeakerCard
+                  heading="PROF.AMLAN CHAKRABARTI"
+                  para="With a distinguished career spanning nearly 20 years,
+Dr. Amlan Chakrabarti has been recognized with
+numerous awards, including the DST BOYSCAST
+fellowship, INSA Visiting Faculty Fellowship, and IBM
+Quantum Researchers Access Award. Has led
+groundbreaking research in Embedded System Design,
+Quantum Computing, and Cybersecurity, securing
+multiple project grants and publishing over 160 research
+papers.."
+                  //  As an Associate Editor of the Elsevier Journal
+                  // of Computers and Electrical Engineering and a Sr.
+                  // Member of IEEE and ACM, he continues to influence
+                  // the fields of Machine Learning, Computer Vision, and
+                  // Reconfigurable Computing
+                  image="/idea6.jpeg"
+                />
               </div>
               {/* <div className="advisors flex flex-col items-center gap-11">
                 <div className="text-nim_ticket_b font-staat text-2xl">

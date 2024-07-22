@@ -6,7 +6,6 @@ import { motion } from "framer-motion";
 import { useMediaQuery } from "@mui/material";
 import Speakers from "@/components/Speakers";
 import QAComponent from "@/components/QAComponent";
-import SpeakerCard from "@/components/SpeakerCard";
 import { useRouter } from "next/navigation";
 import QAComponent1 from "@/components/QAComponent1";
 import QAComponent2 from "@/components/QAComponent2";
@@ -18,6 +17,7 @@ import QAComponent7 from "@/components/QAComponent7";
 import QAComponent8 from "@/components/QAComponent8";
 import QAComponent9 from "@/components/QAComponent9";
 import Competition from "@/components/competition";
+import SpeakerCarousel from "@/components/speakerCarousel";
 
 export default function Home() {
   const isMobileScreen = useMediaQuery("(min-width: 1000px)");
@@ -166,13 +166,13 @@ export default function Home() {
                 heading="Ideathon"
                 para="The IEEE CSIS Ideathon is an innovative competition that brings together creative minds from various disciplines to solve real-world problems. Participants collaborate in teams to brainstorm, develop, and pitch groundbreaking ideas. With a focus on technology and engineering, the event fosters a spirit of innovation and entrepreneurship. "
                 image="/idea2.png"
-                heading1="Rules and Regulation"
+                heading1="Rules and Regulations"
               />
               <Competition
                 heading="Coding Competition"
                 para="The IEEE CSIS Coding Competition is a dynamic event where participants tackle challenging programming problems in a competitive setting. Teams or individuals race against the clock to develop efficient algorithms. This competition provides an excellent opportunity for coders to showcase their technical skills, and gain recognition within the tech community."
                 image="/idea4.jpeg"
-                heading1="Rules and Regulation"
+                heading1="Rules and Regulations"
               />
             </div>  
           </div>
@@ -511,7 +511,8 @@ export default function Home() {
             <div className="text-7xl font-staat text-white pb-16">
               RENOWNED <span className="text-[#4a8ec5]">SPEAKERS</span>
             </div>
-            <div className="grid grid-cols-3 gap-8 xl:gap-32">
+            <SpeakerCarousel/>
+            {/* <div className="grid grid-cols-3 gap-8 xl:gap-32">
               <SpeakerCard
                 heading="Saptarshi Ghosh"
                 para="Saptarshi Ghosh is a System-On-Chip Design Engineer at Intel, who is working at the leading forefront of technology to enable and design the next generation of AI-enabled Intel Xeon® processors. His dedication and commitment to advancing computing have been recognized both at Intel as well as through the UC Berkeley College of Engineering  where he holds a Masters Degree in Electrical Engineering & Computer Sciences. He currently chairs the Students and Young Professionals Board in IEEE Computer Society, an organization having more than 50,000 members."
@@ -533,7 +534,7 @@ export default function Home() {
                 para="Specializing in renewable energy, notably solar power, I excel in fields such as medical electronics, Internet of Things (IoT), Agri-Tech, Healthcare Tech, and Machine Learning. My contributions include research papers and keynote speeches at international conferences, earning recognition through numerous international awards for my dedication and impact in these fields."
                 image="/speakers3.jpg"
               />
-            </div>
+            </div> */}
           </div>
           <div className="FAQ flex flex-col p-5 gap-7 bg-about bg-cover">
             <div className="flex justify-center tracking-wider text-4xl font-staat text-white">
@@ -824,11 +825,11 @@ export default function Home() {
               <Speakers
                 heading="Saptarshi Ghosh"
                 para="Saptarshi Ghosh is a System-On-Chip Design Engineer at Intel, who is working at the leading forefront of technology to enable and design the next generation of AI-enabled Intel Xeon® processors. His dedication and commitment to advancing computing have been recognized both at Intel as well as through the UC Berkeley College of Engineering  where he holds a Masters Degree in Electrical Engineering & Computer Sciences. He currently chairs the Students and Young Professionals Board in IEEE Computer Society, an organization having more than 50,000 members."
-                image="/image.jpeg"
+                image="/image3.jpeg"
               />
               <Speakers
                 heading="Shivam Abhilash"
-                para="  Experienced technology leader with a demonstrated history of
+                para="Experienced technology leader with a demonstrated history of
                     working in the management consulting industry. Skilled in
                     Machine Learning, NLP, Graph, Production ready ML Solutions,
                     Leadership, Management and Solution Delivery. Strong
@@ -838,10 +839,48 @@ export default function Home() {
                 image="/speakers2.jpg"
               />
               <Speakers
-                heading="  Nikky Kumar Jha"
+                heading="Nikky Kumar Jha"
                 para="Specializing in renewable energy, notably solar power, I excel in fields such as medical electronics, Internet of Things (IoT), Agri-Tech, Healthcare Tech, and Machine Learning. My contributions include research papers and keynote speeches at international conferences, earning recognition through numerous international awards for my dedication and impact in these fields."
                 image="/speakers3.jpg"
               />
+               <Speakers
+                  heading="MR.ARUN SAMPATH"
+                  para="Mr. Arun Sampath, a global technologist
+specialising as a Chief Engineer and Technical
+Architect delivering market leadership with
+ahead-of-the-curve technologies across multiple
+industries. He is well versed and experienced in
+Artificial Intelligence as a service."
+                  image="/idea5.jpeg"
+                />
+                <Speakers
+                  heading="PROF.AMLAN CHAKRABARTI"
+                  para="With a distinguished career spanning nearly 20 years,
+Dr. Amlan Chakrabarti has been recognized with
+numerous awards, including the DST BOYSCAST
+fellowship, INSA Visiting Faculty Fellowship, and IBM
+Quantum Researchers Access Award. Has led
+groundbreaking research in Embedded System Design,
+Quantum Computing, and Cybersecurity, securing
+multiple project grants and publishing over 160 research
+papers.."
+                  //  As an Associate Editor of the Elsevier Journal
+                  // of Computers and Electrical Engineering and a Sr.
+                  // Member of IEEE and ACM, he continues to influence
+                  // the fields of Machine Learning, Computer Vision, and
+                  // Reconfigurable Computing
+                  image="/idea6.jpeg"
+                />
+                  <Speakers
+                  heading="DR.Soma Prathibha "
+                  para="Dr. Soma Prathibha is a distinguished academic and thought leader with a profound impact in Cloud Computing, Data Science, and Blockchain. She has organized over 10 national and international events, published 16 research papers in top-tier international journals, and presented at 21 international and 15 national conferences. As an Excom Member of IEEE WIE MAS Section, her contributions have significantly advanced the field and inspired countless students and professionals."
+                  image="/image5.jpeg"
+                />
+                  <Speakers
+                  heading="MR.Sandeep Varma"
+                  para="Sandeep is a thought leader and chief architect of multiple large-scale enterprise big data platforms, and he heads all delivery from ZS’s big data center of excellence in India. He specializes in rapidly building high-performance teams focused on cutting-edge technologies and high-quality delivery.He did MBA in marketing and systems from BIM Trichy and a bachelor’s in mechanical engineering from Bengaluru University."
+                  image="/image6.jpeg"
+                />
             </div>
           </div>
           <div className="FAQ flex flex-col p-5 gap-7 bg-about bg-cover">
