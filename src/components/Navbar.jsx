@@ -35,11 +35,11 @@ export default function Navbar() {
   return (
     <motion.div>
       {isMobileScreen ? (
-        <div className="text-white font-staat text-2xl px-[82px] flex justify-between py-3 items-center fixed w-full z-50 bg-black">
-          <div>
-            <img src="/csis_.png" className=" h-14 w-32" />
+        <div className="text-white font-staat text-2xl xl:px-[50px] px-3 flex justify-between py-3 items-center fixed w-full z-50 bg-black">
+          <div className="xl:scale-100 scale-50">
+            <img src="/csis_.png" className="h-14 w-32" />
           </div>
-          <div>
+          <div className="xl:scale-100 scale-50">
             <img src="/srm-logo.png" className="h-12 w-32"/>
           </div>
           <div className="flex gap-16">
@@ -49,12 +49,12 @@ export default function Navbar() {
             <button onClick={() => router.push("/speakers/")} className="navbar-button px-3">Speakers</button>
             <button onClick={() => router.push("/about/")} className="navbar-button px-3">About</button>
           </div>
-          <div>
+          <div className="xl:scale-100 scale-50">
             <img src="/event-patner.png" className="h-12 w-32"/>
           </div>
           <button
             onClick={() => router.push("/register/")}
-            className="px-3 py-1 text-md rounded-md register-button"
+            className="px-3 py-1 text-md rounded-md register-button xl:scale-100"
           >
             register Now
           </button>
