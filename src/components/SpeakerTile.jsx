@@ -7,7 +7,7 @@ export default function speakerTile({
 }) {
   return (
     <motion.div
-      className="text-white font-staat grid grid-cols-2 w-[50vw] h-[48vh] gap-10 bg-gradient-to-br from-iec_ticket_b to-iem_ticket_b px-5 py-7 rounded-lg "
+      className="text-white font-staat grid grid-cols-2 w-[50vw] gap-10 bg-gradient-to-br from-iec_ticket_b to-iem_ticket_b px-5 py-7 rounded-lg "
       initial={{ scale: 0, opacit: 0 }}
       animate={{ scale: 1, opacity: 1 }}
       transition={{ duration: 0.4 }}
