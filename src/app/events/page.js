@@ -513,7 +513,7 @@ export default function Event() {
                 </div>
               </div>
             </div>
-            </div>
+          </div>
           </motion.div>
         )}
       </motion.div>

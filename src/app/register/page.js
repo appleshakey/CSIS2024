@@ -14,28 +14,28 @@ export default function Speakers() {
               </div>
               <div className="grid grid-cols-3 gap-8 xl:gap-20 mt-10">
                 <Register
-                  heading="IEEE CS Memebers"
+                  heading="IEEE CS Members"
                   heading1="With accommodation"
-                  para="Accomodation for the entire duration of the Event."
+                  para="Accommodation for the entire duration of the Event."
                   para1="Lunch and Snacks will be provided."
                   tickets="Book your Tickets"
                 />
                 <Register
                   heading="IEEE Members"
                   heading1="With accommodation"
-                  para="Accomodation for the entire duration of the Event."
+                  para="Accommodation for the entire duration of the Event."
                   para1="Lunch and Snacks will be provided."
                   tickets="Book your Tickets"
                 />
                 <Register
                   heading="Non IEEE Members"
                   heading1="With accommodation"
-                  para="Accomodation for the entire duration of the Event."
+                  para="Accommodation for the entire duration of the Event."
                   para1="Lunch and Snacks will be provided."
                   tickets="Book your Tickets"
                 />
                 <Register
-                  heading="IEEE CS Memebers"
+                  heading="IEEE CS Members"
                   heading1="Without accommodation"
                   para="Lunch and Snacks will be provided."
                   tickets="Book your Tickets"
@@ -65,7 +65,7 @@ export default function Speakers() {
               </div>
               <div className="px-4 space-y-4">
                 <Register
-                  heading="IEEE CS Memebers"
+                  heading="IEEE CS Members"
                   heading1="With accommodation"
                   para="Accomodation for the entire duration of the Event."
                   para1="Lunch and snacks will be provided."
@@ -74,19 +74,19 @@ export default function Speakers() {
                 <Register
                   heading="IEEE Members"
                   heading1="With accommodation"
-                  para="Accomodation for the entire duration of the Event."
+                  para="Accommodation for the entire duration of the Event."
                   para1="Lunch and snacks will be provided."
                   tickets="Book your Tickets"
                 />
                 <Register
                   heading="Non IEEE Members"
                   heading1="With accommodation"
-                  para="Accomodation for the entire duration of the Event."
+                  para="Accommodation for the entire duration of the Event."
                   para1="Lunch and snacks will be provided."
                   tickets="Book your Tickets"
                 />
                 <Register
-                  heading="IEEE CS Memebers"
+                  heading="IEEE CS Members"
                   heading1="Without accommodation"
                   para="Lunch and snacks will be provided."
                   tickets="Book your Tickets"

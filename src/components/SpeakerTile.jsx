@@ -15,7 +15,7 @@ export default function speakerTile({
       <div>
         <img src={speakerImg} className="h-96 w-96 rounded-lg" />
       </div>
-      <div className="flex flex-col gap-10">
+      <div className="flex flex-col gap-4">
         <div className="flex justify-center text-4xl">
           <h1>{speakerName}</h1>
         </div>

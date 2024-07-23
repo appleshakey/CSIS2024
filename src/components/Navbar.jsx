@@ -1,5 +1,4 @@
 "use client";
-import { useParallax } from "react-scroll-parallax";
 import { useRouter } from "next/navigation";
 import { useMediaQuery } from "@mui/material";
 import { useState } from "react";
@@ -32,6 +31,7 @@ export default function Navbar() {
       opacity: 0,
     },
   };
+
   return (
     <motion.div>
       {isMobileScreen ? (
@@ -43,11 +43,11 @@ export default function Navbar() {
             <img src="/srm-logo.png" className="h-12 w-32"/>
           </div>
           <div className="flex gap-16">
-            <button onClick={() => router.push("/")}>Home</button>
-            <button onClick={() => router.push("/schedule/")}>Schedule</button>
-            <button onClick={() => router.push("/events/")}>Events</button>
-            <button onClick={() => router.push("/speakers/")}>Speakers</button>
-            <button onClick={() => router.push("/about/")}>About</button>
+            <button onClick={() => router.push("/")} className="navbar-button px-3 ">Home</button>
+            <button onClick={() => router.push("/schedule/")} className="navbar-button px-3">Schedule</button>
+            <button onClick={() => router.push("/events/")} className="navbar-button px-3">Events</button>
+            <button onClick={() => router.push("/speakers/")} className="navbar-button px-3">Speakers</button>
+            <button onClick={() => router.push("/about/")} className="navbar-button px-3">About</button>
           </div>
           <div>
             <img src="/event-patner.png" className="h-12 w-32"/>

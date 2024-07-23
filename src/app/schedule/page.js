@@ -134,7 +134,7 @@ export default function Schedule() {
                           font
                         }
                       >
-                        July 29, 2024 11:50 to 12:00 AM
+                        July 29, 2024 11:50 to 12:00 PM
                       </div>
                     </div>
                   </div>
@@ -427,6 +427,9 @@ export default function Schedule() {
                         <div className="text-2xl font-semibold">
                           <h1>High tea and snacks</h1>
                         </div>
+                        <div className="text-lg">
+                          <p>Venue: Auditorium</p>
+                        </div>
                       </div>
                       <div className="flex items-center font-semibold  text-white  p-3">
                         July 30, 2024 11:00 to 11:20 AM
@@ -626,7 +629,7 @@ export default function Schedule() {
                           font
                         }
                       >
-                        July 30, 2024 04:50 to 05:20 PM
+                        July 30, 2024 04:50 to 05:00 PM
                       </div>
                     </div>
                   </div>
@@ -835,6 +838,9 @@ export default function Schedule() {
                         <div className="text-2xl font-semibold">
                           <h1>Tea and snacks</h1>
                         </div>
+                        <div className="text-lg">
+                          <p>Venue: Auditorium</p>
+                        </div>
                       </div>
                       <div
                         className={
@@ -910,7 +916,6 @@ export default function Schedule() {
                 </div>
               </div>
             </div>
-
             <div className="h-[18vh] flex flex-col relative top-6">
               <div className="w-[4vh] flex justify-center">
                 <div className="border-l-2 border-white h-[18vh]"></div>
@@ -997,7 +1002,7 @@ export default function Schedule() {
                       <div className="text-xl font-bold">
                         <h1>Tech Talk 2</h1>
                       </div>
-                      <div className="text-sm font-semibold">
+                      <div className="text-sm font-semibold tracking-wider">
                         <h1>By Mr.Shivam Abhilash</h1>
                       </div>
                       <div className="text-lg">
@@ -1268,6 +1273,9 @@ export default function Schedule() {
                       <div className="text-xl font-bold">
                         <h1>High tea and snacks</h1>
                       </div>
+                      <div className="text-lg">
+                          <p>Venue: Auditorium</p>
+                        </div>
                     </div>
                     <div className="flex items-center text-white p-3 ">
                       July 30, 2024 11:00 to 11:20 AM
@@ -1630,6 +1638,9 @@ export default function Schedule() {
                       <div className={"flex flex-col justify-center text-[#0D47A1] " + font}>
                         <div className="text-2xl font-semibold">
                           <h1>Tea and snacks</h1>
+                        </div>
+                        <div className="text-lg">
+                          <p>Venue: Auditorium</p>
                         </div>
                       </div>
                       <div

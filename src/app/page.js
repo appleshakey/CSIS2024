@@ -1,5 +1,5 @@
 "use client";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useParallax, ParallaxBanner } from "react-scroll-parallax";
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
@@ -16,25 +16,48 @@ import QAComponent6 from "@/components/QAComponent6";
 import QAComponent7 from "@/components/QAComponent7";
 import QAComponent8 from "@/components/QAComponent8";
 import QAComponent9 from "@/components/QAComponent9";
-import Competition from "@/components/competition";
 import SpeakerCarousel from "@/components/speakerCarousel";
 
 export default function Home() {
   const isMobileScreen = useMediaQuery("(min-width: 1000px)");
+  const [ideathonGuidlines, setIdeathonGuidlines] = useState(false);
+  const [codeCompGuidlines, setCodeCompGuidlines] = useState(false);
   const router = useRouter();
   const { ref: TicketRef, inView: TicketView } = useInView({
     triggerOnce: true,
     threshold: 0.5,
     initialInView: false,
   });
-
   const intro = useParallax({
     scale: [2, 0],
     opacity: [2, 0],
     speed: 20,
   });
   const bg = useParallax({});
-
+  const showIdeathonGuidlines = () => {
+    if (!ideathonGuidlines) {
+      const body = document.querySelector("body");
+      body.style.position = "fixed";
+      setIdeathonGuidlines(!ideathonGuidlines);
+      console.log("guidlines shown");
+    } else {
+      setIdeathonGuidlines(!ideathonGuidlines);
+      const body = document.querySelector("body");
+      body.style.position = "static";
+    }
+  };
+  const showCodeCompGuidlines = () => {
+    if (!codeCompGuidlines) {
+      const body = document.querySelector("body");
+      body.style.position = "fixed";
+      setCodeCompGuidlines(!codeCompGuidlines);
+      console.log("guidlines shown");
+    } else {
+      setCodeCompGuidlines(!codeCompGuidlines);
+      const body = document.querySelector("body");
+      body.style.position = "static";
+    }
+  };
   const variants = {
     visible: {
       x: 0,
@@ -45,7 +68,6 @@ export default function Home() {
       opacity: 0,
     },
   };
-
   const container = {
     hidden: { opacity: 1, scale: 0 },
     visible: {
@@ -57,7 +79,6 @@ export default function Home() {
       },
     },
   };
-
   useEffect(() => {
     const EventDate = new Date("Jul 29, 2024 00:00:00").getTime();
     let event_clock = setInterval(() => {
@@ -157,26 +178,69 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col items-center gap-7">
-            {/* <div className="text-7xl font-staat text-white pb-16">
-              RENOWNED <span className="text-[#4a8ec5]">SPEAKERS</span>
-            </div> */}
-            <div className="grid grid-cols-2 gap-8 xl:gap-32">
-              <Competition
-                heading="Ideathon"
-                para="The IEEE CSIS Ideathon is an innovative competition that brings together creative minds from various disciplines to solve real-world problems. Participants collaborate in teams to brainstorm, develop, and pitch groundbreaking ideas. With a focus on technology and engineering, the event fosters a spirit of innovation and entrepreneurship. "
-                image="/idea2.png"
-                heading1="Rules and Regulations"
-              />
-              <Competition
-                heading="Coding Competition"
-                para="The IEEE CSIS Coding Competition is a dynamic event where participants tackle challenging programming problems in a competitive setting. Teams or individuals race against the clock to develop efficient algorithms. This competition provides an excellent opportunity for coders to showcase their technical skills, and gain recognition within the tech community."
-                image="/idea4.jpeg"
-                heading1="Rules and Regulations"
-              />
-            </div>  
+          <div className="flex flex-col items-center text-white font-staat gap-7">
+            <div className="text-7xl pb-16">
+              {/* <h1>
+                Coding <span className="text-[#4a8ec5]">Competition</span>
+              </h1> */}
+            </div>
+            <div className="flex justify-between lg:space-x-24">
+              <div className="flex flex-col gap-5 items-center text-center">
+                <div>
+                  <img src="ideathon.png" className="w-64" />
+                </div>
+                <div className="text-4xl py-4 tracking-wider">
+                  <h3>
+                    Innovation
+                    <span className="text-[#156693]"> Ideathon</span>
+                  </h3>
+                </div>
+                <div className="text-sm">
+                  <p className="text-xl font-inter">
+                    Unleash your creativity at Innovation Ideathon 2024!
+                    Collaborate with thinkers and problem-solvers to develop
+                    innovative solutions to real-world challenges.
+                  </p>
+                </div>
+                <div className="d-flex justify-center">
+                  <button
+                    className="text-2xl px-3 py-1 rounded-md register-button"
+                    onClick={() => showIdeathonGuidlines()}
+                  >
+                    See Guidlines
+                  </button>
+                </div>
+              </div>
+
+              <div className="flex flex-col gap-5 items-center text-center">
+                <div>
+                  <img src="/coding.png" className="w-64" />
+                </div>
+                <div className="text-4xl py-4 tracking-wider">
+                  <h3>
+                    Coding
+                    <span className="text-[#156693]"> Competition</span>
+                  </h3>
+                </div>
+                <div>
+                  <p className="text-xl font-inter">
+                    Showcase your coding skills in the Coding Competition!
+                    Compete with top programmers to solve complex problem and
+                    push the boundaries of your coding prowess.
+                  </p>
+                </div>
+                <div className="d-flex justify-center">
+                  <button
+                    className="text-2xl px-3 py-1 rounded-md register-button"
+                    onClick={() => showCodeCompGuidlines()}
+                  >
+                    See Guidlines
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className=" text-white bg-black py-9 px-12 flex flex-col gap-16">
+          <div className=" text-white bg-black py-9 px-12 flex flex-col gap-16 mt-20">
             <h1 className="text-7xl font-staat bg-gradient-to-r from-[#4a8ec5] via-[#1666ac] to-[#bcbcbc] inline-block bg-clip-text text-transparent ">
               THE MOST Awaited IEEE EVENT IS HERE!
             </h1>
@@ -222,6 +286,171 @@ export default function Home() {
               </div>
             </div>
           </div>
+          {ideathonGuidlines && (
+            <motion.div className="fixed w-[100vw] h-[100vh] bg-gray-700 bg-opacity-45 flex justify-center items-center shadow-2xl">
+              <motion.div className="w-[75vw] h-[75vh] bg-slate-900 flex flex-col py-6 px-5 overflow-y-scroll relative">
+                <div className="right-5 justify-end text-3xl text-white absolute">
+                  <button onClick={() => showIdeathonGuidlines()}>X</button>
+                </div>
+                <div className="flex flex-col font-staat text-white gap-10">
+                  <div className="flex justify-center text-5xl text-[#4a8ec5]">
+                    <h1>Guidlines For Ideathon</h1>
+                  </div>
+                  <div>
+                    <h1 className="text-3xl text-[#4a8ec5]">
+                      1.Team Foundation
+                    </h1>
+                    <p className="text-xl">
+                      &nbsp; &nbsp; &nbsp; &nbsp; Teams must consist of a
+                      minimum of 1 and a maximum of 4 members, as specified by
+                      the organizers.
+                    </p>
+                  </div>
+                  <div>
+                    <h1 className="text-3xl text-[#4a8ec5]">2.Topic</h1>
+                    <div className="text-xl">
+                      <ol>
+                        <li>
+                          &nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;The Topic will be
+                          given on spot.
+                        </li>
+                      </ol>
+                    </div>
+                  </div>
+                  <div>
+                    <h1 className="text-3xl text-[#4a8ec5]">
+                      3.Powerpoint Presentation
+                    </h1>
+                    <div className="text-xl">
+                      <ol>
+                        <li>
+                          &nbsp; &nbsp; &nbsp; &nbsp; - &nbsp; The participant
+                          is free to use their choice of template for
+                          powerpoints.
+                        </li>
+                      </ol>
+                    </div>
+                  </div>
+                  <div>
+                    <h1 className="text-3xl text-[#4a8ec5]">
+                      4.Maximum Number of slides
+                    </h1>
+                    <div className="text-xl">
+                      <ol>
+                        <li>
+                          &nbsp; &nbsp; &nbsp; &nbsp; - &nbsp; The maximum
+                          number of slides for presentation is 10.
+                        </li>
+                      </ol>
+                    </div>
+                  </div>
+                  <div>
+                    <h4 className="text-2xl">
+                      Note: &nbsp; Each Member of a team should possess their
+                      own event tickets.
+                    </h4>
+                  </div>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
+          {codeCompGuidlines && (
+            <motion.div className="fixed w-[100vw] h-[100vh] bg-gray-700 bg-opacity-45 flex justify-center items-center shadow-2xl">
+              <motion.div className="w-[75vw] h-[75vh] bg-slate-900 flex flex-col py-6 px-5 overflow-y-scroll relative">
+                <div className="right-5 justify-end text-3xl text-white absolute">
+                  <button onClick={() => showCodeCompGuidlines()}>X</button>
+                </div>
+                <div className="flex flex-col font-staat text-white gap-10">
+                  <div className="flex justify-center text-5xl text-[#4a8ec5]">
+                    <h1>Guidlines For Coding Competition</h1>
+                  </div>
+                  <div>
+                    <h1 className="text-3xl text-[#4a8ec5]">1.Eligibility</h1>
+                    <div className="text-xl">
+                      <ol>
+                        <li>
+                          &nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;The competition is
+                          open to individuals only. Team participation is not
+                          permitted.
+                        </li>
+                        <li>
+                          &nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Participants must
+                          register for the event within the specified deadline.
+                        </li>
+                      </ol>
+                    </div>
+                  </div>
+                  <div>
+                    <h1 className="text-3xl text-[#4a8ec5]">
+                      2.Judging criteria
+                    </h1>
+                    <div className="text-xl">
+                      <ol>
+                        <li>
+                          &nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Solutions will be
+                          evaluated based on correctness, efficiency, and
+                          adherence to the problem requirements.
+                        </li>
+                        <li>
+                          &nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Prizes will be
+                          awarded to the top-performing individuals based on
+                          their scores.
+                        </li>
+                        <li>
+                          &nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;In the event of a
+                          tie, the time taken to submit the final correct
+                          solution will be considered.
+                        </li>
+                      </ol>
+                    </div>
+                  </div>
+                  <div>
+                    <h1 className="text-3xl text-[#4a8ec5]">3.Submission</h1>
+                    <div className="text-xl">
+                      <ol>
+                        <li>
+                          &nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;All solutions must
+                          be submitted by the individual registered for the
+                          competition.
+                        </li>
+                        <li>
+                          &nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Sharing code or
+                          discussing problems with others during the competition
+                          is strictly prohibited.
+                        </li>
+                      </ol>
+                    </div>
+                  </div>
+                  <div>
+                    <h1 className="text-3xl text-[#4a8ec5]">
+                      4.Completion Timeline
+                    </h1>
+                    <div className="text-xl">
+                      <ol>
+                        <li>
+                          &nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Participants must
+                          adhere to the schedule provided by the organizers.
+                        </li>
+                        <li>
+                          &nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Late arrivals may
+                          result in disqualification from certain activities or
+                          penalties.
+                        </li>
+                      </ol>
+                    </div>
+                  </div>
+                  <div>
+                    <h4 className="text-2xl">
+                      By participating in the coding competition, participants
+                      agree to abide by these rules and regulations. Failure to
+                      comply may result in consequences determined by the
+                      organizers.
+                    </h4>
+                  </div>
+                </div>
+              </motion.div>
+            </motion.div>
+          )}
           <div className="bg-black h-[50vh] text-white font-staat p-5 flex flex-col gap-3">
             <div className="flex justify-center text-7xl pb-16">
               <h1>
@@ -430,6 +659,7 @@ export default function Home() {
           </div>
         </div>
       </div> */}
+
           <div className="flex flex-col items-center text-white font-staat gap-7">
             <div className="text-7xl pb-16">
               <h1>
@@ -511,7 +741,7 @@ export default function Home() {
             <div className="text-7xl font-staat text-white pb-16">
               RENOWNED <span className="text-[#4a8ec5]">SPEAKERS</span>
             </div>
-            <SpeakerCarousel/>
+            <SpeakerCarousel />
             {/* <div className="grid grid-cols-3 gap-8 xl:gap-32">
               <SpeakerCard
                 heading="Saptarshi Ghosh"
@@ -556,6 +786,183 @@ export default function Home() {
         </motion.div>
       ) : (
         <motion.div className="flex flex-col gap-16">
+          {ideathonGuidlines && (
+            <motion.div className="fixed z-50 w-full h-full bg-gray-800 bg-opacity-30">
+              <motion.div className="fixed w-[100vw] h-[100vh] bg-gray-700 bg-opacity-45 flex justify-center items-center shadow-2xl">
+                <motion.div className="w-[75vw] h-[75vh] bg-slate-900 flex flex-col py-6 px-5 overflow-y-scroll relative">
+                  <div className="right-5 justify-end text-3xl text-white absolute">
+                    <button onClick={() => showIdeathonGuidlines()}>X</button>
+                  </div>
+                  <div className="flex flex-col font-staat text-white gap-10">
+                    <div className="flex justify-center text-center text-3xl text-[#4a8ec5]">
+                      <h1>
+                        Guidlines For <br /> Ideathon
+                      </h1>
+                    </div>
+                    <div>
+                      <h1 className="text-3xl text-[#4a8ec5]">
+                        1.Team Foundation
+                      </h1>
+                      <p className="text-xl">
+                        &nbsp; &nbsp; &nbsp; &nbsp; Teams must consist of a
+                        minimum of 1 and a maximum of 4 members, as specified by
+                        the organizers.
+                      </p>
+                    </div>
+                    <div>
+                      <h1 className="text-3xl text-[#4a8ec5]">2.Topic</h1>
+                      <div className="text-xl">
+                        <ol>
+                          <li>
+                            &nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Topic will given
+                            on the spot.
+                          </li>
+                        </ol>
+                      </div>
+                    </div>
+                    <div>
+                      <h1 className="text-3xl text-[#4a8ec5]">
+                        3.Powerpoint template
+                      </h1>
+                      <div className="text-xl">
+                        <ol>
+                          <li>
+                            &nbsp; &nbsp; &nbsp; &nbsp; - &nbsp; The participant
+                            is free to use their choice of template for
+                            powerpoints.
+                          </li>
+                        </ol>
+                      </div>
+                    </div>
+                    <div>
+                      <h1 className="text-3xl text-[#4a8ec5]">
+                        4.Maximum Number of slides
+                      </h1>
+                      <div className="text-xl">
+                        <ol>
+                          <li>
+                            &nbsp; &nbsp; &nbsp; &nbsp; - &nbsp; The maximum
+                            number of slides for presentation is 10.
+                          </li>
+                        </ol>
+                      </div>
+                    </div>
+                    <div>
+                      <h4 className="text-2xl">
+                        Note: &nbsp; Each Member of a team should possess their
+                        own event tickets.
+                      </h4>
+                    </div>
+                  </div>
+                </motion.div>
+              </motion.div>
+            </motion.div>
+          )}
+          {codeCompGuidlines && (
+            <motion.div className="fixed z-50 w-full h-full bg-gray-800 bg-opacity-30">
+              <motion.div className="fixed w-[100vw] h-[100vh] bg-gray-700 bg-opacity-45 flex justify-center items-center shadow-2xl">
+                <motion.div className="w-[75vw] h-[75vh] bg-slate-900 flex flex-col py-6 px-5 overflow-y-scroll relative">
+                  <div className="right-5 justify-end text-3xl text-white absolute">
+                    <button onClick={() => showCodeCompGuidlines()}>X</button>
+                  </div>
+                  <div className="flex flex-col font-staat text-white gap-10">
+                    <div className="flex justify-center text-3xl text-[#4a8ec5] text-center">
+                      <h1>
+                        Guidlines For
+                        <br /> Coding
+                        <br /> Competition
+                      </h1>
+                    </div>
+                    <div>
+                      <h1 className="text-3xl text-[#4a8ec5]">1.Eligibility</h1>
+                      <div className="text-xl">
+                        <ol>
+                          <li>
+                            &nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;The competition
+                            is open to individuals only. Team participation is
+                            not permitted.
+                          </li>
+                          <li>
+                            &nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Participants
+                            must register for the event within the specified
+                            deadline.
+                          </li>
+                        </ol>
+                      </div>
+                    </div>
+                    <div>
+                      <h1 className="text-3xl text-[#4a8ec5]">
+                        2.Judging criteria
+                      </h1>
+                      <div className="text-xl">
+                        <ol>
+                          <li>
+                            &nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Solutions will
+                            be evaluated based on correctness, efficiency, and
+                            adherence to the problem requirements.
+                          </li>
+                          <li>
+                            &nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Prizes will be
+                            awarded to the top-performing individuals based on
+                            their scores.
+                          </li>
+                          <li>
+                            &nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;In the event of
+                            a tie, the time taken to submit the final correct
+                            solution will be considered.
+                          </li>
+                        </ol>
+                      </div>
+                    </div>
+                    <div>
+                      <h1 className="text-3xl text-[#4a8ec5]">3.Submission</h1>
+                      <div className="text-xl">
+                        <ol>
+                          <li>
+                            &nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;All solutions
+                            must be submitted by the individual registered for
+                            the competition.
+                          </li>
+                          <li>
+                            &nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Sharing code or
+                            discussing problems with others during the
+                            competition is strictly prohibited.
+                          </li>
+                        </ol>
+                      </div>
+                    </div>
+                    <div>
+                      <h1 className="text-3xl text-[#4a8ec5]">
+                        4.Completion Timeline
+                      </h1>
+                      <div className="text-xl">
+                        <ol>
+                          <li>
+                            &nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Participants
+                            must adhere to the schedule provided by the
+                            organizers.
+                          </li>
+                          <li>
+                            &nbsp; &nbsp; &nbsp; &nbsp; - &nbsp;Late arrivals
+                            may result in disqualification from certain
+                            activities or penalties.
+                          </li>
+                        </ol>
+                      </div>
+                    </div>
+                    <div>
+                      <h4 className="text-2xl">
+                        By participating in the coding competition, participants
+                        agree to abide by these rules and regulations. Failure
+                        to comply may result in consequences determined by the
+                        organizers.
+                      </h4>
+                    </div>
+                  </div>
+                </motion.div>
+              </motion.div>
+            </motion.div>
+          )}
           <div ref={intro.ref} className="hidden"></div>
           <div ref={bg.ref} className="hidden"></div>
           <div className="intro-m">
@@ -582,6 +989,64 @@ export default function Home() {
               >
                 REGISTER NOW
               </button>
+            </div>
+          </div>
+          <div className="whyCSIS flex flex-col items-center gap-7 p-5">
+            <div className="text-center text-white font-staat text-3xl">
+              {/* <h1>
+                Coding <span className="text-[#4a8ec5]">Competition</span>
+              </h1> */}
+            </div>
+            <div className="flex flex-col items-center gap-3">
+              <div>
+                <img src="ideathon.png" className=" w-28 h-28" />
+              </div>
+              <div className="text-white font-staat text-xl">
+                <h3>
+                  Innovation <span className="text-[#156693]">Ideathon</span>
+                </h3>
+              </div>
+              <div className="text-white  text-md text-center font-inter">
+                <p>
+                  Unleash your creativity at Innovation Ideathon 2024!
+                  Collaborate with thinkers and problem-solvers to develop
+                  innovative solutions to real-world challenges.
+                </p>
+              </div>
+              <div className="d-flex justify-center">
+                <button
+                  className="text-md px-3 py-1 rounded-md register-button font-staat tracking-wider"
+                  onClick={showIdeathonGuidlines}
+                >
+                  See Guidlines
+                </button>
+              </div>
+            </div>
+
+            <div className="flex flex-col items-center gap-3">
+              <div>
+                <img src="coding.png" className=" w-28 h-28" />
+              </div>
+              <div className="text-white font-staat text-xl">
+                <h3>
+                  Coding <span className="text-[#156693]">Competition</span>
+                </h3>
+              </div>
+              <div className="text-white font-staat text-md text-center">
+                <p className="font-inter">
+                  Showcase your coding skills in the Coding Competition! Compete
+                  with top programmers to solve complex problem and push the
+                  boundaries of your coding prowess.
+                </p>
+              </div>
+              <div className="d-flex justify-center">
+                <button
+                  className="text-md px-3 py-1 rounded-md register-button font-staat tracking-wider"
+                  onClick={showCodeCompGuidlines}
+                >
+                  See Guidlines
+                </button>
+              </div>
             </div>
           </div>
           <div className="p-3 description-m">
@@ -823,12 +1288,12 @@ export default function Home() {
             </div>
             <div className="flex gap-5 overflow-y-auto w-[75%] h-[120%]">
               <Speakers
-                heading="Saptarshi Ghosh"
+                heading="MR.Saptarshi Ghosh"
                 para="Saptarshi Ghosh is a System-On-Chip Design Engineer at Intel, who is working at the leading forefront of technology to enable and design the next generation of AI-enabled Intel Xeon® processors. His dedication and commitment to advancing computing have been recognized both at Intel as well as through the UC Berkeley College of Engineering  where he holds a Masters Degree in Electrical Engineering & Computer Sciences. He currently chairs the Students and Young Professionals Board in IEEE Computer Society, an organization having more than 50,000 members."
                 image="/image3.jpeg"
               />
               <Speakers
-                heading="Shivam Abhilash"
+                heading="MR.Shivam Abhilash"
                 para="Experienced technology leader with a demonstrated history of
                     working in the management consulting industry. Skilled in
                     Machine Learning, NLP, Graph, Production ready ML Solutions,
@@ -839,23 +1304,23 @@ export default function Home() {
                 image="/speakers2.jpg"
               />
               <Speakers
-                heading="Nikky Kumar Jha"
+                heading="MR.Nikky Kumar Jha"
                 para="Specializing in renewable energy, notably solar power, I excel in fields such as medical electronics, Internet of Things (IoT), Agri-Tech, Healthcare Tech, and Machine Learning. My contributions include research papers and keynote speeches at international conferences, earning recognition through numerous international awards for my dedication and impact in these fields."
                 image="/speakers3.jpg"
               />
-               <Speakers
-                  heading="MR.ARUN SAMPATH"
-                  para="Mr. Arun Sampath, a global technologist
+              <Speakers
+                heading="MR.ARUN SAMPATH"
+                para="Mr. Arun Sampath, a global technologist
 specialising as a Chief Engineer and Technical
 Architect delivering market leadership with
 ahead-of-the-curve technologies across multiple
 industries. He is well versed and experienced in
 Artificial Intelligence as a service."
-                  image="/idea5.jpeg"
-                />
-                <Speakers
-                  heading="PROF.AMLAN CHAKRABARTI"
-                  para="With a distinguished career spanning nearly 20 years,
+                image="/idea5.jpeg"
+              />
+              <Speakers
+                heading="PROF.AMLAN CHAKRABARTI"
+                para="With a distinguished career spanning nearly 20 years,
 Dr. Amlan Chakrabarti has been recognized with
 numerous awards, including the DST BOYSCAST
 fellowship, INSA Visiting Faculty Fellowship, and IBM
@@ -864,23 +1329,23 @@ groundbreaking research in Embedded System Design,
 Quantum Computing, and Cybersecurity, securing
 multiple project grants and publishing over 160 research
 papers.."
-                  //  As an Associate Editor of the Elsevier Journal
-                  // of Computers and Electrical Engineering and a Sr.
-                  // Member of IEEE and ACM, he continues to influence
-                  // the fields of Machine Learning, Computer Vision, and
-                  // Reconfigurable Computing
-                  image="/done2.jpeg"
-                />
-                  <Speakers
-                  heading="DR.Soma Prathibha "
-                  para="Dr. Soma Prathibha is a distinguished academic and thought leader with a profound impact in Cloud Computing, Data Science, and Blockchain. She has organized over 10 national and international events, published 16 research papers in top-tier international journals, and presented at 21 international and 15 national conferences. As an Excom Member of IEEE WIE MAS Section, her contributions have significantly advanced the field and inspired countless students and professionals."
-                  image="/image5.jpeg"
-                />
-                  <Speakers
-                  heading="MR.Sandeep Varma"
-                  para="Sandeep is a thought leader and chief architect of multiple large-scale enterprise big data platforms, and he heads all delivery from ZS’s big data center of excellence in India. He specializes in rapidly building high-performance teams focused on cutting-edge technologies and high-quality delivery.He did MBA in marketing and systems from BIM Trichy and a bachelor’s in mechanical engineering from Bengaluru University."
-                  image="/image6.jpeg"
-                />
+                //  As an Associate Editor of the Elsevier Journal
+                // of Computers and Electrical Engineering and a Sr.
+                // Member of IEEE and ACM, he continues to influence
+                // the fields of Machine Learning, Computer Vision, and
+                // Reconfigurable Computing
+                image="/done2.jpeg"
+              />
+              <Speakers
+                heading="DR.Soma Prathibha "
+                para="Dr. Soma Prathibha is a distinguished academic and thought leader with a profound impact in Cloud Computing, Data Science, and Blockchain. She has organized over 10 national and international events, published 16 research papers in top-tier international journals, and presented at 21 international and 15 national conferences. As an Excom Member of IEEE WIE MAS Section, her contributions have significantly advanced the field and inspired countless students and professionals."
+                image="/image5.jpeg"
+              />
+              <Speakers
+                heading="MR.Sandeep Varma"
+                para="Sandeep is a thought leader and chief architect of multiple large-scale enterprise big data platforms, and he heads all delivery from ZS’s big data center of excellence in India. He specializes in rapidly building high-performance teams focused on cutting-edge technologies and high-quality delivery.He did MBA in marketing and systems from BIM Trichy and a bachelor’s in mechanical engineering from Bengaluru University."
+                image="/image6.jpeg"
+              />
             </div>
           </div>
           <div className="FAQ flex flex-col p-5 gap-7 bg-about bg-cover">
