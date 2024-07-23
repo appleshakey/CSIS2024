@@ -240,52 +240,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className=" text-white bg-black py-9 px-12 flex flex-col gap-16 mt-20">
-            <h1 className="text-7xl font-staat bg-gradient-to-r from-[#4a8ec5] via-[#1666ac] to-[#bcbcbc] inline-block bg-clip-text text-transparent ">
-              THE MOST Awaited IEEE EVENT IS HERE!
-            </h1>
-            <div className="grid grid-cols-2 font-staat gap-9">
-              <div className="px-5 flex flex-col gap-3">
-                <h1 className="text-4xl tracking-wider">
-                  Redefining Endless Possibilities :
-                </h1>
-                <p className="text-xl mt-8 tracking-wider font-inter">
-                  Join us for the prestigious Computer Society India Symposium
-                  (CSIS) at SRM Institute of Science & Technology. Discover a
-                  captivating blend of technical expertise, engaging activities,
-                  and networking opportunities. CSIS 2024 promises a vibrant
-                  learning environment that fosters innovation, collaboration,
-                  and professional growth.
-                </p>
-              </div>
-              <div className="grid grid-cols-10 grid-rows-10 gap-2">
-                <div className="bg-black text-black grid-cols-subgrid col-span-5 grid-rows-subgrid row-span-4">
-                  <ParallaxBanner
-                    layers={[{ image: "/banner1.jpg", speed: -15 }]}
-                    className="aspect-[2.5/2.1] hover:scale-105 transition-all hover:z-40"
-                  />
-                </div>
-                <div className="bg-black text-black grid-cols-subgrid col-span-5 grid-rows-subgrid row-span-4">
-                  <ParallaxBanner
-                    layers={[{ image: "/banner2.jpg", speed: -15 }]}
-                    className="aspect-[2.5/2.1] hover:scale-105 transition-all hover:z-40"
-                  />
-                </div>
-                <div className="bg-black text-black grid-cols-subgrid col-span-5 grid-rows-subgrid row-span-4">
-                  <ParallaxBanner
-                    layers={[{ image: "/banner3.jpg", speed: -15 }]}
-                    className="aspect-[2.5/2.1] hover:scale-105 transition-all hover:z-40"
-                  />
-                </div>
-                <div className="bg-white text-black grid-cols-subgrid col-span-5 grid-rows-subgrid row-span-4">
-                  <ParallaxBanner
-                    layers={[{ image: "/banner4.jpg", speed: -15 }]}
-                    className="aspect-[2.5/2.2] hover:scale-105 transition-all hover:z-40"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
           {ideathonGuidlines && (
             <motion.div className="fixed w-[100vw] h-[100vh] bg-gray-700 bg-opacity-45 flex justify-center items-center shadow-2xl">
               <motion.div className="w-[75vw] h-[75vh] bg-slate-900 flex flex-col py-6 px-5 overflow-y-scroll relative">
@@ -451,6 +405,53 @@ export default function Home() {
               </motion.div>
             </motion.div>
           )}
+          <div className=" text-white bg-black py-9 px-12 flex flex-col gap-16 mt-20">
+            <h1 className="text-7xl font-staat bg-gradient-to-r from-[#4a8ec5] via-[#1666ac] to-[#bcbcbc] inline-block bg-clip-text text-transparent ">
+              THE MOST Awaited IEEE EVENT IS HERE!
+            </h1>
+            <div className="grid grid-cols-2 font-staat gap-9">
+              <div className="px-5 flex flex-col gap-3">
+                <h1 className="text-4xl tracking-wider">
+                  Redefining Endless Possibilities :
+                </h1>
+                <p className="text-xl mt-8 tracking-wider font-inter">
+                  Join us for the prestigious Computer Society India Symposium
+                  (CSIS) at SRM Institute of Science & Technology. Discover a
+                  captivating blend of technical expertise, engaging activities,
+                  and networking opportunities. CSIS 2024 promises a vibrant
+                  learning environment that fosters innovation, collaboration,
+                  and professional growth.
+                </p>
+              </div>
+              <div className="grid grid-cols-10 grid-rows-10 gap-2">
+                <div className="bg-black text-black grid-cols-subgrid col-span-5 grid-rows-subgrid row-span-4">
+                  <ParallaxBanner
+                    layers={[{ image: "/banner1.jpg", speed: -15 }]}
+                    className="aspect-[2.5/2.1] hover:scale-105 transition-all hover:z-40"
+                  />
+                </div>
+                <div className="bg-black text-black grid-cols-subgrid col-span-5 grid-rows-subgrid row-span-4">
+                  <ParallaxBanner
+                    layers={[{ image: "/banner2.jpg", speed: -15 }]}
+                    className="aspect-[2.5/2.1] hover:scale-105 transition-all hover:z-40"
+                  />
+                </div>
+                <div className="bg-black text-black grid-cols-subgrid col-span-5 grid-rows-subgrid row-span-4">
+                  <ParallaxBanner
+                    layers={[{ image: "/banner3.jpg", speed: -15 }]}
+                    className="aspect-[2.5/2.1] hover:scale-105 transition-all hover:z-40"
+                  />
+                </div>
+                <div className="bg-white text-black grid-cols-subgrid col-span-5 grid-rows-subgrid row-span-4">
+                  <ParallaxBanner
+                    layers={[{ image: "/banner4.jpg", speed: -15 }]}
+                    className="aspect-[2.5/2.2] hover:scale-105 transition-all hover:z-40"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        
           <div className="bg-black h-[50vh] text-white font-staat p-5 flex flex-col gap-3">
             <div className="flex justify-center text-7xl pb-16">
               <h1>

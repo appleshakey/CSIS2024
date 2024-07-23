@@ -2,7 +2,6 @@ import { Inter } from "next/font/google";
 import Parallax_Provider from "@/components/Parallax_Provider";
 import { Analytics } from "@vercel/analytics/react"
 import "./globals.css";
-import Navbar from "@/components/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
