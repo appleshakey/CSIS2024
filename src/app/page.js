@@ -28,12 +28,12 @@ export default function Home() {
     threshold: 0.5,
     initialInView: false,
   });
-  const intro = useParallax({
-    scale: [2, 0],
-    opacity: [2, 0],
-    speed: 20,
-  });
-  const bg = useParallax({});
+  // const intro = useParallax({
+  //   scale: [2, 0],
+  //   opacity: [2, 0],
+  //   speed: 20,
+  // });
+ 
   const showIdeathonGuidlines = () => {
     if (!ideathonGuidlines) {
       const body = document.querySelector("body");
@@ -138,15 +138,15 @@ export default function Home() {
           <div>
             <div
               className="h-[100vh] flex justify-center items-center"
-              ref={bg.ref}
+              
             >
               <div
                 className="bg-ieee bg-fixed h-[75vh] w-[100vw] flex justify-center items-center"
-                ref={bg.ref}
+              
               >
                 <div
                   className={`px-[82px] text-white font-staat flex justify-center items-center`}
-                  ref={intro.ref}
+                 
                 >
                   <div className="  flex flex-col text-center gap-y-8">
                     <div className="flex flex-col">
@@ -180,9 +180,9 @@ export default function Home() {
           </div>
           <div className="flex flex-col items-center text-white font-staat gap-7">
             <div className="text-7xl pb-16">
-              {/* <h1>
-                Coding <span className="text-[#4a8ec5]">Competition</span>
-              </h1> */}
+              <h1>
+                Exclusive <span className="text-[#4a8ec5]">Events</span>
+              </h1>
             </div>
             <div className="flex justify-between lg:space-x-24">
               <div className="flex flex-col gap-5 items-center text-center">
@@ -964,8 +964,8 @@ export default function Home() {
               </motion.div>
             </motion.div>
           )}
-          <div ref={intro.ref} className="hidden"></div>
-          <div ref={bg.ref} className="hidden"></div>
+          {/* <div ref={intro.ref} className="hidden"></div>
+          <div ref={bg.ref} className="hidden"></div> */}
           <div className="intro-m">
             <motion.div className="h-[95vh] w-[100vw] flex flex-col justify-center items-center bg-ieee">
               <motion.div className="w-[100vw] flex flex-col items-center gap-7 p-1">
