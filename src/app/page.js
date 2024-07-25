@@ -17,6 +17,8 @@ import QAComponent7 from "@/components/QAComponent7";
 import QAComponent8 from "@/components/QAComponent8";
 import QAComponent9 from "@/components/QAComponent9";
 import SpeakerCarousel from "@/components/speakerCarousel";
+import { Carousel } from "flowbite-react";
+
 
 export default function Home() {
   const isMobileScreen = useMediaQuery("(min-width: 1000px)");
@@ -451,7 +453,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-        
           <div className="bg-black h-[50vh] text-white font-staat p-5 flex flex-col gap-3">
             <div className="flex justify-center text-7xl pb-16">
               <h1>
@@ -1287,7 +1288,9 @@ export default function Home() {
                 RENOWNED <span className="text-[#4a8ec5]">SPEAKERS</span>
               </div>
             </div>
+           
             <div className="flex gap-5 overflow-y-auto w-[75%] h-[120%]">
+            <Carousel indicators={false}>
               <Speakers
                 heading="MR.Saptarshi Ghosh"
                 para="Saptarshi Ghosh is a System-On-Chip Design Engineer at Intel, who is working at the leading forefront of technology to enable and design the next generation of AI-enabled Intel Xeon® processors. His dedication and commitment to advancing computing have been recognized both at Intel as well as through the UC Berkeley College of Engineering  where he holds a Masters Degree in Electrical Engineering & Computer Sciences. He currently chairs the Students and Young Professionals Board in IEEE Computer Society, an organization having more than 50,000 members."
@@ -1347,7 +1350,9 @@ papers.."
                 para="Sandeep is a thought leader and chief architect of multiple large-scale enterprise big data platforms, and he heads all delivery from ZS’s big data center of excellence in India. He specializes in rapidly building high-performance teams focused on cutting-edge technologies and high-quality delivery.He did MBA in marketing and systems from BIM Trichy and a bachelor’s in mechanical engineering from Bengaluru University."
                 image="/image6.jpeg"
               />
+            </Carousel>
             </div>
+
           </div>
           <div className="FAQ flex flex-col p-5 gap-7 bg-about bg-cover">
             <div className="flex justify-center text-4xl tracking-wider text-[#156693] font-staat ">
