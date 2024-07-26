@@ -37,12 +37,12 @@ export default function SpeakerCard({ heading, para, image }) {
           className="w-full transform transition-transform duration-300 ease-in-out group-hover:scale-110"
         />
         <div className="py-4 tracking-wider mx-4">
-          <div className="text-xl md:text-3xl py-4 tracking-wider font-staat mb-2 text-white">
+          <div className="text-xl md:text-2xl py-4 tracking-wider font-staat mb-2 text-white">
             {heading}
           </div>
           <p
             ref={paragraphRef}
-            className={`mt-2 text-white ${isExpanded ? '' : 'truncate-lines'}`}
+            className={`mt-2 text-white text-sm ${isExpanded ? '' : 'truncate-lines'}`}
             style={{
               display: '-webkit-box',
               WebkitBoxOrient: 'vertical',

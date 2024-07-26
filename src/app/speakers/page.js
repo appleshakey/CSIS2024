@@ -294,6 +294,24 @@ sessions worldwide"
                     Analytics."
                   image="/speakers2.jpg"
                 />
+                   <SpeakerCard
+                  heading="PROF.AMLAN CHAKRABARTI"
+                  para="With a distinguished career spanning nearly 20 years,
+  Dr.Amlan Chakrabarti has been recognized with
+  numerous awards, including the DST BOYSCAST
+ fellowship, INSA Visiting Faculty Fellowship, and IBM
+ Quantum Researchers Access Award. Has led
+ groundbreaking research in Embedded System Design,
+ Quantum Computing, and Cybersecurity, securing
+ multiple project grants and publishing over 160 research
+ papers
+                   As an Associate Editor of the Elsevier Journal
+                  of Computers and Electrical Engineering and a Sr.
+                  Member of IEEE and ACM, he continues to influence
+                  the fields of Machine Learning, Computer Vision, and
+                  Reconfigurable Computing."
+                  image="/done2.jpeg"
+                />
                 <SpeakerCard
                   heading="MR.ARUN SAMPATH"
                   para="Mr. Arun Sampath, a global technologist
@@ -314,24 +332,24 @@ sessions worldwide"
                   para="Dr. Soma Prathibha is a distinguished academic and thought leader with a profound impact in Cloud Computing, Data Science, and Blockchain. She has organized over 10 national and international events, published 16 research papers in top-tier international journals, and presented at 21 international and 15 national conferences. As an Excom Member of IEEE WIE MAS Section, her contributions have significantly advanced the field and inspired countless students and professionals."
                   image="/image5.jpeg"
                 />
-
-                <SpeakerCard
-                  heading="PROF.AMLAN CHAKRABARTI"
-                  para="With a distinguished career spanning nearly 20 years,
-  Dr.Amlan Chakrabarti has been recognized with
-  numerous awards, including the DST BOYSCAST
- fellowship, INSA Visiting Faculty Fellowship, and IBM
- Quantum Researchers Access Award. Has led
- groundbreaking research in Embedded System Design,
- Quantum Computing, and Cybersecurity, securing
- multiple project grants and publishing over 160 research
- papers.."
-                  //  As an Associate Editor of the Elsevier Journal
-                  // of Computers and Electrical Engineering and a Sr.
-                  // Member of IEEE and ACM, he continues to influence
-                  // the fields of Machine Learning, Computer Vision, and
-                  // Reconfigurable Computing
-                  image="/done2.jpeg"
+<SpeakerCard
+                  heading="Dr.Jyoti Gautam"
+                  para="An esteemed Associate Professor at JSS Academy of
+Technical Education, Noida, and a leading expert in
+Computer Science and Engineering. Dr. Jyoti Gautam
+holds advanced degrees from Delhi University and a
+Ph.D. in Semantic Web from Gautam Buddha University.
+With significant contributions to water conservation, AI,
+and smart systems, serves on the Digital Water Program
+Steering Committee of the International Water
+Association and as the State President of the Delhi
+Artificial Intelligence Council, WICCI."
+                  image="/speaker9.png"
+                />
+             <SpeakerCard
+                  heading="miss.Soumya Kashyap"
+                  para="Soumya has a background in electrical and electronics engineering and is currently pursuing an MBA from IIM Bangalore. During her undergraduate days, she served as the IEEE Student Representative for the Kolkata section, successfully conducting two editions of IEEE CSIS. At IBM, Soumya worked as a software developer, focusing on product development, cost optimisation, operational excellence, artificial intelligence, and stakeholder management. She also leveraged generative AI to automate query processes. Additionally, during her time with the NatWest Group, Soumya generated strategic and operational insights to support digital transformation initiatives."
+                  image="/speaker8.jpeg"
                 />
                 <SpeakerCard
                   heading="MR.HR Mohan"
