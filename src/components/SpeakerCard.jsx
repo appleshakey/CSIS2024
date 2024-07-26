@@ -4,7 +4,7 @@ export default function SpeakerCard({ heading, para, image }) {
   const [isExpanded, setIsExpanded] = useState(false);
   const [shouldShowReadMore, setShouldShowReadMore] = useState(false);
   const paragraphRef = useRef(null);
-  const linesToShow = 14;
+  const linesToShow = 10;
 
   useEffect(() => {
     const checkContentHeight = () => {
