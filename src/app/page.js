@@ -35,7 +35,7 @@ export default function Home() {
   //   opacity: [2, 0],
   //   speed: 20,
   // });
- 
+
   const showIdeathonGuidlines = () => {
     if (!ideathonGuidlines) {
       const body = document.querySelector("body");
@@ -102,30 +102,30 @@ export default function Home() {
       let s2 = document.getElementById("s2");
       d1
         ? (document.getElementById("d1").innerHTML = String(
-            Math.floor(days / 10)
-          ))
+          Math.floor(days / 10)
+        ))
         : null;
       d2 ? (document.getElementById("d2").innerHTML = String(days % 10)) : null;
       h1
         ? (document.getElementById("h1").innerHTML = String(
-            Math.floor(hours / 10)
-          ))
+          Math.floor(hours / 10)
+        ))
         : null;
       h2
         ? (document.getElementById("h2").innerHTML = String(hours % 10))
         : null;
       m1
         ? (document.getElementById("m1").innerHTML = String(
-            Math.floor(minutes / 10)
-          ))
+          Math.floor(minutes / 10)
+        ))
         : null;
       m2
         ? (document.getElementById("m2").innerHTML = String(minutes % 10))
         : null;
       s1
         ? (document.getElementById("s1").innerHTML = String(
-            Math.floor(seconds / 10)
-          ))
+          Math.floor(seconds / 10)
+        ))
         : null;
       s2
         ? (document.getElementById("s2").innerHTML = String(seconds % 10))
@@ -1281,43 +1281,43 @@ export default function Home() {
                 RENOWNED <span className="text-[#4a8ec5]">SPEAKERS</span>
               </div>
             </div>
-           
+
             <div className="flex gap-5 overflow-y-auto w-[75%] h-[120%]">
-            <Carousel indicators={false}>
-              <Speakers
-                heading="MR.Saptarshi Ghosh"
-                para="Saptarshi Ghosh is a System-On-Chip Design Engineer at Intel, who is working at the leading forefront of technology to enable and design the next generation of AI-enabled Intel Xeon® processors. His dedication and commitment to advancing computing have been recognized both at Intel as well as through the UC Berkeley College of Engineering  where he holds a Masters Degree in Electrical Engineering & Computer Sciences. He currently chairs the Students and Young Professionals Board in IEEE Computer Society, an organization having more than 50,000 members."
-                image="/image3.jpeg"
-              />
-              <Speakers
-                heading="MR.Shivam Abhilash"
-                para="Experienced technology leader with a demonstrated history of
+              <Carousel indicators={false}>
+                <Speakers
+                  heading="MR.Saptarshi Ghosh"
+                  para="Saptarshi Ghosh is a System-On-Chip Design Engineer at Intel, who is working at the leading forefront of technology to enable and design the next generation of AI-enabled Intel Xeon® processors. His dedication and commitment to advancing computing have been recognized both at Intel as well as through the UC Berkeley College of Engineering  where he holds a Masters Degree in Electrical Engineering & Computer Sciences. He currently chairs the Students and Young Professionals Board in IEEE Computer Society, an organization having more than 50,000 members."
+                  image="/image3.jpeg"
+                />
+                <Speakers
+                  heading="MR.Shivam Abhilash"
+                  para="Experienced technology leader with a demonstrated history of
                     working in the management consulting industry. Skilled in
                     Machine Learning, NLP, Graph, Production ready ML Solutions,
                     Leadership, Management and Solution Delivery. Strong
                     business development professional graduated from Indian
                     Institute Of Information Technology having knowledge of Data
                     Analytics."
-                image="/speakers2.jpg"
-              />
-              <Speakers
-                heading="MR.Nikky Kumar Jha"
-                para="Specializing in renewable energy, notably solar power, I excel in fields such as medical electronics, Internet of Things (IoT), Agri-Tech, Healthcare Tech, and Machine Learning. My contributions include research papers and keynote speeches at international conferences, earning recognition through numerous international awards for my dedication and impact in these fields."
-                image="/speakers3.jpg"
-              />
-              <Speakers
-                heading="MR.ARUN SAMPATH"
-                para="Mr. Arun Sampath, a global technologist
+                  image="/speakers2.jpg"
+                />
+                <Speakers
+                  heading="MR.Nikky Kumar Jha"
+                  para="Specializing in renewable energy, notably solar power, I excel in fields such as medical electronics, Internet of Things (IoT), Agri-Tech, Healthcare Tech, and Machine Learning. My contributions include research papers and keynote speeches at international conferences, earning recognition through numerous international awards for my dedication and impact in these fields."
+                  image="/speakers3.jpg"
+                />
+                <Speakers
+                  heading="MR.ARUN SAMPATH"
+                  para="Mr. Arun Sampath, a global technologist
 specialising as a Chief Engineer and Technical
 Architect delivering market leadership with
 ahead-of-the-curve technologies across multiple
 industries. He is well versed and experienced in
 Artificial Intelligence as a service."
-                image="/idea5.jpeg"
-              />
-              <Speakers
-                heading="PROF.AMLAN CHAKRABARTI"
-                para="With a distinguished career spanning nearly 20 years,
+                  image="/idea5.jpeg"
+                />
+                <Speakers
+                  heading="PROF.AMLAN CHAKRABARTI"
+                  para="With a distinguished career spanning nearly 20 years,
 Dr. Amlan Chakrabarti has been recognized with
 numerous awards, including the DST BOYSCAST
 fellowship, INSA Visiting Faculty Fellowship, and IBM
@@ -1326,29 +1326,60 @@ groundbreaking research in Embedded System Design,
 Quantum Computing, and Cybersecurity, securing
 multiple project grants and publishing over 160 research
 papers.."
-                //  As an Associate Editor of the Elsevier Journal
-                // of Computers and Electrical Engineering and a Sr.
-                // Member of IEEE and ACM, he continues to influence
-                // the fields of Machine Learning, Computer Vision, and
-                // Reconfigurable Computing
-                image="/done2.jpeg"
-              />
-              <Speakers
-                heading="DR.Soma Prathibha "
-                para="Dr. Soma Prathibha is a distinguished academic and thought leader with a profound impact in Cloud Computing, Data Science, and Blockchain. She has organized over 10 national and international events, published 16 research papers in top-tier international journals, and presented at 21 international and 15 national conferences. As an Excom Member of IEEE WIE MAS Section, her contributions have significantly advanced the field and inspired countless students and professionals."
-                image="/image5.jpeg"
-              />
-              <Speakers
-                heading="MR.Sandeep Varma"
-                para="Sandeep is a thought leader and chief architect of multiple large-scale enterprise big data platforms, and he heads all delivery from ZS’s big data center of excellence in India. He specializes in rapidly building high-performance teams focused on cutting-edge technologies and high-quality delivery.He did MBA in marketing and systems from BIM Trichy and a bachelor’s in mechanical engineering from Bengaluru University."
-                image="/image6.jpeg"
-              />
-                 <Speakers
+                  //  As an Associate Editor of the Elsevier Journal
+                  // of Computers and Electrical Engineering and a Sr.
+                  // Member of IEEE and ACM, he continues to influence
+                  // the fields of Machine Learning, Computer Vision, and
+                  // Reconfigurable Computing
+                  image="/done2.jpeg"
+                />
+                <Speakers
+                  heading="DR.Soma Prathibha "
+                  para="Dr. Soma Prathibha is a distinguished academic and thought leader with a profound impact in Cloud Computing, Data Science, and Blockchain. She has organized over 10 national and international events, published 16 research papers in top-tier international journals, and presented at 21 international and 15 national conferences. As an Excom Member of IEEE WIE MAS Section, her contributions have significantly advanced the field and inspired countless students and professionals."
+                  image="/image5.jpeg"
+                />
+                <Speakers
+                  heading="MR.Sandeep Varma"
+                  para="Sandeep is a thought leader and chief architect of multiple large-scale enterprise big data platforms, and he heads all delivery from ZS’s big data center of excellence in India. He specializes in rapidly building high-performance teams focused on cutting-edge technologies and high-quality delivery.He did MBA in marketing and systems from BIM Trichy and a bachelor’s in mechanical engineering from Bengaluru University."
+                  image="/image6.jpeg"
+                />
+                <Speakers
                   heading="miss.Soumya Kashyap"
                   para="Soumya has a background in electrical and electronics engineering and is currently pursuing an MBA from IIM Bangalore. During her undergraduate days, she served as the IEEE Student Representative for the Kolkata section, successfully conducting two editions of IEEE CSIS. At IBM, Soumya worked as a software developer, focusing on product development, cost optimisation, operational excellence, artificial intelligence, and stakeholder management. She also leveraged generative AI to automate query processes. Additionally, during her time with the NatWest Group, Soumya generated strategic and operational insights to support digital transformation initiatives."
                   image="/speaker8.jpeg"
                 />
-            </Carousel>
+                <Speakers
+                  heading="MR.HR Mohan"
+                  para="Mr. H.R. Mohan, an IIT Madras graduate, pioneered computing at Seshasayee Paper Boards and The Hindu, where he introduced Internet publishing. An ICT consultant and former President of the Computer Society of India, he has organized over 1250 technical events and delivered 275+ talks. A senior member of IEEE CS and ACM, he has received the IEEE MGA Leadership Award, CSI Lifetime Achievement Award, and is a Golden Core Member of IEEE CS."
+                  image="/dignitary1.jpg"
+                />
+                <Speakers
+                  heading="Dr.Jyoti Gautam"
+                  para="An esteemed Associate Professor at JSS Academy of
+Technical Education, Noida, and a leading expert in
+Computer Science and Engineering. Dr. Jyoti Gautam
+holds advanced degrees from Delhi University and a
+Ph.D. in Semantic Web from Gautam Buddha University.
+With significant contributions to water conservation, AI,
+and smart systems, serves on the Digital Water Program
+Steering Committee of the International Water
+Association and as the State President of the Delhi
+Artificial Intelligence Council, WICCI."
+                  image="/speaker9.png"
+                />
+                <Speakers
+                  heading="MR.Prasanth Mohan"
+                  para="Prasanth Mohan is a Sr. Account Manager at
+QuestionPro with seven years of experience. He
+previously led customer operations at REDDX
+Technologies, helping the company expand and
+increase revenue. Prasanth holds a Computer
+Science degree from Anna University and is an
+active IEEE volunteer, delivering over 100
+sessions worldwide"
+                  image="/speaker10.png"
+                />
+              </Carousel>
             </div>
 
           </div>

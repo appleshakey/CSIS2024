@@ -82,6 +82,12 @@
   background-color: #0178b5;
 }
 
+.line-clamp-14 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 14;
+  overflow: hidden;
+}
 .text-style {
   transition: background-color 0.3s;
 }

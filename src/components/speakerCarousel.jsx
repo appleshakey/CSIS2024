@@ -4,7 +4,7 @@ import SpeakerTile from "./SpeakerTile";
 import { useState } from "react";
 import { motion } from "framer-motion";
 export default function SpeakerCarousel() {
-  const [showSpeaker, setShowSpeaker] = useState([1, 0, 0, 0, 0,0 ,0,0]);
+  const [showSpeaker, setShowSpeaker] = useState([1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]);
   const [timeup, setTimeUp] = useState(true);
 
   const rotateLeft = () => {
@@ -12,7 +12,7 @@ export default function SpeakerCarousel() {
     if (timeup) {
       setTimeUp(false);
       const newSpeakers = showSpeaker.map((e, i) => {
-        if (showSpeaker[(i + 1) % 8] == 1) {
+        if (showSpeaker[(i + 1) % 11] == 1) {
           return 1;
         } else {
           return 0;
@@ -151,7 +151,7 @@ papers.."
           speakerImg="/done2.jpeg"
         />
       )}
-       {showSpeaker[7] == 1 && (
+      {showSpeaker[7] == 1 && (
         <SpeakerTile
           speakerName="Miss.Soumya Kashyap"
           speakerDescription="Soumya has a background in electrical and electronics engineering and is currently pursuing an MBA from IIM Bangalore. During her undergraduate days, she served as the IEEE Student Representative for the Kolkata section, successfully conducting two editions of IEEE CSIS. At IBM, Soumya worked as a software developer, focusing on product development, cost optimisation, operational excellence, artificial intelligence, and stakeholder management."
@@ -161,6 +161,45 @@ papers.."
           // the fields of Machine Learning, Computer Vision, and
           // Reconfigurable Computing
           speakerImg="/speaker8.jpeg"
+        />
+      )}
+      {showSpeaker[8] == 1 && (
+        <SpeakerTile
+          speakerName="Dr.Jyoti Gautam"
+          speakerDescription="An esteemed Associate Professor at JSS Academy of
+Technical Education, Noida, and a leading expert in
+Computer Science and Engineering. Dr. Jyoti Gautam
+holds advanced degrees from Delhi University and a
+Ph.D. in Semantic Web from Gautam Buddha University.
+With significant contributions to water conservation, AI,
+and smart systems, serves on the Digital Water Program
+Steering Committee of the International Water
+Association and as the State President of the Delhi
+Artificial Intelligence Council, WICCI."
+
+          speakerImg="/speaker9.png"
+        />
+      )}
+      {showSpeaker[9] == 1 && (
+        <SpeakerTile
+          speakerName="MR.Prasanth Mohan"
+          speakerDescription="Prasanth Mohan is a Sr. Account Manager at
+QuestionPro with seven years of experience. He
+previously led customer operations at REDDX
+Technologies, helping the company expand and
+increase revenue. Prasanth holds a Computer
+Science degree from Anna University and is an
+active IEEE volunteer, delivering over 100
+sessions worldwide"
+
+          speakerImg="/speaker10.png"
+        />
+      )}
+      {showSpeaker[10] == 1 && (
+        <SpeakerTile
+          speakerName="MR.HR Mohan"
+          speakerDescription="Mr. H.R. Mohan, an IIT Madras graduate, pioneered computing at Seshasayee Paper Boards and The Hindu, where he introduced Internet publishing. An ICT consultant and former President of the Computer Society of India, he has organized over 1250 technical events and delivered 275+ talks. A senior member of IEEE CS and ACM, he has received the IEEE MGA Leadership Award, CSI Lifetime Achievement Award, and is a Golden Core Member of IEEE CS."
+          speakerImg="/dignitary1.jpg"
         />
       )}
       {/* <button onClick={() => rotateRight()} className="text-white">rotateRight</button> */}
