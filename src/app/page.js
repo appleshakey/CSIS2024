@@ -139,17 +139,10 @@ export default function Home() {
         <motion.div className="flex flex-col gap-28 px-[82px]">
           <div>
             <div
-              className="h-[100vh] flex justify-center items-center"
-              
-            >
+              className="h-[100vh] flex justify-center items-center">
               <div
-                className="bg-ieee bg-fixed h-[75vh] w-[100vw] flex justify-center items-center"
-              
-              >
-                <div
-                  className={`px-[82px] text-white font-staat flex justify-center items-center`}
-                 
-                >
+                className="bg-ieee bg-fixed h-[75vh] w-[100vw] flex justify-center items-center">
+                <div className={`px-[82px] text-white font-staat flex justify-center items-center`}>
                   <div className="  flex flex-col text-center gap-y-8">
                     <div className="flex flex-col">
                       {/* <h1 className="text-4xl inline-block tracking-wider ">
@@ -1350,6 +1343,11 @@ papers.."
                 para="Sandeep is a thought leader and chief architect of multiple large-scale enterprise big data platforms, and he heads all delivery from ZS’s big data center of excellence in India. He specializes in rapidly building high-performance teams focused on cutting-edge technologies and high-quality delivery.He did MBA in marketing and systems from BIM Trichy and a bachelor’s in mechanical engineering from Bengaluru University."
                 image="/image6.jpeg"
               />
+                 <Speakers
+                  heading="miss.Soumya Kashyap"
+                  para="Soumya has a background in electrical and electronics engineering and is currently pursuing an MBA from IIM Bangalore. During her undergraduate days, she served as the IEEE Student Representative for the Kolkata section, successfully conducting two editions of IEEE CSIS. At IBM, Soumya worked as a software developer, focusing on product development, cost optimisation, operational excellence, artificial intelligence, and stakeholder management. She also leveraged generative AI to automate query processes. Additionally, during her time with the NatWest Group, Soumya generated strategic and operational insights to support digital transformation initiatives."
+                  image="/speaker8.jpeg"
+                />
             </Carousel>
             </div>
 

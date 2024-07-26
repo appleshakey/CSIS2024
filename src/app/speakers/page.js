@@ -71,7 +71,7 @@ papers.."
                   image="/done2.jpeg"
                 />
               </div>
-              <div className="grid grid-cols-2 gap-8 xl:gap-32 ">
+              <div className="grid grid-cols-3 gap-8 xl:gap-32 ">
                 <SpeakerCard
                   heading="MR.Nikky Kumar Jha"
                   para="Specializing in renewable energy, notably solar power, I excel in fields such as medical electronics, Internet of Things (IoT), Agri-Tech, Healthcare Tech, and Machine Learning. My contributions include research papers and keynote speeches at international conferences, earning recognition through numerous international awards for my dedication and impact in these fields."
@@ -81,6 +81,11 @@ papers.."
                   heading="MR.HR Mohan"
                   para="Mr. H.R. Mohan, an IIT Madras graduate, pioneered computing at Seshasayee Paper Boards and The Hindu, where he introduced Internet publishing. An ICT consultant and former President of the Computer Society of India, he has organized over 1250 technical events and delivered 275+ talks. A senior member of IEEE CS and ACM, he has received the IEEE MGA Leadership Award, CSI Lifetime Achievement Award, and is a Golden Core Member of IEEE CS."
                   image="/dignitary1.jpg"
+                />
+                 <SpeakerCard
+                  heading="miss.Soumya Kashyap"
+                  para="Soumya has a background in electrical and electronics engineering and is currently pursuing an MBA from IIM Bangalore. During her undergraduate days, she served as the IEEE Student Representative for the Kolkata section, successfully conducting two editions of IEEE CSIS. At IBM, Soumya worked as a software developer, focusing on product development, cost optimisation, operational excellence, artificial intelligence, and stakeholder management. She also leveraged generative AI to automate query processes. Additionally, during her time with the NatWest Group, Soumya generated strategic and operational insights to support digital transformation initiatives."
+                  image="/speaker8.jpeg"
                 />
               </div>
             </div>

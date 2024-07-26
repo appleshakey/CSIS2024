@@ -43,14 +43,14 @@ export default function Navbar() {
             <img src="/srm-logo.png" className="h-12 w-32"/>
           </div>
           <div className="flex gap-16">
-            <button onClick={() => router.push("/")} className="navbar-button px-3 ">Home</button>
-            <button onClick={() => router.push("/schedule/")} className="navbar-button px-3">Schedule</button>
-            <button onClick={() => router.push("/events/")} className="navbar-button px-3">Events</button>
-            <button onClick={() => router.push("/speakers/")} className="navbar-button px-3">Speakers</button>
-            <button onClick={() => router.push("/about/")} className="navbar-button px-3">About</button>
+            <button onClick={() => router.push("/")} className="  ">Home</button>
+            <button onClick={() => router.push("/schedule/")} className=" ">Schedule</button>
+            <button onClick={() => router.push("/events/")} className=" ">Events</button>
+            <button onClick={() => router.push("/speakers/")} className=" ">Speakers</button>
+            <button onClick={() => router.push("/about/")} className=" ">About</button>
           </div>
           <div className="xl:scale-100 scale-50">
-            <img src="/event-patner.png" className="h-12 w-32"/>
+            <img src="/event-patner.png" className="h-10 w-32"/>
           </div>
           <button
             onClick={() => router.push("/register/")}

@@ -4,7 +4,7 @@ import SpeakerTile from "./SpeakerTile";
 import { useState } from "react";
 import { motion } from "framer-motion";
 export default function SpeakerCarousel() {
-  const [showSpeaker, setShowSpeaker] = useState([1, 0, 0, 0, 0,0 ,0]);
+  const [showSpeaker, setShowSpeaker] = useState([1, 0, 0, 0, 0,0 ,0,0]);
   const [timeup, setTimeUp] = useState(true);
 
   const rotateLeft = () => {
@@ -12,7 +12,7 @@ export default function SpeakerCarousel() {
     if (timeup) {
       setTimeUp(false);
       const newSpeakers = showSpeaker.map((e, i) => {
-        if (showSpeaker[(i + 1) % 7] == 1) {
+        if (showSpeaker[(i + 1) % 8] == 1) {
           return 1;
         } else {
           return 0;
@@ -149,6 +149,18 @@ papers.."
           // the fields of Machine Learning, Computer Vision, and
           // Reconfigurable Computing
           speakerImg="/done2.jpeg"
+        />
+      )}
+       {showSpeaker[7] == 1 && (
+        <SpeakerTile
+          speakerName="Miss.Soumya Kashyap"
+          speakerDescription="Soumya has a background in electrical and electronics engineering and is currently pursuing an MBA from IIM Bangalore. During her undergraduate days, she served as the IEEE Student Representative for the Kolkata section, successfully conducting two editions of IEEE CSIS. At IBM, Soumya worked as a software developer, focusing on product development, cost optimisation, operational excellence, artificial intelligence, and stakeholder management."
+          //  As an Associate Editor of the Elsevier Journal
+          // of Computers and Electrical Engineering and a Sr.
+          // Member of IEEE and ACM, he continues to influence
+          // the fields of Machine Learning, Computer Vision, and
+          // Reconfigurable Computing
+          speakerImg="/speaker8.jpeg"
         />
       )}
       {/* <button onClick={() => rotateRight()} className="text-white">rotateRight</button> */}
