@@ -44,7 +44,7 @@ export default function Footer() {
                 width="800"
                 // height="250"
               ></iframe> */}
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1607.9720587720933!2d80.04582902225025!3d12.823694318639118!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52f70c95688435%3A0xfb2355e047e8b473!2sDr.%20T.P%20Ganesan%20Auditorium!5e0!3m2!1sen!2sin!4v1722058632794!5m2!1sen!2sin" width="800" style={{"border":0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1607.9720587720933!2d80.04582902225025!3d12.823694318639118!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52f70c95688435%3A0xfb2355e047e8b473!2sDr.%20T.P%20Ganesan%20Auditorium!5e0!3m2!1sen!2sin!4v1722058632794!5m2!1sen!2sin" width="800" style={{"border":0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
               <div className="flex flex-col items-center text-white font-staat px-5 w-full">
                 <div className="text-4xl tracking-wider mb-4">
                   <h1>CSIS 2024</h1>
@@ -113,7 +113,7 @@ export default function Footer() {
                 // width="800"
                 height="450"
               ></iframe> */}
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1607.9720587720933!2d80.04582902225025!3d12.823694318639118!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52f70c95688435%3A0xfb2355e047e8b473!2sDr.%20T.P%20Ganesan%20Auditorium!5e0!3m2!1sen!2sin!4v1722058632794!5m2!1sen!2sin"  height="450" style={{"border": 0}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1607.9720587720933!2d80.04582902225025!3d12.823694318639118!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52f70c95688435%3A0xfb2355e047e8b473!2sDr.%20T.P%20Ganesan%20Auditorium!5e0!3m2!1sen!2sin!4v1722058632794!5m2!1sen!2sin"  height="450" style={{"border": 0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
               <div className="flex flex-col items-center text-white font-staat px-5 w-full">
                 <div className="text-2xl md:text-4xl tracking-wider mb-4">
                   <h1>CSIS 2024</h1>

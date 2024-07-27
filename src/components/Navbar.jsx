@@ -53,10 +53,10 @@ export default function Navbar() {
             <img src="/event-patner.png" className="h-10 w-32"/>
           </div>
           <button
-            onClick={() => router.push("/register/")}
+            // onClick={() => router.push("/register/")}
             className="px-3 py-1 text-md rounded-md register-button xl:scale-100"
           >
-            register Now
+            Registration Closed
           </button>
         </div>
       ) : (
@@ -148,13 +148,13 @@ export default function Navbar() {
                   About
                 </motion.button>
                 <motion.button
-                  onClick={() => {
-                    setMNavbar(!MNavbar);
-                    router.push("/register");
-                  }}
+                  // onClick={() => {
+                  //   setMNavbar(!MNavbar);
+                  //   router.push("/register");
+                  // }}
                   variants={menuItemVariant}
                 >
-                  Register Now
+                  Register Closed
                 </motion.button>
               </motion.div>
             </motion.div>

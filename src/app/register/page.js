@@ -7,7 +7,7 @@ export default function Speakers() {
     <div>
       {isNonMobileScreen ? (
         <div>
-          <div className="pt-32 px-[82px] flex flex-col gap-28">
+          {/* <div className="pt-32 px-[82px] flex flex-col gap-28">
             <div className="flex flex-col items-center gap-7">
               <div className="text-nim_ticket_b font-staat text-5xl">
                 <h1>Book your Tickets</h1>
@@ -54,11 +54,14 @@ export default function Speakers() {
                 />
               </div>
             </div>
+          </div> */}
+          <div className="w-screen h-screen flex justify-center items-center font-staat text-7xl text-white">
+              Registration Closed!
           </div>
         </div>
       ) : (
         <div>
-          <div className="pt-32 flex flex-col gap-28">
+          {/* <div className="pt-32 flex flex-col gap-28">
             <div className="advisors flex flex-col items-center gap-11">
               <div className="text-nim_ticket_b font-staat text-2xl">
                 <h1>Book your Tickets</h1>
@@ -105,6 +108,9 @@ export default function Speakers() {
                 />
               </div>
             </div>
+          </div> */}
+          <div className="w-screen h-screen flex justify-center items-center font-staat text-5xl text-white">
+              Registration<br/> Closed!
           </div>
         </div>
       )}
