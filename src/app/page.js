@@ -446,7 +446,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="bg-black h-[50vh] text-white font-staat p-5 flex flex-col gap-3">
+          {/* <div className="bg-black h-[50vh] text-white font-staat p-5 flex flex-col gap-3">
             <div className="flex justify-center text-7xl pb-16">
               <h1>
                 Event <span className="text-[#4a8ec5] ">timer</span>
@@ -513,7 +513,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* <motion.div className="bg-black text-white font-staat p-5 flex flex-col gap-5" ref={TicketRef}>
         <div className="text-center text-7xl pb-16">
           <h1>Buy Tickets</h1>
@@ -1065,8 +1065,7 @@ export default function Home() {
               </div> */}
             </div>
           </div>
-          <div className="timer flex flex-col gap-5 items-center">
-            8
+          {/* <div className="timer flex flex-col gap-5 items-center">
             <div className="text-white font-staat text-3xl py-4">
               <h1>
                 Event <span className="text-[#4a8ec5]">timer</span>
@@ -1117,7 +1116,7 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* <div className="tickets flex flex-col items-center">
         <div className="text-3xl text-white font-staat">
           <h1>Buy Tickets</h1>

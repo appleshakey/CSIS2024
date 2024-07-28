@@ -43,18 +43,18 @@ export default function Navbar() {
             <img src="/srm-logo.png" className="h-12 w-32"/>
           </div>
           <div className="flex gap-16">
-            <button onClick={() => router.push("/")} className="  ">Home</button>
-            <button onClick={() => router.push("/schedule/")} className=" ">Schedule</button>
-            <button onClick={() => router.push("/events/")} className=" ">Events</button>
-            <button onClick={() => router.push("/speakers/")} className=" ">Speakers</button>
-            <button onClick={() => router.push("/about/")} className=" ">About</button>
+            <button onClick={() => router.push("/")} className=" hover:bg-white hover:text-iem_ticket_b px-2 py-2 rounded-lg transition-all">Home</button>
+            <button onClick={() => router.push("/schedule/")} className="hover:bg-white hover:text-iem_ticket_b px-2 py-2 rounded-lg transition-all">Schedule</button>
+            <button onClick={() => router.push("/events/")} className="hover:bg-white hover:text-iem_ticket_b px-2 py-2 rounded-lg transition-all">Events</button>
+            <button onClick={() => router.push("/speakers/")} className="hover:bg-white hover:text-iem_ticket_b px-2 py-2 rounded-lg transition-all">Speakers</button>
+            <button onClick={() => router.push("/about/")} className="hover:bg-white hover:text-iem_ticket_b px-2 py-2 rounded-lg transition-all">About</button>
           </div>
           <div className="xl:scale-100 scale-50">
             <img src="/event-patner.png" className="h-10 w-32"/>
           </div>
           <button
             // onClick={() => router.push("/register/")}
-            className="px-3 py-1 text-md rounded-md register-button xl:scale-100"
+            className="px-3 py-1 text-md register-button rounded-md xl:scale-100"
           >
             Registration Closed
           </button>

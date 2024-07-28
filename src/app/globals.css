@@ -58,10 +58,10 @@
   transition: background-color 0.3s;
 }
 
-/* .register-button:hover {
+.register-button:hover {
   background-color: white;
   color: #1976d2;
-} */
+}
 
 .navbar-button {
   background-color: #000000;
